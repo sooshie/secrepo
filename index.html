@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+        <meta charset="utf-8">
+        <title>SecRepo - Security Data Samples Repository</title>
+        <meta name="generator" content="Bootply" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+        
+        <!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link rel="shortcut icon" href="/bootstrap/img/favicon.ico">
+<!--
+        <link rel="apple-touch-icon" href="/bootstrap/img/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/bootstrap/img/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/bootstrap/img/apple-touch-icon-114x114.png">
+-->
+
+
+        <!-- CSS code from Bootply.com editor -->
+        
+        <style type="text/css">
+            /* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+#wrap > .container {
+  padding: 60px 15px 0;
+}
+.container .credit {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-bottom: 1px solid #eee;
+    margin: 1em 0;
+    padding: 0;
+}
+
+        </style>
+    </head>
+    
+    <!-- HTML code from Bootply.com editor -->
+    
+    <body>
+        <!-- Wrap all page content here -->
+        <div id="wrap">
+          
+          <!-- Fixed navbar -->
+          <div class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Security Repo</a>
+              </div>
+              <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                  <li class="dropdown">
+                    <a href="data#" class="dropdown-toggle" data-toggle="dropdown">Data<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <li class="dropdown-header">Created</li>
+                      <li><a href="#network">Network</a></li>
+                      <li><a href="#system">System</a></li>
+                      <li><a href="#malware">Malware</a></li>
+                      <li><a href="#other">Other</a></li>
+                      <li><a href="#">File</a></li>
+                      <li class="divider"></li>
+                      <li class="dropdown-header">3rd Party</li>
+                      <li><a href="#3p_other">Other</a></li>
+                      <li><a href="#3p_network">Network</a></li>
+                      <li><a href="#3p_malware">Malware</a></li>
+                      <li><a href="#3p_system">System</a></li>
+                      <li><a href="#3p_file">File</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#misc">Misc</a></li>
+                </ul>
+              </div><!--/.nav-collapse -->
+            </div>
+          </div>
+          
+          <!-- Begin page content -->
+          <div class="container">
+            <div class="page-header">
+              <h1>SecRepo.com - Samples of Security Related Data</h1>
+            </div>
+            <a id="about"></a>
+            <p class="lead">Finding samples of various types of Security related data can sometimes be a giant pain. This is my attempt to keep a somewhat curated list of data I've found, created, or was pointed to. If you perform any kind of analysis with any of this data please let me know and I'd be happy to link it from here or host it here. Hopefully by looking at others research and analysis it will inspire people to add-on, improve, and create new ideas.</p>
+            <p>All data generated and hosted by Security Repo is done so under the following license (exceptions noted where applicable).</p>
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">Security Repo</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://secrepo.com" property="cc:attributionName" rel="cc:attributionURL">Mike Sconzo</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a></p>
+            <p> <br/></p>
+            <p>Q: How do you give without having to do anything?<br/>
+               A: Simply visit this site.<br/>
+               I've decided that I'm going to start posting the logs from this site to the site. It's a great way to open source some data, and after a few discussions I don't think any privacy will be violated. If I receive a lot of backlash about this decision perhaps I'll reverse it, but until further notice web logs for this domain will be available here.</p>
+            <hr/>
+            <a id="data"></a>
+            <p class="lead">Data</p>
+            <p>Created</p>
+            <ul>
+               <li><a id="network"></a>Network
+                  <ul>
+                     <li>MACCDC2012 - Generated with Bro from the <a href="http://www.netresec.com/?page=MACCDC">2012 dataset</a>
+                         <ul>
+                            <lh>A nice dataset that has everything from scanning/recon through explotation as well as some c99 shell traffic. Roughly 22694356 total connections.</lh>
+                            <li><a href="maccdc2012/conn.log.gz">conn.log.gz</a> (524MB)</li>
+                            <li><a href="maccdc2012/dhcp.log.gz">dhcp.log.gz</a> (1MB)</li>
+                            <li><a href="maccdc2012/dns.log.gz">dns.log.gz</a> (7MB)</li>
+                            <li><a href="maccdc2012/files.log.gz">files.log.gz</a> (49MB)</li>
+                            <li><a href="maccdc2012/ftp.log.gz">ftp.log.gz</a> (1MB)</li>
+                            <li><a href="maccdc2012/http.log.gz">http.log.gz</a> (54MB)</li>
+                            <li><a href="maccdc2012/notice.log.gz">notice.log.gz</a> (1MB)</li>
+                            <li><a href="maccdc2012/signatures.log.gz">signatures.log.gz</a> (1MB)</li>
+                            <li><a href="maccdc2012/smtp.log.gz">smtp.log.gz</a> (1MB)</li>
+                            <li><a href="maccdc2012/ssh.log.gz">ssh.log.gz</a> (1MB)</li>
+                            <li><a href="maccdc2012/ssl.log.gz">ssl.log.gz</a> (2MB)</li>
+                            <li><a href="maccdc2012/tunnel.log.gz">tunnel.log.gz</a> (1MB)</li>
+                            <li><a href="maccdc2012/weird.log.gz">weird.log.gz</a> (2MB)</li>
+                         </ul>
+                     </li>
+                     <li>Bro logs generated from various Threatglass samples
+                         <ul>
+                            <lh>Exploit kits and benign traffic, unlabled data. 6663 samples available.</lh>
+                            <li><a href="tg/a.zip">Part 1</a> (64MB)</li>
+                            <li><a href="tg/b.zip">Part 2</a> (41MB)</li>
+                            <li><a href="tg/c.zip">Part 3</a> (61MB)</li>
+                         </ul>
+                     </li>
+                  </ul>
+               </li>
+               <li><a id="malware"></a>Malware
+                  <ul>
+                     <li><a href="zeus/zeus_json.zip">Static information about Zeus binaries</a> - Information of about ~8k samples from <a href="https://zeustracker.abuse.ch/downloads/zeusbinaries.zip">ZeuS Tracker</a></li>
+                     <!--<li><a href=""></a> [License Info: ]</li>-->
+                  </ul>
+               </li>
+               <li><a id="system"></a>System
+                 <ul>
+                   <!--<li><a href=""></a></li>-->
+                   <li><a href="self.logs/">Web Logs from Security Repo</a> - these logs are generated by you the community, and me updating this site.</li>
+                   <li><a href="squid/access.log.gz">Squid Access Log</a> - combined from several sources (24MB compressed, ~200MB uncompresed)</li>
+                   <li><a href="auth.log/auth.log.gz">auth.log</a> - approx 86k lines, and mostly failed SSH login attempts</li>
+                   <li><a href="honeypot/honeypot.json.zip">Honeypot data</a> - Data from various honeypots (Amun and Glastopf) used for various BSides presentations posted below. Approx 213k entries, JSON format.</li>
+                   <ul>
+                     <li><a href="http://nbviewer.ipython.org/url/secrepo.com/honeypot/BSidesDFW%20-%202014.ipynb">Analysis</a> of the honeypot data for BSidesDFW 2014 - <a href="honeypot/BSidesDFW - 2014.ipynb">IPython Notebook</a>.
+                   </ul>
+                 </ul>
+               </li>
+               <li><a id="other"></a>Other
+                 <ul>
+                   <!--<li><a href=""></a></li>-->
+                   <li><a href="https://github.com/sooshie/Security-Data-Analysis">Security Data Analysis Labs</a></li>
+                   <ul>
+                     <li><a href="Security-Data-Analysis/Lab_1/conn.log.zip">Connection Log</a> - (522MB compressed, 3GB uncompressed) ~22million flow events</li>
+                     <!--<li><a href=""></a></li>-->
+                   </ul>
+                 </ul>
+            </ul>
+
+            <p>3rd Party</p>
+            <ul>
+               <li><a id="3p_other"></a>Other
+                  <ul>
+                     <li><a href="http://digitalcorpora.org/">Digital Corpora</a> - Disk images, network traffic, and malware, oh my! [License Info: This material is based upon work supported by the National Science Foundation under Grant No. 0919593]</li>
+                     <li><a href="https://github.com/vz-risk/VCDB">Verizon VERIS Database</a> - Raw VERIS (filtered) data. [License Info: Creative Commons Attribution-ShareAlike 4.0 International Public License]</li>
+                     <li><a href="ftp://download.iwlab.foi.se/dataset/">The Swedish Defence Research Agency Information Warfare Lab</a> PCAP and various log sources [License Info: Unknown]</li>
+                  </ul>
+               <li><a id="3p_network"></a>Network
+                  <ul>
+                     <li><a href="http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html" target="_blank">KDD Cup 1999 Data</a> - Network connection data [License Info: Unknown]</li>
+                     <li><a href="http://www.netresec.com/?page=PcapFiles" target="_blank">NETRESEC - Publicly available PCAP files</a> - loads of great PCAP files [License Info: Unknown]</li>
+                     <li><a href="https://scans.io/" target="_blank">Internet-Wide Scan Data Repository</a> - Various types of scan data [License Info: Unknown]</li>
+                     <li><a href="http://sysnet.ucsd.edu/projects/url/" target="_blank">Detecting Malicious URLs</a> - <a href="http://archive.ics.uci.edu/ml/datasets/URL+Reputation" target="_blank">Mirror</a> - URLS/features/labels [License Info: Unknown]</li>
+                     <li><a href="https://hackertarget.com/500k-http-headers/" target="_blank">hackertarget 500K HTTP Headers</a> - HTTP Headers [License Info: Unknown]</li>
+                     <li><a href="http://threatglass.com/" target="_blank">Threatglass</a> - PCAPs that contain various exploit kits as well as some legit traffic mixed in. [License Info: Unknown]</li>
+                     <li><a href="http://www.pcapr.net/" target="_blank">pcapr</a> - Searchable repository of PCAPs, look for various phrases to pull out the Security related ones (eg. exploit, xss, etc...) [License Info: <a href="http://www.pcapr.net/tos">TOS</a>]</li>
+                     <li><a href="https://github.com/opendns/public-domain-lists" target="_blank">OpenDNS public domain lists</a> - various domain lists [License Info: Public Domain]</li>
+                     <li><a href="http://www.ll.mit.edu/mission/communications/cyber/CSTcorpora/ideval/data/1999data.html" target="_blank">MIT 1999 DARPA Intrusion Detection Evaluation Data Set</a> - Labeled attack and nont attack data (PCAP and system logs) [License Info: Unknown]</li>
+                     <li><a href="http://www.ll.mit.edu/mission/communications/cyber/CSTcorpora/ideval/data/1998data.html" target="_blank">MIT 1998 DARPA Intrusion Detection Evaluation Data Set</a> - Network and file system data [License Info: Unknown]</li>
+                     <li><a href="http://datadrivensecurity.info/blog/data/2014/10/legit-dga_domains.csv.zip">DDS legit and DGA labeled domains</a> - <a href="http://datadrivensecurity.info/blog/pages/dds-dataset-collection.html">DDS Blog</a> [License Info: Unknown]</li>
+                     <li><a href="http://datadrivensecurity.info/blog/data/2014/01/marx.tar.gz">Honeypot Data</a> - <a href="http://datadrivensecurity.info/blog/pages/dds-dataset-collection.html">DDS Blog</a> [License Info: Unknown]</li>
+                     <li><a href="http://datadrivensecurity.info/blog/data/2014/01/marx-geo.tar.gz">Honeypot Data with GeoIP info</a> - <a href="http://datadrivensecurity.info/blog/pages/dds-dataset-collection.html">DDS Blog</a> [License Info: Unknown]</li>
+                     <li><a href="http://osint.bambenekconsulting.com/feeds/dga-feed.txt">DGA Domains</a> - updated frequently [License Info: <a href="http://osint.bambenekconsulting.com/license.txt">License</a>]</li>
+                     <li><a href="http://malwareurls.joxeankoret.com/">Malware URLs</a> - updated daily list of domains and URLs associated with malware [License Info: Disclaimer posted in link]</li>
+                     <li><a href="https://github.com/rapid7/sonar/wiki/UDP">UDP Scan data</a> - provided by Rapid7 [License Info: Unknown]</li>
+                     <li><a href="http://107.191.107.194/iprep.txt">Continously updated IP block list</a> - Provided by a unknown Financial Institution [License Info: no for-sale or paywall use]</li>
+                     <li><a href="http://commoncrawl.org/">Common Crawl</a> - "open repository of web crawl data that can be accessed and analyzed by anyone" [License Info: Open]</li>
+                     <li><a href="http://malware-traffic-analysis.net/">Malware Traffic Analysis</a> - a site with labled exploit kits and phishing emails. [License Info: Unknown]</li>
+                     <li><a href="ihttp://www.simpleweb.org/wiki/Traces">Simple Web Traces</a> - Cloud Storage, DDoS, DNSSEC, and may more types of PCAPs. [License Info: Various]</li>
+                     <!--<li><a href=""></a> [License Info: ]</li>-->
+                  </ul>
+               </li>
+               <li><a id="3p_malware"></a>Malware
+                  <ul>
+                     <li><a href="http://mcfp.weebly.com/">The Malware Capture Facility Project</a> - Published long-runs of malware including network information. Make sure to check out the <a href="http://mcfp.weebly.com/the-ctu-13-dataset-a-labeled-dataset-with-botnet-normal-and-background-traffic.html">Labeled CTU-13 Dataset</a> [License Info: Unknown]</li>
+                     <li><a href="http://panda.gtisc.gatech.edu/malrec/">PANDA Malware Analysis</a> - Execution traces and PCAPs from <a href="http://moyix.blogspot.com/2014/12/reproducible-malware-analyses-for-all.html?m=1">Moyix's PANDA setup</a> [License Info: Unknown]</li>
+                     <li><a href="http://laredo-13.mit.edu/~brendan/opcleaver/">Op Cleaver PANDA Analysis</a> - rrlogs, PCAPs, movies and reports from Op Cleaver malware [License Info: Unknown]</li>
+                     <li><a href="https://www.kaggle.com/c/malware-classification">kaggle Malware Classification</a> - Unlabled malware, but there are solutions to label it! [License Info: Unknown]</li>
+                     <!--<li><a href=""></a> [License Info: ]</li>-->
+                  </ul>
+               </li>
+               <li><a id="3p_system"></a>System
+                  <ul>
+                     <li><a href="http://datadrivensecurity.info/blog/pages/dds-dataset-collection.html" target="_blank">DDS Dataset Collection</a> - Honeypot related data [License Info: Unknown]</li>
+                     <li><a href="http://data.webarchive.org.uk/opendata/ukwa.ds.1/classification/">Website Classification</a> [License Info: Public Domain, info on site]</li>
+                     <li><a href="https://dms.sztaki.hu/en/letoltes/ecmlpkdd-2010-discovery-challenge-data-set">ECML/PKDD 2010 Discovery Challenge Data Set</a> - Web classification data [License Info: Unknown]</li>
+                     <li><a href="http://www.rrshare.org/">PANDA rrlogs</a> - share and download rrlogs from the <a href="https://github.com/moyix/panda">PANDA dynamic analysis platform</a> [License Info: Unknown]</li>
+                     <li><a href="https://github.com/andrew-morris/threat_research">Threat Research</a> - Data collected from SSH honeypots [License Info: Unknown]</li>
+                     <li><a href="https://github.com/santiago-bassett/Alienvault-Demo_scripts">Sample logs and script for Alienvault</a> - Various log types (SSH, Cisco, Sonicwall, etc..) [License Info: Unknown]</li>
+                     <li><a href="https://github.com/masterdoed/loginjector/tree/master/logSamples">Various log types</a> - Small snippets of each log type [License Info: Unknown]</li>
+                     <li><a href="http://bot.ngx.cc/logs/%23nginx/">#nginx IRC channel logs</a> - Bot logs[License Info: Unknown]</li>
+                     <!--<li><a href=""></a> [License Info: ]</li>-->
+                     <li><a href="http://bluesmote.com/" target="_blank">Project Bluesmote</a> - Syrian Bluecoat Proxy Logs [License Info: Public Domain]
+                         <ul>
+                             <lh>Local Mirror</lh>
+                             <li>todo</li>
+                         </ul>
+                     </li>
+                  </ul>
+               </li>
+               <li><a id="3p_file"></a>File
+                  <ul>
+                     <li><a href="http://contagiodump.blogspot.com/" target="_blank">contagio malware dump</a> - A resource for files/data regarding targeted attacks [License Info: Unknown]</li>
+                     <li><a href="http://virusshare.com/" target="_blank">VirusShare.com - Because Sharing is Caring</a> [Login Required] - Huge collection of downloadable/torrentable malware files for various architectures [License Info: Unknown]</li>
+                     <li><a href="http://vxheaven.org/faq.php#whole">Vx Heaven</a> - sorted by AV set of virus samples (available via BitTorrent) [License Info: Unknown]</li>
+                     <!--<li><a href=""></a> [License Info: ]</li>-->
+                  </ul>
+               </li>
+            </ul>
+
+            <hr/>
+            <a id="contact"></a>
+            <p class="lead">Contact</p>
+            <p>If you dig the site, have data, need data, or whatever, find me on Twitter or GitHub.</p>
+            <p><a href="http://twitter.com/sooshie"><img src="twitter-icon.png" height="30" width="30"/></a> <a href="https://github.com/sooshie/Security-Data-Analysis"><img src="GitHub-Mark.png" height="30" width="30"/></a></p>
+
+            <hr/>
+            <a id="misc"></a>
+            <p class="lead">Misc</p>
+            <p>Various things that I needed to stick someplace.</p>
+            <ul>
+               <li>BSidesDFW 2014 Presentation with <a href="https://twitter.com/theroxyd">Roxy</a> - <a href="honeypot/Honeypot - Howto.pdf">Honeypot Howto</a>
+               <li>BSidesAustin 2015 Presentation with <a href="https://twitter.com/theroxyd">Roxy</a> - <a href="honeypot/Honeypot - Howto - BSides Austin.pdf">Honeypot Howto</a>
+            </ul>
+          </div>
+        </div>
+        
+        <div id="footer">
+          <div class="container">
+            <p class="text-muted credit">Security Repo - Last updated 4/26/2015</p>
+          </div>
+        </div>
+
+        <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+        <script type='text/javascript' src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+        <!-- JavaScript jQuery code from Bootply.com editor  -->
+        <script type='text/javascript'>
+        $(document).ready(function() {
+        });
+        
+        </script>
+       
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        
+          ga('create', 'UA-54959943-1', 'auto');
+          ga('send', 'pageview');
+        
+        </script> 
+        <!-- Quantcast Tag -->
+        <script type="text/javascript">
+        var _qevents = _qevents || [];
+        
+        (function() {
+        var elem = document.createElement('script');
+        elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+        elem.async = true;
+        elem.type = "text/javascript";
+        var scpt = document.getElementsByTagName('script')[0];
+        scpt.parentNode.insertBefore(elem, scpt);
+        })();
+        
+        _qevents.push({
+        qacct:"p-0cXb7ATGU9nz5"
+        });
+        </script>
+    </body>
+</html>
