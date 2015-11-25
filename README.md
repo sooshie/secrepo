@@ -10,3 +10,4 @@ October 7, 2015 - Added CSIC 2010 HTTP Dataset and Information Security Centre o
 October 12, 2015 - Added VAST 2012 dataset
 November 5, 2015 - Added USCD Network Telescope, U Victoria Botnet, and Open Source Enterprise Network Security Solution
 November 23, 2015 - Added Public Security Log Sharing
+November 25, 2015 - Remove dead link of masterdoed/loginjector
