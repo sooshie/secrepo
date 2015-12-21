@@ -11,3 +11,4 @@ October 12, 2015 - Added VAST 2012 dataset
 November 5, 2015 - Added USCD Network Telescope, U Victoria Botnet, and Open Source Enterprise Network Security Solution
 November 23, 2015 - Added Public Security Log Sharing
 November 25, 2015 - Remove dead link of masterdoed/loginjector
+December 21, 2015 - Added UNSW-NB15 (Sashank)
