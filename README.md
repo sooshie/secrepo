@@ -13,3 +13,4 @@ November 23, 2015 - Added Public Security Log Sharing
 November 25, 2015 - Remove dead link of masterdoed/loginjector
 December 21, 2015 - Added UNSW-NB15 (Sashank)
 January 11, 2016 - Added Stratosphere IPS Datasets
+January 15, 2016 - Added CERT Insider Threat Tools (@demon117)
