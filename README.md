@@ -20,3 +20,4 @@ Sweet, sweet, secrepo.com html.
 * May 17, 2016 - Added Threat Feed section in addition to several other sources in both File and Network
 * May 19, 2016 - Added Malware certs forum
 * May 23, 2016 - Added labeled VirusShare data by @_delta_zero
+* Aug 11, 2016 - Added SCADA data sources as well as modbus and dnp3 Bro logs
