@@ -21,3 +21,4 @@ Sweet, sweet, secrepo.com html.
 * May 19, 2016 - Added Malware certs forum
 * May 23, 2016 - Added labeled VirusShare data by @_delta_zero
 * Aug 11, 2016 - Added SCADA data sources as well as modbus and dnp3 Bro logs
+* Oct 12, 2016 - Added Anon Windows Audit Logs
