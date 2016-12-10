@@ -22,3 +22,4 @@ Sweet, sweet, secrepo.com html.
 * May 23, 2016 - Added labeled VirusShare data by @_delta_zero
 * Aug 11, 2016 - Added SCADA data sources as well as modbus and dnp3 Bro logs
 * Oct 12, 2016 - Added Anon Windows Audit Logs, as well as hosted static PE info of APT1 and Op Cleaver binaries
+* Dec 9, 2016 - Added SherLock mobile data set (@filar & @ram_ssk)
