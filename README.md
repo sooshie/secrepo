@@ -23,4 +23,4 @@ Sweet, sweet, secrepo.com html.
 * Aug 11, 2016 - Added SCADA data sources as well as modbus and dnp3 Bro logs
 * Oct 12, 2016 - Added Anon Windows Audit Logs, as well as hosted static PE info of APT1 and Op Cleaver binaries
 * Dec 9, 2016 - Added SherLock mobile data set (@filar & @ram_ssk)
-* Feb 27, 2017 - Added Umbrella and Alexa top 1 million, lynx Project Samples, and Open Malware
+* Feb 27, 2017 - Added Umbrella and Alexa top 1 million, lynx Project Samples, and Open Malware. Updated honeypot data (994k entries)
