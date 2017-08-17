@@ -25,3 +25,4 @@ Sweet, sweet, secrepo.com html.
 * Dec 9, 2016 - Added SherLock mobile data set (@filar & @ram_ssk)
 * Feb 27, 2017 - Added Umbrella and Alexa top 1 million, lynx Project Samples, and Open Malware. Updated honeypot data (994k entries)
 * Mar 3, 2017 - Updated Drebin Dataset link, added payloads GitHub repo, @faizannahmad's ML URL detection, Threat Research repos, and cleaned up dead URLs
+* Aug 17. 2017 - Added Unit 42 indicators (@bugoid) and the Majestic Million Domains
