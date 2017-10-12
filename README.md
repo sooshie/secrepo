@@ -28,3 +28,4 @@ Sweet, sweet, secrepo.com html.
 * Aug 17. 2017 - Added Unit 42 indicators (@bugoid) and the Majestic Million Domains
 * Sep 12, 2017 - Added Aalto University Research IoT device capture
 * Oct 09, 2017 - Added MalShare file repository
+* Oct 12, 207 - Added AZSecure data
