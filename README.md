@@ -30,3 +30,5 @@ Sweet, sweet, secrepo.com html.
 * Oct 09, 2017 - Added MalShare file repository
 * Oct 12, 2017 - Added AZSecure data
 * Feb 02, 2018 - Added Jask Labs data and jzdeh repos of Atkaion
+* Apr 26, 2028 - Added splunk botsv1 repo (@bugoid)
+* July 30, 2018 - Added 2017 SUEE data from @_seder_
