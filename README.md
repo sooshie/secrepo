@@ -33,3 +33,4 @@ Sweet, sweet, secrepo.com html.
 * Apr 26, 2028 - Added splunk botsv1 repo (@bugoid)
 * July 30, 2018 - Added 2017 SUEE data from @_seder_, and added UCI Phishing Data set
 * July 31, 2018 - Added additional datasets, and cleaned up some formatting
+* August 28, 2018 - Added PR request from @ProgramCyber team as well as threatfeeds.io
