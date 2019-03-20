@@ -35,3 +35,4 @@ Sweet, sweet, secrepo.com html.
 * July 31, 2018 - Added additional datasets, and cleaned up some formatting
 * August 28, 2018 - Added PR request from @ProgramCyber team as well as threatfeeds.io
 * November 20, 2018 - Added Phish-IRIS dataset from Ahmet Selman
+* March 19, 2019 - Updated some of the duplicate links for Bro datasets - thanks Andrea
