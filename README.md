@@ -37,3 +37,4 @@ Sweet, sweet, secrepo.com html.
 * November 20, 2018 - Added Phish-IRIS dataset from Ahmet Selman
 * March 19, 2019 - Updated some of the duplicate links for Bro datasets - thanks Andrea
 * July 27, 2019 - Added domcop, blackweb, quantcast, netlab360, and dgarchive to the network section, and evtx attack samples to system section.
+* October 14, 2019 - Added security-datasets GitHub repo, and Mordor GitHub repo.
