@@ -39,3 +39,4 @@ Sweet, sweet, secrepo.com html.
 * July 27, 2019 - Added domcop, blackweb, quantcast, netlab360, and dgarchive to the network section, and evtx attack samples to system section.
 * October 14, 2019 - Added security-datasets GitHub repo, and Mordor GitHub repo.
 * October 16, 2019 - Added "What is this panel again?" - malware panels.
+* December 3, 2019 - Added Awesome Misinformation by @bodaceacat
