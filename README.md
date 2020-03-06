@@ -40,3 +40,4 @@ Sweet, sweet, secrepo.com html.
 * October 14, 2019 - Added security-datasets GitHub repo, and Mordor GitHub repo.
 * October 16, 2019 - Added "What is this panel again?" - malware panels.
 * December 3, 2019 - Added Awesome Misinformation by @bodaceacat
+* March 6, 2020 - Added Sweetie data honeypot data.
