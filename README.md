@@ -42,3 +42,4 @@ Sweet, sweet, secrepo.com html.
 * December 3, 2019 - Added Awesome Misinformation by @bodaceacat
 * March 6, 2020 - Added Sweetie data honeypot data.
 * July 20, 2020 - Added a couple of places to download malware from as well as come C2 Intel feeds
+* October 1, 2020 - Cathing up with things and added several different malware sites, and a network site.
