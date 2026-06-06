@@ -933,6 +933,26 @@
       "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
+      "id": "aHR0cHM6Ly9lbW1hbnVlbGdqci5naXRodWIuaW8vZ2VuYWlfaW5jaWRlbnRzLw==",
+      "sourceHref": "https://emmanuelgjr.github.io/genai_incidents/",
+      "href": "https://emmanuelgjr.github.io/genai_incidents/",
+      "text": "GenAI Incidents Explorer Site",
+      "description": "Companion site for browsing and exploring the incident dataset.",
+      "license": "Listed on site",
+      "variants": [
+        {
+          "text": "GenAI Incidents Explorer Site",
+          "description": "Companion site for browsing and exploring the incident dataset.",
+          "license": "Listed on site"
+        }
+      ],
+      "active": true,
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://emmanuelgjr.github.io/genai_incidents/",
+      "lastChecked": "2026-06-06T15:11:11Z"
+    },
+    {
       "id": "aHR0cHM6Ly9maWdzaGFyZS5jb20vYXJ0aWNsZXMvWWFob29fUGFzc3dvcmRfRnJlcXVlbmN5X0NvcnB1cy8yMDU3OTM3",
       "sourceHref": "https://figshare.com/articles/Yahoo_Password_Frequency_Corpus/2057937",
       "href": "https://figshare.com/articles/Yahoo_Password_Frequency_Corpus/2057937",
@@ -1831,6 +1851,26 @@
       "httpStatus": 200,
       "finalUrl": "https://hackertarget.com/500k-http-headers/",
       "lastChecked": "2026-06-06T14:46:10Z"
+    },
+    {
+      "id": "aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9kYXRhc2V0cy9lbW1hbnVlbGdqci9nZW5haS1pbmNpZGVudHM=",
+      "sourceHref": "https://huggingface.co/datasets/emmanuelgjr/genai-incidents",
+      "href": "https://huggingface.co/datasets/emmanuelgjr/genai-incidents",
+      "text": "GenAI and Agentic AI Security Incidents Dataset",
+      "description": "7,725 aggregated and de-duplicated GenAI security incidents mapped to OWASP, NIST AI RMF, and MITRE ATLAS.",
+      "license": "CC-BY-4.0",
+      "variants": [
+        {
+          "text": "GenAI and Agentic AI Security Incidents Dataset",
+          "description": "7,725 aggregated and de-duplicated GenAI security incidents mapped to OWASP, NIST AI RMF, and MITRE ATLAS.",
+          "license": "CC-BY-4.0"
+        }
+      ],
+      "active": true,
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://huggingface.co/datasets/emmanuelgjr/genai-incidents",
+      "lastChecked": "2026-06-06T15:11:11Z"
     },
     {
       "id": "aHR0cHM6Ly9tYWplc3RpYy5jb20vcmVwb3J0cy9tYWplc3RpYy1taWxsaW9u",
