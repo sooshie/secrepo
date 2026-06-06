@@ -28,25 +28,7 @@
                               <a class="navitem" href="#misc">Misc</a>
                            </details>
 
-                           <details class="nav-group">
-                              <summary>Created Data</summary>
-                              <a class="navitem" href="#network">Network</a>
-                              <a class="navitem" href="#malware">Malware</a>
-                              <a class="navitem" href="#system">System</a>
-                              <a class="navitem" href="#other">Other</a>
-                           </details>
-
-                           <details class="nav-group">
-                              <summary>3rd Party Data</summary>
-                              <a class="navitem" href="#3p_ai">AI</a>
-                              <a class="navitem" href="#3p_other">Other</a>
-                              <a class="navitem" href="#3p_network">Network</a>
-                              <a class="navitem" href="#3p_malware">Malware</a>
-                              <a class="navitem" href="#3p_system">System</a>
-                              <a class="navitem" href="#3p_file">File</a>
-                              <a class="navitem" href="#3p_passwd">Passwords</a>
-                              <a class="navitem" href="#3p_threat">Threat Feeds</a>
-                           </details>
+                           <div id="data-nav" data-link-nav-root></div>
                </aside>
 
                <main class="shell main-content">
@@ -66,266 +48,7 @@
                I've decided that I'm going to start posting the logs from this site to the site. It's a great way to open source some data, and after a few discussions I don't think any privacy will be violated. If I receive a lot of backlash about this decision perhaps I'll reverse it, but until further notice web logs for this domain will be available here.</p>
             <hr/>
             <a id="data"></a>
-            <p class="lead">Data</p>
-            <p>Created</p>
-            <ul>
-               <li><a id="network"></a>Network
-                  <ul>
-                     <li>MACCDC2012 - Generated with Bro from the <a href="#" data-link-id="aHR0cDovL3d3dy5uZXRyZXNlYy5jb20vP3BhZ2U9TUFDQ0RD">2012 dataset</a>
-                         <ul>
-                            <lh>A nice dataset that has everything from scanning/recon through explotation as well as some c99 shell traffic. Roughly 22694356 total connections.</lh>
-                            <li><a href="#" data-link-id="bWFjY2RjMjAxMi9jb25uLmxvZy5neg==" download>conn.log.gz</a> (524MB)</li>
-                            <li><a href="#" data-link-id="bWFjY2RjMjAxMi9kaGNwLmxvZy5neg==" download>dhcp.log.gz</a> (1MB) - <a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9kaGNwLmh0bWw=">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot">dhcp  dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9kaGNwJTIwYW5hbHlzaXMuaXB5bmI=">jupyter notebook</a></li>
-                            <li><a href="#" data-link-id="bWFjY2RjMjAxMi9kbnMubG9nLmd6" download>dns.log.gz</a> (7MB) - <a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9kbnMuaHRtbA==">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot">dhcp  dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9kbnMlMjBhbmFseXNpcy5pcHluYg==">jupyter notebook</a></li>
-                            <li><a href="#" data-link-id="bWFjY2RjMjAxMi9maWxlcy5sb2cuZ3o=" download>files.log.gz</a> (49MB) - <a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9maWxlcy5odG1s">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot">files  dataset</a> and analysis on <a href="#">jupyter notebook</a></li>
-                            <li><a href="#" data-link-id="bWFjY2RjMjAxMi9mdHAubG9nLmd6" download>ftp.log.gz</a> (1MB) - <a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9mdHAuaHRtbA==">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot">ftp  dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9mdHAlMjBhbmFseXNpcy5pcHluYg==">jupyter notebook</a></li>
-                            <li><a href="#" data-link-id="bWFjY2RjMjAxMi9odHRwLmxvZy5neg==" download>http.log.gz</a> (54MB) - <a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9odHRwLmh0bWw=">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot">http  dataset</a> and analysis on <a href="#">jupyter notebook</a></li>
-                            <li><a href="#" data-link-id="bWFjY2RjMjAxMi9ub3RpY2UubG9nLmd6" download>notice.log.gz</a> (1MB) - <a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9ub3RpY2UuaHRtbA==">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot">notice  dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9ub3RpY2UlMjBhbmFseXNpcy5pcHluYg==">jupyter notebook</a></li>
-                            <li><a href="#" data-link-id="bWFjY2RjMjAxMi9zaWduYXR1cmVzLmxvZy5neg==" download>signatures.log.gz</a> (1MB) - <a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9zaWduYXR1cmVzLmh0bWw=">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot">signatures  dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9zaWduYXR1cmVzJTIwYW5hbHlzaXMuaXB5bmI=">jupyter notebook</a></li>
-                            <li><a href="#" data-link-id="bWFjY2RjMjAxMi9zbXRwLmxvZy5neg==" download>smtp.log.gz</a> (1MB) - <a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9zbXRwLmh0bWw=">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot">smtp  dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9zbXRwJTIwYW5hbHlzaXMuaXB5bmI=">jupyter notebook</a></li>
-                            <li><a href="#" data-link-id="bWFjY2RjMjAxMi9zc2gubG9nLmd6" download>ssh.log.gz</a> (1MB) - <a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9zc2guaHRtbA==">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot">ssh  dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9zc2glMjBhbmFseXNpcy5pcHluYg==">jupyter notebook</a></li>
-                            <li><a href="#" data-link-id="bWFjY2RjMjAxMi9zc2wubG9nLmd6" download>ssl.log.gz</a> (2MB) - <a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9zc2wuaHRtbA==">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot">ssl  dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9zc2wlMjBhbmFseXNpcy5pcHluYg==">jupyter notebook</a></li>
-                            <li><a href="#" data-link-id="bWFjY2RjMjAxMi90dW5uZWwubG9nLmd6" download>tunnel.log.gz</a> (1MB) - <a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay90dW5uZWwuaHRtbA==">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot">tunnel  dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy90dW5uZWwlMjBhbmFseXNpcy5pcHluYg==">jupyter notebook</a></li>
-                            <li><a href="#" data-link-id="bWFjY2RjMjAxMi93ZWlyZC5sb2cuZ3o=" download>weird.log.gz</a> (2MB) - <a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay93ZWlyZC5odG1s">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot">weird  dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy93ZWlyZCUyMGFuYWx5c2lzLmlweW5i">jupyter notebook</a></li>
-                         </ul>
-                         <ul>
-                            <lh>Snort logs</lh>
-                            <li><a href="#" data-link-id="bWFjY2RjMjAxMi9tYWNjZGMyMDEyX2Zhc3RfYWxlcnQuN3o=" download>maccdc2012_fast_alert.7z</a> Snort Fast Alert format logs (10MB)</li>
-                            <li><a href="#" data-link-id="bWFjY2RjMjAxMi9tYWNjZGMyMDEyX2Z1bGxfYWxlcnQuN3o=" download>maccdc2012_full_alert.7z</a> Snort Full Alert format logs (24MB)</li>
-                         </ul>
-                     </li>
-                     <li>Bro logs generated from various Threatglass samples
-                         <ul>
-                            <lh>Exploit kits and benign traffic, unlabled data. 6663 samples available.</lh>
-                            <li><a href="#" data-link-id="dGcvYS56aXA=" download>Part 1</a> (64MB) - <a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vSFRNTF9Ccm9fbG9nXzE=">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMVZiRUZjWUVIYkpWaHBxQkdydUNHVkYxSlY4cmNFMDdR">Part 1 dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy90cmVlL21hc3Rlci9EYXRhX2FuYWx5c2lzL0JybyUyMExvZ3MlMjBmcm9tJTIwVGhyZWF0Z2xhc3MvUGFydCUyMDE=">jupyter notebook</a></li>
-                            <li><a href="#" data-link-id="dGcvYi56aXA=" download>Part 2</a> (41MB) - <a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vSFRNTF9Ccm9fbG9nXzI=">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMTZkLXQ2NHBEbWpPY1ZqNEhEQUdHV2hSc05tU0d0N0lV">Part 2 dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy90cmVlL21hc3Rlci9EYXRhX2FuYWx5c2lzL0JybyUyMExvZ3MlMjBmcm9tJTIwVGhyZWF0Z2xhc3MvUGFydCUyMDI=">jupyter notebook</a></li>
-                            <li><a href="#" data-link-id="dGcvYy56aXA=" download>Part 3</a> (61MB) - <a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vSFRNTF9Ccm9fbG9nXzM=">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXJYNThMeEJnbFlXNzJUVkxRV09LZHk5dm5Ea0R1RHFp">Part 3  dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL0JybyUyMExvZ3MlMjBmcm9tJTIwVGhyZWF0Z2xhc3MvUGFydCUyMDM=">jupyter notebook</a></li>
-                         </ul>
-                     </li>
-                     <li>Snort logs generated from various Threatglass samples
-                         <ul>
-                            <lh>Exploit kits and benign traffic, unlabled data. 6663 samples available.</lh>
-                            <li><a href="#" data-link-id="dGcvdGdfc25vcnRfZmFzdC43eg==" download>tg_snort_fast.7z</a> Snort Fast Alert format logs (5MB)</li>
-                            <li><a href="#" data-link-id="dGcvdGdfc25vcnRfZnVsbC43eg==" download>tg_snort_full.7z</a> Snort Full Alert format logs (9MB)</li>
-                         </ul>
-                     </li>
-                     <li><a href="#" data-link-id="bWlzYy96ZXVzX2RnYV9kb21haW5zLnR4dC56aXA=" download>Gameover Zeus DGA sample</a> 31000 DGA domains from Dec 2014</li>
-                     <li><a href="#" data-link-id="ZG9tYWluZGF0YS9kb21haW5tb3ZlbWVudC56aXA=" download>Domain Transfer Data</a> Old domain transefer data from several registrars, JSON format. (8MB)</li>
-                     <li><a href="#" data-link-id="c2NhZGEvc2NhZGFfbG9ncy56aXA=" download>Modbus and DNP3 logs</a> ICS logs generated w/Bro from various PCAPs (1MB)</li>
-                     <!--<li><a href=""></a></li>-->
-                  </ul>
-               </li>
-               <li><a id="malware"></a>Malware
-                  <ul>
-                     <li><a href="#" data-link-id="cGVfc3RhdGljL3pldXMuemlw" download>Static information about Zeus binaries</a> - Static information (JSON) of about ~8k samples from <a href="#" data-link-id="aHR0cHM6Ly96ZXVzdHJhY2tlci5hYnVzZS5jaC9kb3dubG9hZHMvemV1c2JpbmFyaWVzLnppcA==" download>ZeuS Tracker</a></li>
-                     <ul>
-                        <li><a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vUEVfbWFsd2FyZS9aZXVzLmh0bWw=">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXUtQUZlUzhEY3R6NXZQN09oZHE4Mm5wdUFOd1BPb1Jr">Zeus Binaries dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL1BFJTIwbWFsd2FyZSUyMGFuYWx5c2lzL1pldXMlMjBBbmFseXNpcy5pcHluYg==">jupyter notebook</a></li>
-                     </ul>
-                     <li><a href="#" data-link-id="cGVfc3RhdGljL2FwdDEuemlw" download>Static information about APT1 binaries</a> - Static information (JSON) of APT1 samples from  <a href="#" data-link-id="aHR0cHM6Ly92aXJ1c3NoYXJlLmNvbS8=" download>VirusShare</a></li>
-                     <ul>
-                        <li><a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vUEVfbWFsd2FyZS9WaXJ1c1NoYXJlLmh0bWw=">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXUtQUZlUzhEY3R6NXZQN09oZHE4Mm5wdUFOd1BPb1Jr">VirusShare Dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL1BFJTIwbWFsd2FyZSUyMGFuYWx5c2lzL1ZpcnVzU2hhcmUlMjBBbmFseXNpcy1jaGVja3BvaW50LmlweW5i">jupyter notebook</a></li>
-                     </ul>
-                     <li><a href="#" data-link-id="cGVfc3RhdGljL29wLWNsZWF2ZXIuemlw" download>Static information about Op Cleaver binaries</a> - Static information of Op Cleaver related binaries.</li>
-                     <ul>
-                        <li><a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vUEVfbWFsd2FyZS9PUENsZWF2ZXIuaHRtbA==">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXUtQUZlUzhEY3R6NXZQN09oZHE4Mm5wdUFOd1BPb1Jr">OPCleaver Dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL1BFJTIwbWFsd2FyZSUyMGFuYWx5c2lzL09QJTIwQ2xlYXZlciUyMEFuYWx5c2lzLmlweW5i">jupyter notebook</a></li>
-                     </ul>
-                     <!--<li><a href=""></a> [License Info: ]</li>-->
-                  </ul>
-               </li>
-               <li><a id="system"></a>System
-                 <ul>
-                   <!--<li><a href=""></a></li>-->
-                   <li><a href="#" data-link-id="c2VsZi5sb2dzLw==">Web Logs from Security Repo</a> - these logs are generated by you the community, and me updating this site.</li>
-                   <li><a href="#" data-link-id="c3F1aWQvYWNjZXNzLmxvZy5neg==" download>Squid Access Log</a> - combined from several sources (24MB compressed, ~200MB uncompresed)</li>
-                   <li><a href="#" data-link-id="YXV0aC5sb2cvYXV0aC5sb2cuZ3o=" download>auth.log</a> - approx 86k lines, and mostly failed SSH login attempts</li>
-                   <li><a href="#" data-link-id="aG9uZXlwb3QvaG9uZXlwb3QuanNvbi56aXA=" download>Honeypot data</a> - Data from various honeypots (Amun and Glastopf) used for various BSides presentations posted below. Approx 994k entries, JSON format.</li>
-                   <ul>
-                     <li><a href="#" data-link-id="aHR0cDovL25idmlld2VyLmlweXRob24ub3JnL3VybC9zZWNyZXBvLmNvbS9ob25leXBvdC9CU2lkZXNERlclMjAtJTIwMjAxNC5pcHluYg==">Analysis</a> of the honeypot data for BSidesDFW 2014 - <a href="#" data-link-id="aG9uZXlwb3QvQlNpZGVzREZXIC0gMjAxNC5pcHluYg==">IPython Notebook</a>.
-                   </ul>
-                 </ul>
-               </li>
-               <li><a id="other"></a>Other
-                 <ul>
-                   <!--<li><a href=""></a></li>-->
-                   <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL3Nvb3NoaWUvU2VjdXJpdHktRGF0YS1BbmFseXNpcw==">Security Data Analysis Labs</a></li>
-                   <ul>
-                     <li><a href="#" data-link-id="U2VjdXJpdHktRGF0YS1BbmFseXNpcy9MYWJfMS9jb25uLmxvZy56aXA=" download>Connection Log</a> - (522MB compressed, 3GB uncompressed) ~22million flow events</li>
-                     </li>
-                     <!--<li><a href=""></a></li>-->
-                   </ul>
-                 </ul>
-            </ul>
-
-            <p>3rd Party</p>
-            <ul>
-               <li><a id="3p_ai"></a>AI
-                  <ul>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9kYXRhc2V0cy9lbW1hbnVlbGdqci9nZW5haS1pbmNpZGVudHM=">GenAI and Agentic AI Security Incidents Dataset</a> - 7,725 aggregated and de-duplicated GenAI security incidents mapped to OWASP, NIST AI RMF, and MITRE ATLAS. [License Info: CC-BY-4.0]</li>
-                  </ul>
-               </li>
-               <li><a id="3p_other"></a>Other
-                  <ul>
-                     <li><a href="#" data-link-id="aHR0cDovL2RpZ2l0YWxjb3Jwb3JhLm9yZy8=">Digital Corpora</a> - Disk images, network traffic, and malware, oh my! [License Info: This material is based upon work supported by the National Science Foundation under Grant No. 0919593]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL3Z6LXJpc2svVkNEQg==">Verizon VERIS Database</a> - Raw VERIS (filtered) data. [License Info: Creative Commons Attribution-ShareAlike 4.0 International Public License]</li>
-                     <li><a href="#" data-link-id="ZnRwOi8vZG93bmxvYWQuaXdsYWIuZm9pLnNlL2RhdGFzZXQv">The Swedish Defence Research Agency Information Warfare Lab</a> PCAP and various log sources [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL3d3dy5nd2Vybi5uZXQvQmxhY2stbWFya2V0JTIwYXJjaGl2ZXM=">Black-Market Archives</a> A scraped archive of Dark Net Markets [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9wcmVkaWN0Lm9yZy8=">Protected Repository for the Defense of Infrastructure Against Cyber Threats</a> Lots of data (restricted use) [License Info: <a href="#" data-link-id="aHR0cHM6Ly9wcmVkaWN0Lm9yZy9Qb3J0YWxzLzAvRG9jdW1lbnRzL0hlbHAvUFJFRElDVC1VRy1IVE1MNS9Db250ZW50L1J1bGVzJTIwb2YlMjBCZWhhdmlvci5odG0=">License</a>]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL2Nzci5sYW5sLmdvdi9kYXRhL2N5YmVyMS8=">Comprehensive, Multi-Source Cyber-Security Events</a> Auth, DNS, process, and flow data. [License Info: Public Domain]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL2Nzci5sYW5sLmdvdi9kYXRhLw==">Cyber Security Science</a> Multiple datasets from LANL. [License Info: Public Domain]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL3dpc25ldC5zZWVjcy5udXN0LmVkdS5way9wcm9qZWN0cy9FTlMvRGF0YVNldHMuaHRtbA==">Open Source Enterprise Network Security Solution</a> Network traffic and malicious endpoint data. [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly93d3cudW5zdy5hZGZhLmVkdS5hdS9hdXN0cmFsaWFuLWNlbnRyZS1mb3ItY3liZXItc2VjdXJpdHkvY3liZXJzZWN1cml0eS9BREZBLUlEUy1EYXRhc2V0cy8=">Australian Defence Force Academy Linux (ADFA-LD) and Windows (ADFA-WD) Datasets</a> HIDS data [License Info: Free for academic research only]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL3d3dy5jY3NzZm9ydW0ub3JnL21hbHdhcmUtY2VydGlmaWNhdGVzLnBocA==">CCSS - Digital Certs Used by Malare</a> - A listing of certificate serial numbers that have been used by malware [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL2JpZ2RhdGEuaXNlLmJndS5hYy5pbC9zaGVybG9jay9pbmRleC5odG1sIy8=">SherLock Dataset</a> - Smartphone dataset with software and hardware sensor information surrounding mobile malware [License Info: 3 year full access, listed on site]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2Zvb3NwaWR5L3BheWxvYWRz">payloads</a> - A collection of web attack payloads. [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL3d3dy5henNlY3VyZS1kYXRhLm9yZy9nZXQtZGF0YS5odG1s">AZSecure Intelligence and Security Informatics Data Sets</a> - various data sets around mostly web data [License Info: <a href="#" data-link-id="aHR0cDovL3d3dy5henNlY3VyZS1kYXRhLm9yZy9nZXQtZGF0YS5odG1s">Citing</a>]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2hnYXNjb24vc2VjdXJpdHktZGF0YXNldHMvYmxvYi9tYXN0ZXIvUkVBRE1FLm1k">security-datasets</a> - A collection of resources for security data [License Info: Various]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2h1bnRlcnMtZm9yZ2UvbW9yZG9y">Mordor Gates</a> - Pre-recorded security events generate by simulated adversarial techniques.  [License Info: GPLv3]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL21pc3RlcmNoMGMvd2hhdF9pc190aGlzX2My">"What is this panel again?"</a> - Screenshots of various malware control panels. [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2JvZGFjZWEvbWlzaW5mb2xpbmtz">Awesome Misinformation</a> - A curated list of awesome misinformation. [License Info: MIT]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tLzB4c2hhL3N3ZWV0aWUtZGF0YQ==">Sweetie data</a> - a collection of honeypot data (network and files). [License Info: MIT]</li>
-                     <!--<li><a href=""></a> [License Info: ]</li>-->
-                  </ul>
-               <li><a id="3p_network"></a>Network
-                  <ul>
-                     <li><a href="#" data-link-id="aHR0cDovL2tkZC5pY3MudWNpLmVkdS9kYXRhYmFzZXMva2RkY3VwOTkva2RkY3VwOTkuaHRtbA==" target="_blank">KDD Cup 1999 Data</a> - Network connection data [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL3d3dy5uZXRyZXNlYy5jb20vP3BhZ2U9UGNhcEZpbGVz" target="_blank">NETRESEC - Publicly available PCAP files</a> - loads of great PCAP files [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9zY2Fucy5pby8=" target="_blank">Internet-Wide Scan Data Repository</a> - Various types of scan data [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL3N5c25ldC51Y3NkLmVkdS9wcm9qZWN0cy91cmwv" target="_blank">Detecting Malicious URLs</a> - <a href="#" data-link-id="aHR0cDovL2FyY2hpdmUuaWNzLnVjaS5lZHUvbWwvZGF0YXNldHMvVVJMK1JlcHV0YXRpb24=" target="_blank">Mirror</a> - URLS/features/labels [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9oYWNrZXJ0YXJnZXQuY29tLzUwMGstaHR0cC1oZWFkZXJzLw==" target="_blank">hackertarget 500K HTTP Headers</a> - HTTP Headers [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL3RocmVhdGdsYXNzLmNvbS8=" target="_blank">Threatglass</a> - PCAPs that contain various exploit kits as well as some legit traffic mixed in. [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL3d3dy5wY2Fwci5uZXQv" target="_blank">pcapr</a> - Searchable repository of PCAPs, look for various phrases to pull out the Security related ones (eg. exploit, xss, etc...) [License Info: <a href="#" data-link-id="aHR0cDovL3d3dy5wY2Fwci5uZXQvdG9z">TOS</a>]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL29wZW5kbnMvcHVibGljLWRvbWFpbi1saXN0cw==" target="_blank">OpenDNS public domain lists</a> - various domain lists [License Info: Public Domain]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL3d3dy5sbC5taXQuZWR1L21pc3Npb24vY29tbXVuaWNhdGlvbnMvY3liZXIvQ1NUY29ycG9yYS9pZGV2YWwvZGF0YS8xOTk5ZGF0YS5odG1s" target="_blank">MIT 1999 DARPA Intrusion Detection Evaluation Data Set</a> - Labeled attack and nont attack data (PCAP and system logs) [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL3d3dy5sbC5taXQuZWR1L21pc3Npb24vY29tbXVuaWNhdGlvbnMvY3liZXIvQ1NUY29ycG9yYS9pZGV2YWwvZGF0YS8xOTk4ZGF0YS5odG1s" target="_blank">MIT 1998 DARPA Intrusion Detection Evaluation Data Set</a> - Network and file system data [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvZGF0YS8yMDE0LzEwL2xlZ2l0LWRnYV9kb21haW5zLmNzdi56aXA=" download>DDS legit and DGA labeled domains</a> - <a href="#" data-link-id="aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvcGFnZXMvZGRzLWRhdGFzZXQtY29sbGVjdGlvbi5odG1s">DDS Blog</a> [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvZGF0YS8yMDE0LzAxL21hcngudGFyLmd6" download>Honeypot Data</a> - <a href="#" data-link-id="aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvcGFnZXMvZGRzLWRhdGFzZXQtY29sbGVjdGlvbi5odG1s">DDS Blog</a> [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvZGF0YS8yMDE0LzAxL21hcngtZ2VvLnRhci5neg==" download>Honeypot Data with GeoIP info</a> - <a href="#" data-link-id="aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvcGFnZXMvZGRzLWRhdGFzZXQtY29sbGVjdGlvbi5odG1s">DDS Blog</a> [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL29zaW50LmJhbWJlbmVrY29uc3VsdGluZy5jb20vZmVlZHMvZGdhLWZlZWQudHh0">DGA Domains</a> - updated frequently [License Info: <a href="#" data-link-id="aHR0cDovL29zaW50LmJhbWJlbmVrY29uc3VsdGluZy5jb20vbGljZW5zZS50eHQ=">License</a>]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL21hbHdhcmV1cmxzLmpveGVhbmtvcmV0LmNvbS8=">Malware URLs</a> - updated daily list of domains and URLs associated with malware [License Info: Disclaimer posted in link]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL3JhcGlkNy9zb25hci93aWtpL1VEUA==">UDP Scan data</a> - provided by Rapid7 [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly93d3cucGFja2V0bWFpbC5uZXQvaXByZXAudHh0">Continously updated IP block list</a> - Created by Packetmail (?) [License Info: no for-sale or paywall use]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL2NvbW1vbmNyYXdsLm9yZy8=">Common Crawl</a> - "open repository of web crawl data that can be accessed and analyzed by anyone" [License Info: Open]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL21hbHdhcmUtdHJhZmZpYy1hbmFseXNpcy5uZXQv">Malware Traffic Analysis</a> - a site with labled exploit kits and phishing emails. [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL3d3dy5zaW1wbGV3ZWIub3JnL3dpa2kvVHJhY2Vz">Simple Web Traces</a> - Cloud Storage, DDoS, DNSSEC, and may more types of PCAPs. [License Info: Various]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly90b29scy5uZXRzYS5jZXJ0Lm9yZy9zaWxrL3JlZmVyZW5jZWRhdGEuaHRtbA==">SiLK - LBNL-05</a> Anonymized enterprise packet header traces. [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9kZ2FyY2hpdmUuY2FhZC5ma2llLmZyYXVuaG9mZXIuZGUv">DGA Archive</a> Multiple DGA data sets generated by the actual algorithm vs. captured network traffic. [License Info: CC BY-NC-SA 3.0]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly93d3cudW5iLmNhL2NpYy9kYXRhc2V0cy9pbmRleC5odG1s">Information Security Centre of Excellence (ISCX)</a> Data related to Botnets and Android Botnets. [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL3d3dy5pc2kuY3NpYy5lcy9kYXRhc2V0Lw==">CSIC 2010 HTTP Dataset</a> Labeled (normal, anomalous) HTTP data in CSV format. [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL3ZhY29tbXVuaXR5Lm9yZy9WQVNUK0NoYWxsZW5nZSsyMDEyJTNBK1N1Ym1pc3Npb24rSW5zdHJ1Y3Rpb25zK2FuZCtEb3dubG9hZHM=">VAST Challenge 2012</a> IDS logs generated by IEEE [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly93d3cudXZpYy5jYS9lbmdpbmVlcmluZy9lY2UvaXNvdC9kYXRhc2V0cy9pbmRleC5waHA=">University of Victoria Botnet Dataset</a> Malicious and benign traffic from LBNL and Ericsson (merged publically available data)[License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL3d3dy5jYWlkYS5vcmcvZGF0YS9wYXNzaXZlL3NpcHNjYW5fZGF0YXNldC54bWw=">UCSD Network Telescope Dataset on the Sipscan</a> Public and restricted datasets of various malware and other network traffic. [License Info: Available on dataset page]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly93d3cudW5zdy5hZGZhLmVkdS5hdS9hdXN0cmFsaWFuLWNlbnRyZS1mb3ItY3liZXItc2VjdXJpdHkvY3liZXJzZWN1cml0eS9BREZBLU5CMTUtRGF0YXNldHMv">UNSW-NB15</a> This data set has nine families of attacks, namely, Fuzzers, Analysis, Backdoors, DoS, Exploits, Generic, Reconnaissance, Shellcode and Worms. (CSV data) [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9tY2ZwLmZlbGsuY3Z1dC5jei9wdWJsaWNEYXRhc2V0cy8=">Stratosphere IPS Public Datasets</a> PCAPs, Samples, etc... [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2hzbGF0bWFuL2F3ZXNvbWUtaW5kdXN0cmlhbC1jb250cm9sLXN5c3RlbS1zZWN1cml0eQ==">Awesome Industrial Control System Security</a> - Has links to SCADA PCAPs and other SCADA related resources [License Info: Apache License 2.0 (site), Data: various]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9zMy11cy13ZXN0LTEuYW1hem9uYXdzLmNvbS91bWJyZWxsYS1zdGF0aWMvaW5kZXguaHRtbA==">Cisco Umbrella Popularity List</a> - Top 1 million most daily popular domains [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL3MzLmFtYXpvbmF3cy5jb20vYWxleGEtc3RhdGljL3RvcC0xbS5jc3Yuemlw">Alexa Top 1 Million</a> - The static 1 million most popular sites by Alexa [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2ZhaXphbm4yNC9Vc2luZy1tYWNoaW5lLWxlYXJuaW5nLXRvLWRldGVjdC1tYWxpY2lvdXMtVVJMcw==">Using machine learning to detect malicious URLs</a> - Cade and labeled URL data. [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9tYWplc3RpYy5jb20vcmVwb3J0cy9tYWplc3RpYy1taWxsaW9u">Majestic Million Domains</a> - Top million domains with the most referring subnets.  [License Info: Attribution 3.0 Unported (CC BY 3.0)]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9yZXNlYXJjaC5hYWx0by5maS9lbi9kYXRhc2V0cy9pb3QtZGV2aWNlcy1jYXB0dXJlcygyODVhOWIwNi1kZTMxLTRkOGItODhlOS01YmRiYTQ2Y2MxNjEpLmh0bWw=">IoT device captures</a> IoT Device PCAP by Aalto University Research [License Info: Listed on site]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL2JsdWVzbW90ZS5jb20v" target="_blank">Project Bluesmote</a> - Syrian Bluecoat Proxy Logs [License Info: Public Domain]
-                         <!--<ul>
-                             <lh>Local Mirror</lh>
-                             <li>todo</li>
-                         </ul>-->
-                     </li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2phc2tsYWJzL2JsYWNraGF0MjAxNw==">Data for a Black Hat 2017 Handout</a> - Various types of data (network, host, etc...) for different use cases (e.g. Remote Exploitation, Spear Phishing, Ransomware, WebShell) [License Info: Apache 2]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2p6YWRlaC9ha3RhaW9u">Aktion Open Source Exploit Detection Tool</a> - Variety of different kinds of data centered around exploit detection [License Info: Apache 2]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2p6YWRlaC9ha3RhaW9uMg==">Atkion V2 Open Source Exploit Detection Tool</a> - Variety of different kinds of data centered around exploit detection [License Info: Apache 2]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL3ZzLXV1bG0vMjAxNy1TVUVFLWRhdGEtc2V0">2017-SUEE-data-set</a> - PCAP files that show various HTTP attack (slowloris, slowhttptest, slowloris-ng) [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL2FyY2hpdmUuaWNzLnVjaS5lZHUvbWwvZGF0YXNldHMvV2Vic2l0ZStQaGlzaGluZw==">UCI ML Repository - Website Phishing Data Set</a> A collection of Phishing Websites as well as legitimate ones. [License Info: Listed on site]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9wbGcudXdhdGVybG9vLmNhL35ndmNvcm1hYy90cmVjY29ycHVzMDcv">2007 TREC Public SPAM Corpus</a> - SPAM Corpus [License Info: Listed on site]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2ZhaXphbm4yNC9Gd2FmLU1hY2hpbmUtTGVhcm5pbmctZHJpdmVuLVdlYi1BcHBsaWNhdGlvbi1GaXJld2FsbA==">ML Driven Web Application Firewall</a> - Machine learning driven web application firewall to detect malicious queries with high accuracy (URL data) [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly93d3cud2VzdHBvaW50LmVkdS9jcmMvU2l0ZVBhZ2VzL0RhdGFTZXRzLmFzcHg=">West Point NSA Data Sets</a> - Snort IDS, DNS Service, and Web Server logs. [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly93ZWIuY3MuaGFjZXR0ZXBlLmVkdS50ci9+c2VsbWFuL3BoaXNoLWlyaXMtZGF0YXNldC8=">Phish-IRIS</a> - A small scale multi-class phishing web page screenshots archive [License Info: Listed on site]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9kZ2FyY2hpdmUuY2FhZC5ma2llLmZyYXVuaG9mZXIuZGUv">DGArchive</a> - Samples of DGA domains from various types of malware. [License Info: Contact for access/info]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9kYXRhLm5ldGxhYi4zNjAuY29tL2RnYS8=">Netlab360 DGA Domains</a> - Samples of DGA domains from various types of malware. License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9hay5xdWFudGNhc3QuY29tL3F1YW50Y2FzdC10b3Atc2l0ZXMuemlw">Quantcast Top Sites</a> - Most popular sites on the Internet according to Quantcast. [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly93d3cuZG9tY29wLmNvbS9maWxlcy90b3AvdG9wMTBtaWxsaW9uZG9tYWlucy5jc3Yuemlw">DomCop Top 1M</a> - Top One Million sites according to DomCop. [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL21hcmF2ZW50by9ibGFja3dlYg==">Blackweb Domains</a> - A project that aims to categorize as many domains as possible, also provies a whitelist. [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly96ZW5vZG8ub3JnL3JlY29yZC8zMjQxNDQ1Iy5ZVmVzbVpyTUtXWg==">Charles University SIS Access Log Dataset</a> - The package contains an anonymized server log collected on a live installation of a student information system run by Charles University between May and November 2018 [License Info: Creative Commons Attribution 4.0 International]</li>
-                     <!--<li><a href=""></a> [License Info: ]</li>-->
-                  </ul>
-               </li>
-               <li><a id="3p_malware"></a>Malware
-                  <ul>
-                     <li><a href="#" data-link-id="aHR0cDovL21jZnAud2VlYmx5LmNvbS8=">The Malware Capture Facility Project</a> - Published long-runs of malware including network information. Make sure to check out the <a href="#" data-link-id="aHR0cDovL21jZnAud2VlYmx5LmNvbS90aGUtY3R1LTEzLWRhdGFzZXQtYS1sYWJlbGVkLWRhdGFzZXQtd2l0aC1ib3RuZXQtbm9ybWFsLWFuZC1iYWNrZ3JvdW5kLXRyYWZmaWMuaHRtbA==">Labeled CTU-13 Dataset</a> [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL3BhbmRhLmd0aXNjLmdhdGVjaC5lZHUvbWFscmVjLw==">PANDA Malware Analysis</a> - Execution traces and PCAPs from <a href="#" data-link-id="aHR0cDovL21veWl4LmJsb2dzcG90LmNvbS8yMDE0LzEyL3JlcHJvZHVjaWJsZS1tYWx3YXJlLWFuYWx5c2VzLWZvci1hbGwuaHRtbD9tPTE=">Moyix's PANDA setup</a> [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL2xhcmVkby0xMy5taXQuZWR1L35icmVuZGFuL29wY2xlYXZlci8=">Op Cleaver PANDA Analysis</a> - rrlogs, PCAPs, movies and reports from Op Cleaver malware [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly93d3cua2FnZ2xlLmNvbS9jL21hbHdhcmUtY2xhc3NpZmljYXRpb24=">kaggle Malware Classification</a> - Unlabled malware, but there are solutions to label it! [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL3JlYnNuaXBwZXRzLmJsb2dzcG90LmNvbS8yMDE1LzA4L3BsdWd4LWNocm9uaWNsZXMuaHRtbA==">PlugX Chronicles</a> Various PlugX samples and links to information about PlugX [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8wQl9JTjZSelA2OWIyVGtOcllWZE9NblE0TFZFL3ZpZXc=">Labeled VirusShare data by @_delta_zero</a> - VirusShare data that has been consitently labeled (7zip download) [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly93d3cyLmNzLmFyaXpvbmEuZWR1L3Byb2plY3RzL2x5bngtcHJvamVjdC9TYW1wbGVzLw==">lynx Project Samples</a> - Benign samples that behave like malware (<a href="#" data-link-id="aHR0cHM6Ly93d3cyLmNzLmFyaXpvbmEuZWR1L3Byb2plY3RzL2x5bngtcHJvamVjdC8=">lynx Project</a>)  [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL3ZpcnVzc2lnbi5jb20vaW5kZXguaHRtbA==">VirusSign</a> - Free and Paid account access to several million malware samples [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL3d3dy5vZmZlbnNpdmVjb21wdXRpbmcubmV0Lw==">Open Malware</a> - Searchable malware repo with free downloads of samples [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL21hbHdhcmVkYi5tYWxla2FsLmNvbS8=">Malware DB by Malekal</a> - A list of malicious files, complete with sample link and some AV results [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly93d3cuc2VjLmNzLnR1LWJzLmRlL35kYW5hcnAvZHJlYmluLw==">Drebin Dataset</a> - Android malware, must submit proof of who you are for access. [License Info: Listed on site]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2VuZGdhbWVpbmMvZW1iZXI=">EMBER Dataset</a> - Features and labels from 1.1 million benign/malicious PE files with trained model. [License Info: AGPL-3.0]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL21hcmNvcmFtaWxsaS9NYWx3YXJlVHJhaW5pbmdTZXRz">MalwareTrainingSets</a> - JSON describing several intrusion sets/threat actors [License Info: Listed on GitHub]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL01hbHdhcmVTYW1wbGVzL01hbHdhcmUtRmVlZA==">Malware-Feed</a> - An ongoing and updated archive of files that we collect which are associated with specific public malicious threat reports.[License Info: MIT]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL1ZpcnVzLVNhbXBsZXMvTWFsd2FyZS1TYW1wbGUtU291cmNlcw==">Malware Sample Sources</a> - A Collection of Malware Sample Repositories [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly93aHlpc3lvdW5nLmdpdGh1Yi5pby9CT0RNQVMv">Blue Hexagon Open Dataset for Malware AnalysiS</a> - A dataset containing timestamped malware samples and well-curated family information for research purposes. [License Info: Unknown]</li>
-                     <!--<li><a href=""></a> [License Info: ]</li>-->
-                  </ul>
-               </li>
-               <li><a id="3p_system"></a>System
-                  <ul>
-                     <li><a href="#" data-link-id="aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvcGFnZXMvZGRzLWRhdGFzZXQtY29sbGVjdGlvbi5odG1s" target="_blank">DDS Dataset Collection</a> - Honeypot related data [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL2RhdGEud2ViYXJjaGl2ZS5vcmcudWsvb3BlbmRhdGEvdWt3YS5kcy4xL2NsYXNzaWZpY2F0aW9uLw==">Website Classification</a> [License Info: Public Domain, info on site]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9kbXMuc3p0YWtpLmh1L2VuL2xldG9sdGVzL2VjbWxwa2RkLTIwMTAtZGlzY292ZXJ5LWNoYWxsZW5nZS1kYXRhLXNldA==">ECML/PKDD 2010 Discovery Challenge Data Set</a> - Web classification data [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL3d3dy5ycnNoYXJlLm9yZy8=">PANDA rrlogs</a> - share and download rrlogs from the <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL21veWl4L3BhbmRh">PANDA dynamic analysis platform</a> [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2FuZHJldy1tb3JyaXMvdGhyZWF0X3Jlc2VhcmNoX3ByaXZhdGU=">Threat Research Private</a> - Encrypted data collected from SSH honeypots [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2doMHN0ZDRuY2VyL3RocmVhdF9yZXNlYXJjaA==">Threat Research</a> - Data collected from SSH honeypots (fork of the original Andrew Morris collection)[License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL3NhbnRpYWdvLWJhc3NldHQvQWxpZW52YXVsdC1EZW1vX3NjcmlwdHM=">Sample logs and scripts for Alienvault</a> - Various log types (SSH, Cisco, Sonicwall, etc..) [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL2JvdC5uZ3guY2MvbG9ncy8lMjNuZ2lueC8=">#nginx IRC channel logs</a> - Bot logs [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL2xvZy1zaGFyaW5nLmRyZWFtaG9zdGVycy5jb20v">Public Security Log Sharing Site</a> - misc. system logs, NIDS logs, and web proxy logs [License Info: Public, site source (details at top of page)]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly93d3cuY2VydC5vcmcvaW5zaWRlci10aHJlYXQvdG9vbHMvaW5kZXguY2Zt">CERT Insider Threat Tools</a> - "These datasets provide both synthetic background data and data from synthetic malicious actors" [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly93d3cudW5zdy5hZGZhLmVkdS5hdS9hdXN0cmFsaWFuLWNlbnRyZS1mb3ItY3liZXItc2VjdXJpdHkvY3liZXJzZWN1cml0eS9BREZBLUlEUy1EYXRhc2V0cy8=">ADFA IDS Datasets</a> - The datasets cover both Linux and Windows; they are designed for evaluation by system call based HIDS. [License Info: Listed on site]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2tvbnN0YW50aW5iZXJsaW4vbWFsd2FyZS13aW5kb3dzLWF1ZGl0LWxvZy1kZXRlY3Rpb24=">Workshop on AI and Security</a> - Anonomized Windows Audit Logs. [License Info: Apache 2.0]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL0pvbmF0aGFuUGhpbGxpcHMvVGhyZWF0X1Jlc2VhcmNo">Threat Research</a> - Honeypot data [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL3Nib3Vzc2VhZGVuL0VWVFgtQVRUQUNLLVNBTVBMRVM=">EVTX Attack Samples</a> - Windows events samples associated to specific attack and post-exploitation techniques"></a> [License Info: Unknown]</li>
-                     <!--<li><a href=""></a> [License Info: ]</li>-->
-                  </ul>
-               </li>
-               <li><a id="3p_file"></a>File
-                  <ul>
-                     <li><a href="#" data-link-id="aHR0cDovL2NvbnRhZ2lvZHVtcC5ibG9nc3BvdC5jb20v" target="_blank">contagio malware dump</a> - A resource for files/data regarding targeted attacks [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL3ZpcnVzc2hhcmUuY29tLw==" target="_blank">VirusShare.com - Because Sharing is Caring</a> [Login Required] - Huge collection of downloadable/torrentable malware files for various architectures [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL3Z4aGVhdmVuLm9yZy9mYXEucGhwI3dob2xl">Vx Heaven</a> - sorted by AV set of virus samples (available via BitTorrent) [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly90ZWNoaGVscGxpc3QuY29tL3NwYW0tbGlzdA==">TechHelpList SPAM List</a> - Samples of SPAM messages and associated threat that was delivered in addition to other rich information [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL3d3dy5tYWxzaGFyZS5jb20vaW5kZXgucGhw">MalShare</a> - A community driven public malware repository.  [License Info: <a href = "http://www.malshare.com/tos.php">TOS</a>]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly91cmxoYXVzLWFwaS5hYnVzZS5jaC9kb3dubG9hZHMv">URLhaus</a> - Daily malware batches. [License Info: CC-0]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9tYi1hcGkuYWJ1c2UuY2gvZG93bmxvYWRzLw==">MALWAREbazzar</a> - Daily malware batches. [License Info: CC-0]</li>
-                     <!--<li><a href=""></a> [License Info: ]</li>-->
-                  </ul>
-               </li>
-               <li><a id="3p_passwd"></a>Password
-                  <ul>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9maWdzaGFyZS5jb20vYXJ0aWNsZXMvWWFob29fUGFzc3dvcmRfRnJlcXVlbmN5X0NvcnB1cy8yMDU3OTM3" target="_blank">Yahoo! Password Frequency Corpus</a> - This dataset includes sanitized password frequency lists collected from Yahoo in May 2011.  [License Info: CC-0]</li>
-                     <!--<li><a href=""></a> [License Info: ]</li>-->
-                  </ul>
-               </li>
-               <li><a id="3p_threat"></a>Threat Feeds
-                  <ul>
-                     <li><a href="#" data-link-id="aHR0cDovL3d3dy53ZWJpcm9uLmNvbS9hYnVzZV9mZWVkLw==">ISP Abuse Email Feed</a> - Feed showing IOCs from various Abuse reports (other feeds also on the site) [License Info: Unknown]</li>
-                     <!--<li><a href="#" data-link-id="aHR0cDovL2N5YmVydHJhY2tlci5tYWx3YXJlaHVudGVydGVhbS5jb20v">Malware Hunter Team CyberTracker</a> - Feeds of files, C2 servers, phishing sites and emails [License Info: Unknown]</li>-->
-                     <li><a href="#" data-link-id="aHR0cDovL3Z4dmF1bHQubmV0L1ZpcmlMaXN0LnBocA==">VXvault</a> - List of URLs and MD5s that are malicious [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9vdHguYWxpZW52YXVsdC5jb20vYnJvd3Nl">AlienVault OTX</a> - Build your own threat feed from community contributors, complete with API [License Info: <a href="#" data-link-id="aHR0cHM6Ly93d3cuYWxpZW52YXVsdC5jb20vdGVybXMvbWF5MjAxNA==">Legal Info</a>]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL3RyYWNrZXIuaDN4LmV1L2ZhbWlsaWVz">Tracker</a> - Malware hashes and their associated campaigns [License Info: <a href="#" data-link-id="aHR0cDovL3RyYWNrZXIuaDN4LmV1L2Fib3V0LzQwMA==">About</a>]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly93d3cubWFsd2FyZWRvbWFpbmxpc3QuY29tL21kbC5waHA=">Malware Domain List</a> - Labeled malicious domains and IPs [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL3N1cHBvcnQuY2xlYW4tbXguZGUvY2xlYW4tbXgvcGhpc2hpbmcucGhw">Clean MX Phishing DB</a> - URLs and IPs associated with phishing emails, also targets are listed where determined [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL3N1cHBvcnQuY2xlYW4tbXguY29tL2NsZWFuLW14L3ZpcnVzZXMucGhw">Clean MX Virus DB</a> - Labeled URLs and IPs associated with various types of malware [License Info: Unknown]</li>
-                     <!--<li><a href="#" data-link-id="aHR0cHM6Ly90aHJlYXRjZW50ZXIuY3JkZi5mci8=">CRDF Threat Center</a> - Labeled MD5s and reputation data [License Info: Open Usage]</li>-->
-                     <li><a href="#" data-link-id="aHR0cHM6Ly90ZWNoaGVscGxpc3QuY29tL21hbHRscXIv">TechHelpList MalTLQR Upatre and Dyreza Tracker</a> - IPs and hashes for Upatre and Dyreza families [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL2N5YmVyY3JpbWUtdHJhY2tlci5uZXQv">CyberCrime Tracker</a> - Labled URLs and IPs for various malware families [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cDovL2N5YmVyY3JpbWUtdHJhY2tlci5uZXQvemJveC5waHA=">CyberCrime ZbotScan</a> - List of hashes associated with various Zbot variants [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly93d3cuYWJ1c2UuY2gv">abuse.ch trackers</a> - Trackers for ransomeware, ZeuS, SSL Blacklist, SpyEye, Palevo, and Feodo [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL3Bhbi11bml0NDIvaW9jcw==">Unit 42 Indicators</a> - Indicators from the Unit 42 reports [License Info: Unknown]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly90aHJlYXRmZWVkcy5pby8=">Threat Feeds</a> - Threat feed aggregator [License Info: Various]</li>
-                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2RyYi1yYS9DMkludGVsRmVlZHM=">C2IntelFeeds</a> - Automatically created C2 feeds, currently VPNs and various C2. [License Info: Unknown]</li>
-                     <!--<li><a href=""></a> [License Info: ]</li>-->
-                  </ul>
-               </li>
-            </ul>
+            <div id="data-root" data-link-tree-root></div>
 
             <hr/>
             <a id="contact"></a>
@@ -338,8 +61,8 @@
             <p class="lead">Misc</p>
             <p>Various things that I needed to stick someplace.</p>
             <ul>
-               <li>BSidesDFW 2014 Presentation with <a href="#" data-link-id="aHR0cHM6Ly90d2l0dGVyLmNvbS90aGVyb3h5ZA==">Roxy</a> - <a href="#" data-link-id="aG9uZXlwb3QvSG9uZXlwb3QgLSBIb3d0by5wZGY=">Honeypot Howto</a>
-               <li>BSidesAustin 2015 Presentation with <a href="#" data-link-id="aHR0cHM6Ly90d2l0dGVyLmNvbS90aGVyb3h5ZA==">Roxy</a> - <a href="#" data-link-id="aG9uZXlwb3QvSG9uZXlwb3QgLSBIb3d0byAtIEJTaWRlcyBBdXN0aW4ucGRm">Honeypot Howto</a>
+               <li>BSidesDFW 2014 Presentation with <a href="#" data-link-id="aHR0cHM6Ly90d2l0dGVyLmNvbS90aGVyb3h5ZA==">Roxy</a> - <a href="#" data-link-id="aG9uZXlwb3QvSG9uZXlwb3QgLSBIb3d0by5wZGY=">Honeypot Howto</a></li>
+               <li>BSidesAustin 2015 Presentation with <a href="#" data-link-id="aHR0cHM6Ly90d2l0dGVyLmNvbS90aGVyb3h5ZA==">Roxy</a> - <a href="#" data-link-id="aG9uZXlwb3QvSG9uZXlwb3QgLSBIb3d0byAtIEJTaWRlcyBBdXN0aW4ucGRm">Honeypot Howto</a></li>
             </ul>
                   <footer class="site-footer">
                      <p>Security Repo - Last updated: <time id="last-updated">##DATE##</time></p>
@@ -358,99 +81,256 @@
                            const payload = await response.json();
                            const links = Array.isArray(payload.links) ? payload.links : [];
                            const manifestById = new Map();
-
-                           function normalizeValue(value) {
-                              if (typeof value !== "string") {
-                                 return "";
-                              }
-                              return value.trim().toLowerCase();
-                           }
-
-                           function resolveDisplayData(entry, originalLabel) {
-                              const fallback = {
-                                 text: entry.text,
-                                 description: entry.description,
-                                 license: entry.license
-                              };
-
-                              if (!Array.isArray(entry.variants) || entry.variants.length === 0) {
-                                 return fallback;
-                              }
-
-                              const normalizedLabel = normalizeValue(originalLabel);
-                              if (!normalizedLabel) {
-                                 return fallback;
-                              }
-
-                              const variantMatch = entry.variants.find(function(variant) {
-                                 return normalizeValue(variant.text) === normalizedLabel;
-                              });
-
-                              if (!variantMatch) {
-                                 return fallback;
-                              }
-
-                              return {
-                                 text: variantMatch.text || fallback.text,
-                                 description:
-                                    typeof variantMatch.description === "string" && variantMatch.description.length > 0
-                                       ? variantMatch.description
-                                       : fallback.description,
-                                 license:
-                                    typeof variantMatch.license === "string" && variantMatch.license.length > 0
-                                       ? variantMatch.license
-                                       : fallback.license
-                              };
-                           }
-
                            links.forEach(function(entry) {
-                              if (entry && entry.id && entry.active === true) {
-                                 manifestById.set(entry.id, entry);
-                              }
+                              if (entry && entry.id) manifestById.set(entry.id, entry);
                            });
 
-                           document.querySelectorAll("a[href]").forEach(function(anchor) {
-                              const originalHref = anchor.getAttribute("href");
-                              const originalLabel = (anchor.textContent || "").trim();
-                              if (!originalHref) {
-                                 return;
+                           function isActive(entry) {
+                              return Boolean(entry) && entry.active === true && Boolean(entry.href);
+                           }
+
+                           function makeAnchor(entry, fallbackText) {
+                              const a = document.createElement("a");
+                              a.href = entry.href;
+                              a.textContent = entry.text || fallbackText || entry.href;
+                              if (entry.status === "broken") {
+                                 a.classList.add("link-broken");
+                                 a.title = "This link is currently marked broken in the URL manifest.";
                               }
+                              return a;
+                           }
 
-                              const linkId = anchor.getAttribute("data-link-id") || window.btoa(originalHref);
-                              const mapped = manifestById.get(linkId);
-                              if (!mapped || !mapped.href) {
-                                 return;
-                              }
+                           // Render an array of {text|link} parts into a parent element.
+                           // When a link is inactive, drop it AND trim trailing connector text from the
+                           // preceding text part so we don't leave dangling phrases like "from the".
+                           // Returns the count of live anchors emitted.
+                           function renderParts(parts, parent) {
+                              if (!Array.isArray(parts)) return 0;
+                              const cleaned = [];
+                              let liveCount = 0;
 
-                              const resolvedDisplay = resolveDisplayData(mapped, originalLabel);
+                              const trimTrailingConnector = function(text) {
+                                 const stripped = text.replace(/\s+$/, "");
+                                 // If a " - " (or em/en dash) appears, the connector started there.
+                                 const dashMatch = stripped.match(/^(.*?)\s+[\u2013\u2014-]\s+[^]*$/);
+                                 if (dashMatch) return dashMatch[1].replace(/\s+$/, "");
+                                 // Otherwise strip a single trailing connector word.
+                                 return stripped.replace(/\s+(?:for|from(?:\s+the)?|the|on|with|by|of|and(?:\s+analysis(?:\s+on)?)?|to|in|via)\s*$/i, "");
+                              };
 
-                              anchor.setAttribute("href", mapped.href);
-                              if (resolvedDisplay.text) {
-                                 anchor.textContent = resolvedDisplay.text;
-                              }
-
-                              const parentLi = anchor.parentElement;
-                              if (
-                                 parentLi &&
-                                 parentLi.tagName === "LI" &&
-                                 parentLi.querySelectorAll("a").length === 1 &&
-                                 typeof resolvedDisplay.description === "string" &&
-                                 resolvedDisplay.description.length > 0
-                              ) {
-                                 while (anchor.nextSibling) {
-                                    parentLi.removeChild(anchor.nextSibling);
+                              parts.forEach(function(p) {
+                                 if (!p) return;
+                                 if (typeof p.text === "string") {
+                                    cleaned.push({ type: "text", value: p.text });
+                                 } else if (typeof p.link === "string") {
+                                    const entry = manifestById.get(p.link);
+                                    if (isActive(entry)) {
+                                       cleaned.push({ type: "link", entry: entry });
+                                       liveCount += 1;
+                                    } else {
+                                       // drop link AND trim preceding text's trailing connector
+                                       while (cleaned.length > 0 && cleaned[cleaned.length - 1].type === "text") {
+                                          const last = cleaned[cleaned.length - 1];
+                                          const trimmed = trimTrailingConnector(last.value);
+                                          if (trimmed === last.value.replace(/\s+$/, "")) {
+                                             last.value = trimmed;
+                                             break;
+                                          }
+                                          last.value = trimmed;
+                                          if (last.value === "") {
+                                             cleaned.pop();
+                                          } else {
+                                             break;
+                                          }
+                                       }
+                                    }
                                  }
+                              });
 
-                                 const licenseSuffix =
-                                    typeof resolvedDisplay.license === "string" && resolvedDisplay.license.length > 0
-                                       ? " [License Info: " + resolvedDisplay.license + "]"
-                                       : "";
-
-                                 parentLi.appendChild(
-                                    document.createTextNode(" - " + resolvedDisplay.description + licenseSuffix)
-                                 );
+                              // Tidy: collapse leading whitespace on the first text node.
+                              if (cleaned.length > 0 && cleaned[0].type === "text") {
+                                 cleaned[0].value = cleaned[0].value.replace(/^\s+/, "");
+                                 if (cleaned[0].value === "") cleaned.shift();
+                              }
+                              // Tidy: trim trailing whitespace on the last text node.
+                              if (cleaned.length > 0 && cleaned[cleaned.length - 1].type === "text") {
+                                 const last = cleaned[cleaned.length - 1];
+                                 last.value = last.value.replace(/\s+$/, "");
+                                 if (last.value === "") cleaned.pop();
                               }
 
+                              cleaned.forEach(function(c) {
+                                 if (c.type === "text") {
+                                    parent.appendChild(document.createTextNode(c.value));
+                                 } else {
+                                    parent.appendChild(makeAnchor(c.entry));
+                                 }
+                              });
+                              return liveCount;
+                           }
+
+                           // Append " [License Info: <parts>]" if any license parts render to non-empty.
+                           // For compound rows (no inline description), do NOT fall back to the source link's
+                           // license — only emit a fallback license when the row is a simple single-link entry
+                           // (i.e. its description was also emitted from the manifest).
+                           function appendLicense(item, parent, descriptionEmitted) {
+                              const licenseParts = Array.isArray(item.license) ? item.license : null;
+
+                              if (licenseParts && licenseParts.length > 0) {
+                                 const tmp = document.createElement("span");
+                                 const live = renderParts(licenseParts, tmp);
+                                 const text = (tmp.textContent || "").trim();
+                                 if (live > 0 || text.length > 0) {
+                                    parent.appendChild(document.createTextNode(" [License Info: "));
+                                    while (tmp.firstChild) parent.appendChild(tmp.firstChild);
+                                    parent.appendChild(document.createTextNode("]"));
+                                 }
+                                 return;
+                              }
+
+                              if (!descriptionEmitted) return;
+                              const sourceLink = (item.parts || []).find(function(p) { return p && p.link; });
+                              const sourceEntry = sourceLink ? manifestById.get(sourceLink.link) : null;
+                              const fallbackLicense =
+                                 sourceEntry && typeof sourceEntry.license === "string" && sourceEntry.license.trim().length > 0
+                                    ? sourceEntry.license.trim()
+                                    : "";
+                              if (fallbackLicense) {
+                                 parent.appendChild(document.createTextNode(" [License Info: " + fallbackLicense + "]"));
+                              }
+                           }
+
+                           // Render an item description from the primary link entry's `description`.
+                           // Returns true if a description was emitted.
+                           function appendDescription(item, parent) {
+                              const sourceLink = (item.parts || []).find(function(p) { return p && p.link; });
+                              const sourceEntry = sourceLink ? manifestById.get(sourceLink.link) : null;
+                              if (!sourceEntry) return false;
+                              const description =
+                                 typeof sourceEntry.description === "string" && sourceEntry.description.trim().length > 0
+                                    ? sourceEntry.description.trim()
+                                    : "";
+                              if (!description) return false;
+                              const hasInlineText = (item.parts || []).some(function(p) {
+                                 return p && typeof p.text === "string" && /\S/.test(p.text);
+                              });
+                              if (hasInlineText) return false;
+                              parent.appendChild(document.createTextNode(" - " + description));
+                              return true;
+                           }
+
+                           // Render one item -> <li>. Returns the <li> or null if nothing live to show.
+                           function renderItem(item) {
+                              const li = document.createElement("li");
+                              if (item.anchor) {
+                                 const a = document.createElement("a");
+                                 a.id = item.anchor;
+                                 li.appendChild(a);
+                              }
+                              const liveLinkCount = renderParts(item.parts || [], li);
+                              const hadLinkRefs = (item.parts || []).some(function(p) { return p && p.link; });
+                              const descEmitted = appendDescription(item, li);
+                              appendLicense(item, li, descEmitted);
+
+                              const lists = Array.isArray(item.lists) ? item.lists : [];
+                              const renderedLists = [];
+                              lists.forEach(function(sub) {
+                                 const ul = renderList(sub);
+                                 if (ul) renderedLists.push(ul);
+                              });
+                              renderedLists.forEach(function(ul) { li.appendChild(ul); });
+
+                              const hasNestedItems = renderedLists.length > 0;
+                              const hasLiveAnchor = li.querySelector("a[href]") !== null;
+
+                              // If this item's parts referenced any links but none rendered live,
+                              // and there are no live nested items, drop the entire <li>.
+                              if (hadLinkRefs && !hasLiveAnchor && !hasNestedItems) return null;
+
+                              const textContent = (li.textContent || "").trim();
+                              if (!hasLiveAnchor && !hasNestedItems && !textContent && !item.anchor) return null;
+
+                              return li;
+                           }
+
+                           function renderList(list) {
+                              const ul = document.createElement("ul");
+                              if (list.lh) {
+                                 const lh = document.createElement("p");
+                                 lh.className = "list-header";
+                                 lh.textContent = list.lh;
+                                 ul.appendChild(lh);
+                              }
+                              const items = Array.isArray(list.items) ? list.items : [];
+                              let kept = 0;
+                              items.forEach(function(it) {
+                                 const li = renderItem(it);
+                                 if (li) { ul.appendChild(li); kept += 1; }
+                              });
+                              if (kept === 0 && !list.lh) return null;
+                              return ul;
+                           }
+
+                           function renderDataTree(tree, root, navRoot) {
+                              if (!tree || !Array.isArray(tree.groups)) return;
+                              tree.groups.forEach(function(group) {
+                                 // group label (e.g. "Created", "3rd Party")
+                                 if (group.label) {
+                                    const p = document.createElement("p");
+                                    p.textContent = group.label;
+                                    root.appendChild(p);
+                                 }
+                                 const ul = document.createElement("ul");
+                                 const navDetails = document.createElement("details");
+                                 navDetails.className = "nav-group";
+                                 const summary = document.createElement("summary");
+                                 summary.textContent = (group.label || "Data") + " Data";
+                                 navDetails.appendChild(summary);
+
+                                 (group.categories || []).forEach(function(cat) {
+                                    const li = renderItem(cat);
+                                    if (!li) return;
+                                    ul.appendChild(li);
+                                    if (cat.anchor) {
+                                       const navA = document.createElement("a");
+                                       navA.className = "navitem";
+                                       navA.href = "#" + cat.anchor;
+                                       // category label = first text part
+                                       const labelPart = (cat.parts || []).find(function(p) { return p && typeof p.text === "string"; });
+                                       navA.textContent = labelPart ? labelPart.text : cat.anchor;
+                                       navDetails.appendChild(navA);
+                                    }
+                                 });
+                                 if (ul.children.length > 0) root.appendChild(ul);
+                                 if (navDetails.querySelector(".navitem") && navRoot) {
+                                    navRoot.appendChild(navDetails);
+                                 }
+                              });
+                           }
+
+                           const dataRoot = document.querySelector("[data-link-tree-root]");
+                           const navRoot = document.querySelector("[data-link-nav-root]");
+                           if (payload.data && dataRoot) {
+                              const lead = document.createElement("p");
+                              lead.className = "lead";
+                              lead.textContent = payload.data.title || "Data";
+                              dataRoot.appendChild(lead);
+                              renderDataTree(payload.data, dataRoot, navRoot);
+                           }
+
+                           // Hydrate any remaining inline <a data-link-id> anchors (Misc, Contact).
+                           document.querySelectorAll("a[data-link-id]").forEach(function(anchor) {
+                              const linkId = anchor.getAttribute("data-link-id");
+                              const mapped = manifestById.get(linkId);
+                              if (!isActive(mapped)) {
+                                 // dead -> replace with its text
+                                 anchor.replaceWith(document.createTextNode(anchor.textContent || ""));
+                                 return;
+                              }
+                              anchor.setAttribute("href", mapped.href);
+                              if (anchor.children.length === 0 && mapped.text) {
+                                 anchor.textContent = mapped.text;
+                              }
                               if (mapped.status === "broken") {
                                  anchor.classList.add("link-broken");
                                  anchor.setAttribute("title", "This link is currently marked broken in the URL manifest.");

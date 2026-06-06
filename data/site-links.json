@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-06-06T14:46:10Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-06-06T00:00:00Z",
   "links": [
     {
       "id": "aHR0cDovL2FyY2hpdmUuaWNzLnVjaS5lZHUvbWwvZGF0YXNldHMvVVJMK1JlcHV0YXRpb24=",
@@ -167,12 +167,12 @@
       "sourceHref": "http://datadrivensecurity.info/blog/data/2014/01/marx-geo.tar.gz",
       "href": "http://datadrivensecurity.info/blog/data/2014/01/marx-geo.tar.gz",
       "text": "Honeypot Data with GeoIP info",
-      "description": "- DDS Blog",
+      "description": "DDS Blog",
       "license": "Unknown",
       "variants": [
         {
           "text": "Honeypot Data with GeoIP info",
-          "description": "- DDS Blog",
+          "description": "DDS Blog",
           "license": "Unknown"
         }
       ],
@@ -187,12 +187,12 @@
       "sourceHref": "http://datadrivensecurity.info/blog/data/2014/01/marx.tar.gz",
       "href": "http://datadrivensecurity.info/blog/data/2014/01/marx.tar.gz",
       "text": "Honeypot Data",
-      "description": "- DDS Blog",
+      "description": "DDS Blog",
       "license": "Unknown",
       "variants": [
         {
           "text": "Honeypot Data",
-          "description": "- DDS Blog",
+          "description": "DDS Blog",
           "license": "Unknown"
         }
       ],
@@ -207,12 +207,12 @@
       "sourceHref": "http://datadrivensecurity.info/blog/data/2014/10/legit-dga_domains.csv.zip",
       "href": "http://datadrivensecurity.info/blog/data/2014/10/legit-dga_domains.csv.zip",
       "text": "DDS legit and DGA labeled domains",
-      "description": "- DDS Blog",
+      "description": "DDS Blog",
       "license": "Unknown",
       "variants": [
         {
           "text": "DDS legit and DGA labeled domains",
-          "description": "- DDS Blog",
+          "description": "DDS Blog",
           "license": "Unknown"
         }
       ],
@@ -362,12 +362,12 @@
       "sourceHref": "http://mcfp.weebly.com/",
       "href": "http://mcfp.weebly.com/",
       "text": "The Malware Capture Facility Project",
-      "description": "- Published long-runs of malware including network information. Make sure to check out the Labeled CTU-13 Dataset",
+      "description": "Published long-runs of malware including network information. Make sure to check out the Labeled CTU-13 Dataset",
       "license": "Unknown",
       "variants": [
         {
           "text": "The Malware Capture Facility Project",
-          "description": "- Published long-runs of malware including network information. Make sure to check out the Labeled CTU-13 Dataset",
+          "description": "Published long-runs of malware including network information. Make sure to check out the Labeled CTU-13 Dataset",
           "license": "Unknown"
         }
       ],
@@ -442,12 +442,12 @@
       "sourceHref": "http://panda.gtisc.gatech.edu/malrec/",
       "href": "http://panda.gtisc.gatech.edu/malrec/",
       "text": "PANDA Malware Analysis",
-      "description": "- Execution traces and PCAPs from Moyix's PANDA setup",
+      "description": "Execution traces and PCAPs from Moyix's PANDA setup",
       "license": "Unknown",
       "variants": [
         {
           "text": "PANDA Malware Analysis",
-          "description": "- Execution traces and PCAPs from Moyix's PANDA setup",
+          "description": "Execution traces and PCAPs from Moyix's PANDA setup",
           "license": "Unknown"
         }
       ],
@@ -542,12 +542,12 @@
       "sourceHref": "http://sysnet.ucsd.edu/projects/url/",
       "href": "http://sysnet.ucsd.edu/projects/url/",
       "text": "Detecting Malicious URLs",
-      "description": "- Mirror - URLS/features/labels",
+      "description": "Mirror - URLS/features/labels",
       "license": "Unknown",
       "variants": [
         {
           "text": "Detecting Malicious URLs",
-          "description": "- Mirror - URLS/features/labels",
+          "description": "Mirror - URLS/features/labels",
           "license": "Unknown"
         }
       ],
@@ -642,12 +642,12 @@
       "sourceHref": "http://www.azsecure-data.org/get-data.html",
       "href": "http://www.azsecure-data.org/get-data.html",
       "text": "AZSecure Intelligence and Security Informatics Data Sets",
-      "description": "- various data sets around mostly web data",
+      "description": "various data sets around mostly web data",
       "license": "Citing",
       "variants": [
         {
           "text": "AZSecure Intelligence and Security Informatics Data Sets",
-          "description": "- various data sets around mostly web data",
+          "description": "various data sets around mostly web data",
           "license": "Citing"
         },
         {
@@ -1917,12 +1917,12 @@
       "sourceHref": "https://otx.alienvault.com/browse",
       "href": "https://otx.alienvault.com/browse",
       "text": "AlienVault OTX",
-      "description": "- Build your own threat feed from community contributors, complete with API",
+      "description": "Build your own threat feed from community contributors, complete with API",
       "license": "Legal Info",
       "variants": [
         {
           "text": "AlienVault OTX",
-          "description": "- Build your own threat feed from community contributors, complete with API",
+          "description": "Build your own threat feed from community contributors, complete with API",
           "license": "Legal Info"
         }
       ],
@@ -2397,12 +2397,12 @@
       "sourceHref": "pe_static/apt1.zip",
       "href": "https://secrepo.com/pe_static/apt1.zip",
       "text": "Static information about APT1 binaries",
-      "description": "- Static information (JSON) of APT1 samples from VirusShare",
+      "description": "Static information (JSON) of APT1 samples from VirusShare",
       "license": null,
       "variants": [
         {
           "text": "Static information about APT1 binaries",
-          "description": "- Static information (JSON) of APT1 samples from VirusShare",
+          "description": "Static information (JSON) of APT1 samples from VirusShare",
           "license": null
         }
       ],
@@ -2437,12 +2437,12 @@
       "sourceHref": "pe_static/zeus.zip",
       "href": "https://secrepo.com/pe_static/zeus.zip",
       "text": "Static information about Zeus binaries",
-      "description": "- Static information (JSON) of about ~8k samples from ZeuS Tracker",
+      "description": "Static information (JSON) of about ~8k samples from ZeuS Tracker",
       "license": null,
       "variants": [
         {
           "text": "Static information about Zeus binaries",
-          "description": "- Static information (JSON) of about ~8k samples from ZeuS Tracker",
+          "description": "Static information (JSON) of about ~8k samples from ZeuS Tracker",
           "license": null
         }
       ],
@@ -2896,6 +2896,3397 @@
       "httpStatus": 200,
       "finalUrl": "https://zenodo.org/records/3241445",
       "lastChecked": "2026-06-06T14:46:10Z"
+    },
+    {
+      "id": "aHR0cDovL3NlY3JlcG8uY29t",
+      "sourceHref": "http://secrepo.com",
+      "href": "https://www.secrepo.com",
+      "text": "Mike Sconzo",
+      "description": "",
+      "license": "CC BY 4.0",
+      "variants": [
+        {
+          "text": "Mike Sconzo",
+          "description": "",
+          "license": "CC BY 4.0"
+        }
+      ],
+      "active": true,
+      "status": "ok",
+      "httpStatus": null,
+      "finalUrl": "http://secrepo.com",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cDovL3d3dy5uZXRyZXNlYy5jb20vP3BhZ2U9TUFDQ0RD",
+      "sourceHref": "http://www.netresec.com/?page=MACCDC",
+      "href": "http://www.netresec.com/?page=MACCDC",
+      "text": "2012 dataset",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "2012 dataset",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "http://www.netresec.com/?page=MACCDC",
+      "lastChecked": null
+    },
+    {
+      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9kaGNwLmh0bWw=",
+      "sourceHref": "Datasets Description/Network/dhcp.html",
+      "href": "Datasets Description/Network/dhcp.html",
+      "text": "Description",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Description",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": true,
+      "status": "ok",
+      "httpStatus": null,
+      "finalUrl": "Datasets Description/Network/dhcp.html",
+      "lastChecked": null
+    },
+    {
+      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9kbnMuaHRtbA==",
+      "sourceHref": "Datasets Description/Network/dns.html",
+      "href": "Datasets Description/Network/dns.html",
+      "text": "Description",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Description",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": true,
+      "status": "ok",
+      "httpStatus": null,
+      "finalUrl": "Datasets Description/Network/dns.html",
+      "lastChecked": null
+    },
+    {
+      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9maWxlcy5odG1s",
+      "sourceHref": "Datasets Description/Network/files.html",
+      "href": "Datasets Description/Network/files.html",
+      "text": "Description",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Description",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": true,
+      "status": "ok",
+      "httpStatus": null,
+      "finalUrl": "Datasets Description/Network/files.html",
+      "lastChecked": null
+    },
+    {
+      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9mdHAuaHRtbA==",
+      "sourceHref": "Datasets Description/Network/ftp.html",
+      "href": "Datasets Description/Network/ftp.html",
+      "text": "Description",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Description",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": true,
+      "status": "ok",
+      "httpStatus": null,
+      "finalUrl": "Datasets Description/Network/ftp.html",
+      "lastChecked": null
+    },
+    {
+      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9odHRwLmh0bWw=",
+      "sourceHref": "Datasets Description/Network/http.html",
+      "href": "Datasets Description/Network/http.html",
+      "text": "Description",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Description",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": true,
+      "status": "ok",
+      "httpStatus": null,
+      "finalUrl": "Datasets Description/Network/http.html",
+      "lastChecked": null
+    },
+    {
+      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9ub3RpY2UuaHRtbA==",
+      "sourceHref": "Datasets Description/Network/notice.html",
+      "href": "Datasets Description/Network/notice.html",
+      "text": "Description",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Description",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": true,
+      "status": "ok",
+      "httpStatus": null,
+      "finalUrl": "Datasets Description/Network/notice.html",
+      "lastChecked": null
+    },
+    {
+      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9zaWduYXR1cmVzLmh0bWw=",
+      "sourceHref": "Datasets Description/Network/signatures.html",
+      "href": "Datasets Description/Network/signatures.html",
+      "text": "Description",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Description",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": true,
+      "status": "ok",
+      "httpStatus": null,
+      "finalUrl": "Datasets Description/Network/signatures.html",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9zaWduYXR1cmVzJTIwYW5hbHlzaXMuaXB5bmI=",
+      "sourceHref": "https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/signatures%20analysis.ipynb",
+      "href": "https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/signatures%20analysis.ipynb",
+      "text": "jupyter notebook",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "jupyter notebook",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/signatures%20analysis.ipynb",
+      "lastChecked": null
+    },
+    {
+      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9zbXRwLmh0bWw=",
+      "sourceHref": "Datasets Description/Network/smtp.html",
+      "href": "Datasets Description/Network/smtp.html",
+      "text": "Description",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Description",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": true,
+      "status": "ok",
+      "httpStatus": null,
+      "finalUrl": "Datasets Description/Network/smtp.html",
+      "lastChecked": null
+    },
+    {
+      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9zc2guaHRtbA==",
+      "sourceHref": "Datasets Description/Network/ssh.html",
+      "href": "Datasets Description/Network/ssh.html",
+      "text": "Description",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Description",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": true,
+      "status": "ok",
+      "httpStatus": null,
+      "finalUrl": "Datasets Description/Network/ssh.html",
+      "lastChecked": null
+    },
+    {
+      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9zc2wuaHRtbA==",
+      "sourceHref": "Datasets Description/Network/ssl.html",
+      "href": "Datasets Description/Network/ssl.html",
+      "text": "Description",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Description",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": true,
+      "status": "ok",
+      "httpStatus": null,
+      "finalUrl": "Datasets Description/Network/ssl.html",
+      "lastChecked": null
+    },
+    {
+      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay90dW5uZWwuaHRtbA==",
+      "sourceHref": "Datasets Description/Network/tunnel.html",
+      "href": "Datasets Description/Network/tunnel.html",
+      "text": "Description",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Description",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": true,
+      "status": "ok",
+      "httpStatus": null,
+      "finalUrl": "Datasets Description/Network/tunnel.html",
+      "lastChecked": null
+    },
+    {
+      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay93ZWlyZC5odG1s",
+      "sourceHref": "Datasets Description/Network/weird.html",
+      "href": "Datasets Description/Network/weird.html",
+      "text": "Description",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Description",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": true,
+      "status": "ok",
+      "httpStatus": null,
+      "finalUrl": "Datasets Description/Network/weird.html",
+      "lastChecked": null
+    },
+    {
+      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vSFRNTF9Ccm9fbG9nXzE=",
+      "sourceHref": "Datasets Description/HTML_Bro_log_1",
+      "href": "Datasets Description/HTML_Bro_log_1",
+      "text": "Description",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Description",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": true,
+      "status": "ok",
+      "httpStatus": null,
+      "finalUrl": "Datasets Description/HTML_Bro_log_1",
+      "lastChecked": null
+    },
+    {
+      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vSFRNTF9Ccm9fbG9nXzI=",
+      "sourceHref": "Datasets Description/HTML_Bro_log_2",
+      "href": "Datasets Description/HTML_Bro_log_2",
+      "text": "Description",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Description",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": true,
+      "status": "ok",
+      "httpStatus": null,
+      "finalUrl": "Datasets Description/HTML_Bro_log_2",
+      "lastChecked": null
+    },
+    {
+      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vSFRNTF9Ccm9fbG9nXzM=",
+      "sourceHref": "Datasets Description/HTML_Bro_log_3",
+      "href": "Datasets Description/HTML_Bro_log_3",
+      "text": "Description",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Description",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": true,
+      "status": "ok",
+      "httpStatus": null,
+      "finalUrl": "Datasets Description/HTML_Bro_log_3",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cHM6Ly96ZXVzdHJhY2tlci5hYnVzZS5jaC9kb3dubG9hZHMvemV1c2JpbmFyaWVzLnppcA==",
+      "sourceHref": "https://zeustracker.abuse.ch/downloads/zeusbinaries.zip",
+      "href": "https://zeustracker.abuse.ch/downloads/zeusbinaries.zip",
+      "text": "ZeuS Tracker",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "ZeuS Tracker",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "https://zeustracker.abuse.ch/downloads/zeusbinaries.zip",
+      "lastChecked": null
+    },
+    {
+      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vUEVfbWFsd2FyZS9aZXVzLmh0bWw=",
+      "sourceHref": "Datasets Description/PE_malware/Zeus.html",
+      "href": "Datasets Description/PE_malware/Zeus.html",
+      "text": "Description",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Description",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": true,
+      "status": "ok",
+      "httpStatus": null,
+      "finalUrl": "Datasets Description/PE_malware/Zeus.html",
+      "lastChecked": null
+    },
+    {
+      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vUEVfbWFsd2FyZS9WaXJ1c1NoYXJlLmh0bWw=",
+      "sourceHref": "Datasets Description/PE_malware/VirusShare.html",
+      "href": "Datasets Description/PE_malware/VirusShare.html",
+      "text": "Description",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Description",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": true,
+      "status": "ok",
+      "httpStatus": null,
+      "finalUrl": "Datasets Description/PE_malware/VirusShare.html",
+      "lastChecked": null
+    },
+    {
+      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vUEVfbWFsd2FyZS9PUENsZWF2ZXIuaHRtbA==",
+      "sourceHref": "Datasets Description/PE_malware/OPCleaver.html",
+      "href": "Datasets Description/PE_malware/OPCleaver.html",
+      "text": "Description",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Description",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": true,
+      "status": "ok",
+      "httpStatus": null,
+      "finalUrl": "Datasets Description/PE_malware/OPCleaver.html",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cDovL25idmlld2VyLmlweXRob24ub3JnL3VybC9zZWNyZXBvLmNvbS9ob25leXBvdC9CU2lkZXNERlclMjAtJTIwMjAxNC5pcHluYg==",
+      "sourceHref": "http://nbviewer.ipython.org/url/secrepo.com/honeypot/BSidesDFW%20-%202014.ipynb",
+      "href": "http://nbviewer.ipython.org/url/secrepo.com/honeypot/BSidesDFW%20-%202014.ipynb",
+      "text": "Analysis",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Analysis",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "http://nbviewer.ipython.org/url/secrepo.com/honeypot/BSidesDFW%20-%202014.ipynb",
+      "lastChecked": null
+    },
+    {
+      "id": "aG9uZXlwb3QvQlNpZGVzREZXIC0gMjAxNC5pcHluYg==",
+      "sourceHref": "honeypot/BSidesDFW - 2014.ipynb",
+      "href": "honeypot/BSidesDFW - 2014.ipynb",
+      "text": "IPython Notebook",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "IPython Notebook",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": true,
+      "status": "ok",
+      "httpStatus": null,
+      "finalUrl": "honeypot/BSidesDFW - 2014.ipynb",
+      "lastChecked": null
+    },
+    {
+      "id": "ZnRwOi8vZG93bmxvYWQuaXdsYWIuZm9pLnNlL2RhdGFzZXQv",
+      "sourceHref": "ftp://download.iwlab.foi.se/dataset/",
+      "href": "ftp://download.iwlab.foi.se/dataset/",
+      "text": "The Swedish Defence Research Agency Information Warfare Lab",
+      "description": "PCAP and various log sources",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "The Swedish Defence Research Agency Information Warfare Lab",
+          "description": "PCAP and various log sources",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "ftp://download.iwlab.foi.se/dataset/",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cHM6Ly9wcmVkaWN0Lm9yZy8=",
+      "sourceHref": "https://predict.org/",
+      "href": "https://predict.org/",
+      "text": "Protected Repository for the Defense of Infrastructure Against Cyber Threats",
+      "description": "",
+      "license": "License",
+      "variants": [
+        {
+          "text": "Protected Repository for the Defense of Infrastructure Against Cyber Threats",
+          "description": "",
+          "license": "License"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "https://predict.org/",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cHM6Ly9wcmVkaWN0Lm9yZy9Qb3J0YWxzLzAvRG9jdW1lbnRzL0hlbHAvUFJFRElDVC1VRy1IVE1MNS9Db250ZW50L1J1bGVzJTIwb2YlMjBCZWhhdmlvci5odG0=",
+      "sourceHref": "https://predict.org/Portals/0/Documents/Help/PREDICT-UG-HTML5/Content/Rules%20of%20Behavior.htm",
+      "href": "https://predict.org/Portals/0/Documents/Help/PREDICT-UG-HTML5/Content/Rules%20of%20Behavior.htm",
+      "text": "License",
+      "description": "",
+      "license": "License",
+      "variants": [
+        {
+          "text": "License",
+          "description": "",
+          "license": "License"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "https://predict.org/Portals/0/Documents/Help/PREDICT-UG-HTML5/Content/Rules%20of%20Behavior.htm",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cDovL3d3dy5jY3NzZm9ydW0ub3JnL21hbHdhcmUtY2VydGlmaWNhdGVzLnBocA==",
+      "sourceHref": "http://www.ccssforum.org/malware-certificates.php",
+      "href": "http://www.ccssforum.org/malware-certificates.php",
+      "text": "CCSS - Digital Certs Used by Malare",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "CCSS - Digital Certs Used by Malare",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "http://www.ccssforum.org/malware-certificates.php",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cDovL2JpZ2RhdGEuaXNlLmJndS5hYy5pbC9zaGVybG9jay9pbmRleC5odG1sIy8=",
+      "sourceHref": "http://bigdata.ise.bgu.ac.il/sherlock/index.html#/",
+      "href": "http://bigdata.ise.bgu.ac.il/sherlock/index.html#/",
+      "text": "SherLock Dataset",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "SherLock Dataset",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "http://bigdata.ise.bgu.ac.il/sherlock/index.html#/",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cHM6Ly9naXRodWIuY29tLzB4c2hhL3N3ZWV0aWUtZGF0YQ==",
+      "sourceHref": "https://github.com/0xsha/sweetie-data",
+      "href": "https://github.com/0xsha/sweetie-data",
+      "text": "Sweetie data",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Sweetie data",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": true,
+      "status": "ok",
+      "httpStatus": null,
+      "finalUrl": "https://github.com/0xsha/sweetie-data",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cDovL3RocmVhdGdsYXNzLmNvbS8=",
+      "sourceHref": "http://threatglass.com/",
+      "href": "http://threatglass.com/",
+      "text": "Threatglass",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Threatglass",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "http://threatglass.com/",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cDovL3d3dy5wY2Fwci5uZXQv",
+      "sourceHref": "http://www.pcapr.net/",
+      "href": "http://www.pcapr.net/",
+      "text": "pcapr",
+      "description": "",
+      "license": "TOS",
+      "variants": [
+        {
+          "text": "pcapr",
+          "description": "",
+          "license": "TOS"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "http://www.pcapr.net/",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cDovL3d3dy5wY2Fwci5uZXQvdG9z",
+      "sourceHref": "http://www.pcapr.net/tos",
+      "href": "http://www.pcapr.net/tos",
+      "text": "TOS",
+      "description": "",
+      "license": "TOS",
+      "variants": [
+        {
+          "text": "TOS",
+          "description": "",
+          "license": "TOS"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "http://www.pcapr.net/tos",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cDovL3d3dy5sbC5taXQuZWR1L21pc3Npb24vY29tbXVuaWNhdGlvbnMvY3liZXIvQ1NUY29ycG9yYS9pZGV2YWwvZGF0YS8xOTk5ZGF0YS5odG1s",
+      "sourceHref": "http://www.ll.mit.edu/mission/communications/cyber/CSTcorpora/ideval/data/1999data.html",
+      "href": "http://www.ll.mit.edu/mission/communications/cyber/CSTcorpora/ideval/data/1999data.html",
+      "text": "MIT 1999 DARPA Intrusion Detection Evaluation Data Set",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "MIT 1999 DARPA Intrusion Detection Evaluation Data Set",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "http://www.ll.mit.edu/mission/communications/cyber/CSTcorpora/ideval/data/1999data.html",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cDovL3d3dy5sbC5taXQuZWR1L21pc3Npb24vY29tbXVuaWNhdGlvbnMvY3liZXIvQ1NUY29ycG9yYS9pZGV2YWwvZGF0YS8xOTk4ZGF0YS5odG1s",
+      "sourceHref": "http://www.ll.mit.edu/mission/communications/cyber/CSTcorpora/ideval/data/1998data.html",
+      "href": "http://www.ll.mit.edu/mission/communications/cyber/CSTcorpora/ideval/data/1998data.html",
+      "text": "MIT 1998 DARPA Intrusion Detection Evaluation Data Set",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "MIT 1998 DARPA Intrusion Detection Evaluation Data Set",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "http://www.ll.mit.edu/mission/communications/cyber/CSTcorpora/ideval/data/1998data.html",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cDovL29zaW50LmJhbWJlbmVrY29uc3VsdGluZy5jb20vZmVlZHMvZGdhLWZlZWQudHh0",
+      "sourceHref": "http://osint.bambenekconsulting.com/feeds/dga-feed.txt",
+      "href": "http://osint.bambenekconsulting.com/feeds/dga-feed.txt",
+      "text": "DGA Domains",
+      "description": "",
+      "license": "License",
+      "variants": [
+        {
+          "text": "DGA Domains",
+          "description": "",
+          "license": "License"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "http://osint.bambenekconsulting.com/feeds/dga-feed.txt",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cucGFja2V0bWFpbC5uZXQvaXByZXAudHh0",
+      "sourceHref": "https://www.packetmail.net/iprep.txt",
+      "href": "https://www.packetmail.net/iprep.txt",
+      "text": "Continously updated IP block list",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Continously updated IP block list",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "https://www.packetmail.net/iprep.txt",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cDovL3d3dy5zaW1wbGV3ZWIub3JnL3dpa2kvVHJhY2Vz",
+      "sourceHref": "http://www.simpleweb.org/wiki/Traces",
+      "href": "http://www.simpleweb.org/wiki/Traces",
+      "text": "Simple Web Traces",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Simple Web Traces",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "http://www.simpleweb.org/wiki/Traces",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cDovL3d3dy5pc2kuY3NpYy5lcy9kYXRhc2V0Lw==",
+      "sourceHref": "http://www.isi.csic.es/dataset/",
+      "href": "http://www.isi.csic.es/dataset/",
+      "text": "CSIC 2010 HTTP Dataset",
+      "description": "Labeled (normal, anomalous) HTTP data in CSV format.",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "CSIC 2010 HTTP Dataset",
+          "description": "Labeled (normal, anomalous) HTTP data in CSV format.",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "http://www.isi.csic.es/dataset/",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cudXZpYy5jYS9lbmdpbmVlcmluZy9lY2UvaXNvdC9kYXRhc2V0cy9pbmRleC5waHA=",
+      "sourceHref": "https://www.uvic.ca/engineering/ece/isot/datasets/index.php",
+      "href": "https://www.uvic.ca/engineering/ece/isot/datasets/index.php",
+      "text": "University of Victoria Botnet Dataset",
+      "description": "Malicious and benign traffic from LBNL and Ericsson (merged publically available data)",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "University of Victoria Botnet Dataset",
+          "description": "Malicious and benign traffic from LBNL and Ericsson (merged publically available data)",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "https://www.uvic.ca/engineering/ece/isot/datasets/index.php",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cDovL2JsdWVzbW90ZS5jb20v",
+      "sourceHref": "http://bluesmote.com/",
+      "href": "http://bluesmote.com/",
+      "text": "Project Bluesmote",
+      "description": "",
+      "license": "Public Domain",
+      "variants": [
+        {
+          "text": "Project Bluesmote",
+          "description": "",
+          "license": "Public Domain"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "http://bluesmote.com/",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cHM6Ly9wbGcudXdhdGVybG9vLmNhL35ndmNvcm1hYy90cmVjY29ycHVzMDcv",
+      "sourceHref": "https://plg.uwaterloo.ca/~gvcormac/treccorpus07/",
+      "href": "https://plg.uwaterloo.ca/~gvcormac/treccorpus07/",
+      "text": "2007 TREC Public SPAM Corpus",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "2007 TREC Public SPAM Corpus",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "https://plg.uwaterloo.ca/~gvcormac/treccorpus07/",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cud2VzdHBvaW50LmVkdS9jcmMvU2l0ZVBhZ2VzL0RhdGFTZXRzLmFzcHg=",
+      "sourceHref": "https://www.westpoint.edu/crc/SitePages/DataSets.aspx",
+      "href": "https://www.westpoint.edu/crc/SitePages/DataSets.aspx",
+      "text": "West Point NSA Data Sets",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "West Point NSA Data Sets",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "https://www.westpoint.edu/crc/SitePages/DataSets.aspx",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cHM6Ly9kYXRhLm5ldGxhYi4zNjAuY29tL2RnYS8=",
+      "sourceHref": "https://data.netlab.360.com/dga/",
+      "href": "https://data.netlab.360.com/dga/",
+      "text": "Netlab360 DGA Domains",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Netlab360 DGA Domains",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "https://data.netlab.360.com/dga/",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cHM6Ly9hay5xdWFudGNhc3QuY29tL3F1YW50Y2FzdC10b3Atc2l0ZXMuemlw",
+      "sourceHref": "https://ak.quantcast.com/quantcast-top-sites.zip",
+      "href": "https://ak.quantcast.com/quantcast-top-sites.zip",
+      "text": "Quantcast Top Sites",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Quantcast Top Sites",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "https://ak.quantcast.com/quantcast-top-sites.zip",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cDovL2xhcmVkby0xMy5taXQuZWR1L35icmVuZGFuL29wY2xlYXZlci8=",
+      "sourceHref": "http://laredo-13.mit.edu/~brendan/opcleaver/",
+      "href": "http://laredo-13.mit.edu/~brendan/opcleaver/",
+      "text": "Op Cleaver PANDA Analysis",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Op Cleaver PANDA Analysis",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "http://laredo-13.mit.edu/~brendan/opcleaver/",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8wQl9JTjZSelA2OWIyVGtOcllWZE9NblE0TFZFL3ZpZXc=",
+      "sourceHref": "https://drive.google.com/file/d/0B_IN6RzP69b2TkNrYVdOMnQ4LVE/view",
+      "href": "https://drive.google.com/file/d/0B_IN6RzP69b2TkNrYVdOMnQ4LVE/view",
+      "text": "Labeled VirusShare data by @_delta_zero",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Labeled VirusShare data by @_delta_zero",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "https://drive.google.com/file/d/0B_IN6RzP69b2TkNrYVdOMnQ4LVE/view",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cyLmNzLmFyaXpvbmEuZWR1L3Byb2plY3RzL2x5bngtcHJvamVjdC9TYW1wbGVzLw==",
+      "sourceHref": "https://www2.cs.arizona.edu/projects/lynx-project/Samples/",
+      "href": "https://www2.cs.arizona.edu/projects/lynx-project/Samples/",
+      "text": "lynx Project Samples",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "lynx Project Samples",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "https://www2.cs.arizona.edu/projects/lynx-project/Samples/",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cDovL3d3dy5vZmZlbnNpdmVjb21wdXRpbmcubmV0Lw==",
+      "sourceHref": "http://www.offensivecomputing.net/",
+      "href": "http://www.offensivecomputing.net/",
+      "text": "Open Malware",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Open Malware",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "http://www.offensivecomputing.net/",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cDovL21hbHdhcmVkYi5tYWxla2FsLmNvbS8=",
+      "sourceHref": "http://malwaredb.malekal.com/",
+      "href": "http://malwaredb.malekal.com/",
+      "text": "Malware DB by Malekal",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Malware DB by Malekal",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "http://malwaredb.malekal.com/",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cuc2VjLmNzLnR1LWJzLmRlL35kYW5hcnAvZHJlYmluLw==",
+      "sourceHref": "https://www.sec.cs.tu-bs.de/~danarp/drebin/",
+      "href": "https://www.sec.cs.tu-bs.de/~danarp/drebin/",
+      "text": "Drebin Dataset",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Drebin Dataset",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "https://www.sec.cs.tu-bs.de/~danarp/drebin/",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cHM6Ly9naXRodWIuY29tL1ZpcnVzLVNhbXBsZXMvTWFsd2FyZS1TYW1wbGUtU291cmNlcw==",
+      "sourceHref": "https://github.com/Virus-Samples/Malware-Sample-Sources",
+      "href": "https://github.com/Virus-Samples/Malware-Sample-Sources",
+      "text": "Malware Sample Sources",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Malware Sample Sources",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": true,
+      "status": "ok",
+      "httpStatus": null,
+      "finalUrl": "https://github.com/Virus-Samples/Malware-Sample-Sources",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cDovL2RhdGEud2ViYXJjaGl2ZS5vcmcudWsvb3BlbmRhdGEvdWt3YS5kcy4xL2NsYXNzaWZpY2F0aW9uLw==",
+      "sourceHref": "http://data.webarchive.org.uk/opendata/ukwa.ds.1/classification/",
+      "href": "http://data.webarchive.org.uk/opendata/ukwa.ds.1/classification/",
+      "text": "Website Classification",
+      "description": "",
+      "license": "Public Domain, info on site",
+      "variants": [
+        {
+          "text": "Website Classification",
+          "description": "",
+          "license": "Public Domain, info on site"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "http://data.webarchive.org.uk/opendata/ukwa.ds.1/classification/",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cHM6Ly9kbXMuc3p0YWtpLmh1L2VuL2xldG9sdGVzL2VjbWxwa2RkLTIwMTAtZGlzY292ZXJ5LWNoYWxsZW5nZS1kYXRhLXNldA==",
+      "sourceHref": "https://dms.sztaki.hu/en/letoltes/ecmlpkdd-2010-discovery-challenge-data-set",
+      "href": "https://dms.sztaki.hu/en/letoltes/ecmlpkdd-2010-discovery-challenge-data-set",
+      "text": "ECML/PKDD 2010 Discovery Challenge Data Set",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "ECML/PKDD 2010 Discovery Challenge Data Set",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "https://dms.sztaki.hu/en/letoltes/ecmlpkdd-2010-discovery-challenge-data-set",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cDovL3d3dy5ycnNoYXJlLm9yZy8=",
+      "sourceHref": "http://www.rrshare.org/",
+      "href": "http://www.rrshare.org/",
+      "text": "PANDA rrlogs",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "PANDA rrlogs",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "http://www.rrshare.org/",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cHM6Ly9naXRodWIuY29tL2doMHN0ZDRuY2VyL3RocmVhdF9yZXNlYXJjaA==",
+      "sourceHref": "https://github.com/gh0std4ncer/threat_research",
+      "href": "https://github.com/gh0std4ncer/threat_research",
+      "text": "Threat Research",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Threat Research",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "https://github.com/gh0std4ncer/threat_research",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cDovL2JvdC5uZ3guY2MvbG9ncy8lMjNuZ2lueC8=",
+      "sourceHref": "http://bot.ngx.cc/logs/%23nginx/",
+      "href": "http://bot.ngx.cc/logs/%23nginx/",
+      "text": "#nginx IRC channel logs",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "#nginx IRC channel logs",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "http://bot.ngx.cc/logs/%23nginx/",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cDovL3Z4aGVhdmVuLm9yZy9mYXEucGhwI3dob2xl",
+      "sourceHref": "http://vxheaven.org/faq.php#whole",
+      "href": "http://vxheaven.org/faq.php#whole",
+      "text": "Vx Heaven",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Vx Heaven",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "http://vxheaven.org/faq.php#whole",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cHM6Ly90ZWNoaGVscGxpc3QuY29tL3NwYW0tbGlzdA==",
+      "sourceHref": "https://techhelplist.com/spam-list",
+      "href": "https://techhelplist.com/spam-list",
+      "text": "TechHelpList SPAM List",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "TechHelpList SPAM List",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "https://techhelplist.com/spam-list",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cHM6Ly91cmxoYXVzLWFwaS5hYnVzZS5jaC9kb3dubG9hZHMv",
+      "sourceHref": "https://urlhaus-api.abuse.ch/downloads/",
+      "href": "https://urlhaus-api.abuse.ch/downloads/",
+      "text": "URLhaus",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "URLhaus",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "https://urlhaus-api.abuse.ch/downloads/",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cDovL3d3dy53ZWJpcm9uLmNvbS9hYnVzZV9mZWVkLw==",
+      "sourceHref": "http://www.webiron.com/abuse_feed/",
+      "href": "http://www.webiron.com/abuse_feed/",
+      "text": "ISP Abuse Email Feed",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "ISP Abuse Email Feed",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "http://www.webiron.com/abuse_feed/",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cuYWxpZW52YXVsdC5jb20vdGVybXMvbWF5MjAxNA==",
+      "sourceHref": "https://www.alienvault.com/terms/may2014",
+      "href": "https://www.alienvault.com/terms/may2014",
+      "text": "Legal Info",
+      "description": "",
+      "license": "Legal Info",
+      "variants": [
+        {
+          "text": "Legal Info",
+          "description": "",
+          "license": "Legal Info"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "https://www.alienvault.com/terms/may2014",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cDovL3RyYWNrZXIuaDN4LmV1L2ZhbWlsaWVz",
+      "sourceHref": "http://tracker.h3x.eu/families",
+      "href": "http://tracker.h3x.eu/families",
+      "text": "Tracker",
+      "description": "",
+      "license": "About",
+      "variants": [
+        {
+          "text": "Tracker",
+          "description": "",
+          "license": "About"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "http://tracker.h3x.eu/families",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cDovL3RyYWNrZXIuaDN4LmV1L2Fib3V0LzQwMA==",
+      "sourceHref": "http://tracker.h3x.eu/about/400",
+      "href": "http://tracker.h3x.eu/about/400",
+      "text": "About",
+      "description": "",
+      "license": "About",
+      "variants": [
+        {
+          "text": "About",
+          "description": "",
+          "license": "About"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "http://tracker.h3x.eu/about/400",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cubWFsd2FyZWRvbWFpbmxpc3QuY29tL21kbC5waHA=",
+      "sourceHref": "https://www.malwaredomainlist.com/mdl.php",
+      "href": "https://www.malwaredomainlist.com/mdl.php",
+      "text": "Malware Domain List",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Malware Domain List",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "https://www.malwaredomainlist.com/mdl.php",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cHM6Ly90ZWNoaGVscGxpc3QuY29tL21hbHRscXIv",
+      "sourceHref": "https://techhelplist.com/maltlqr/",
+      "href": "https://techhelplist.com/maltlqr/",
+      "text": "TechHelpList MalTLQR Upatre and Dyreza Tracker",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "TechHelpList MalTLQR Upatre and Dyreza Tracker",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": false,
+      "status": "broken",
+      "httpStatus": null,
+      "finalUrl": "https://techhelplist.com/maltlqr/",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cDovL3R3aXR0ZXIuY29tL3Nvb3NoaWU=",
+      "sourceHref": "http://twitter.com/sooshie",
+      "href": "http://twitter.com/sooshie",
+      "text": "",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": true,
+      "status": "ok",
+      "httpStatus": null,
+      "finalUrl": "http://twitter.com/sooshie",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cHM6Ly9naXRodWIuY29tL3Nvb3NoaWUvc2VjcmVwbw==",
+      "sourceHref": "https://github.com/sooshie/secrepo",
+      "href": "https://github.com/sooshie/secrepo",
+      "text": "",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": true,
+      "status": "ok",
+      "httpStatus": null,
+      "finalUrl": "https://github.com/sooshie/secrepo",
+      "lastChecked": null
+    },
+    {
+      "id": "aHR0cHM6Ly90d2l0dGVyLmNvbS90aGVyb3h5ZA==",
+      "sourceHref": "https://twitter.com/theroxyd",
+      "href": "https://twitter.com/theroxyd",
+      "text": "Roxy",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Roxy",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": true,
+      "status": "ok",
+      "httpStatus": null,
+      "finalUrl": "https://twitter.com/theroxyd",
+      "lastChecked": null
+    },
+    {
+      "id": "aG9uZXlwb3QvSG9uZXlwb3QgLSBIb3d0by5wZGY=",
+      "sourceHref": "honeypot/Honeypot - Howto.pdf",
+      "href": "honeypot/Honeypot - Howto.pdf",
+      "text": "Honeypot Howto",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Honeypot Howto",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": true,
+      "status": "ok",
+      "httpStatus": null,
+      "finalUrl": "honeypot/Honeypot - Howto.pdf",
+      "lastChecked": null
+    },
+    {
+      "id": "aG9uZXlwb3QvSG9uZXlwb3QgLSBIb3d0byAtIEJTaWRlcyBBdXN0aW4ucGRm",
+      "sourceHref": "honeypot/Honeypot - Howto - BSides Austin.pdf",
+      "href": "honeypot/Honeypot - Howto - BSides Austin.pdf",
+      "text": "Honeypot Howto",
+      "description": "",
+      "license": "Unknown",
+      "variants": [
+        {
+          "text": "Honeypot Howto",
+          "description": "",
+          "license": "Unknown"
+        }
+      ],
+      "active": true,
+      "status": "ok",
+      "httpStatus": null,
+      "finalUrl": "honeypot/Honeypot - Howto - BSides Austin.pdf",
+      "lastChecked": null
     }
-  ]
+  ],
+  "data": {
+    "anchor": "data",
+    "title": "Data",
+    "groups": [
+      {
+        "label": "Created",
+        "categories": [
+          {
+            "anchor": "network",
+            "parts": [
+              {
+                "text": "Network"
+              }
+            ],
+            "lists": [
+              {
+                "items": [
+                  {
+                    "parts": [
+                      {
+                        "text": "MACCDC2012 - Generated with Bro from the "
+                      },
+                      {
+                        "link": "aHR0cDovL3d3dy5uZXRyZXNlYy5jb20vP3BhZ2U9TUFDQ0RD"
+                      }
+                    ],
+                    "lists": [
+                      {
+                        "items": [
+                          {
+                            "parts": [
+                              {
+                                "link": "bWFjY2RjMjAxMi9jb25uLmxvZy5neg=="
+                              },
+                              {
+                                "text": " (524MB)"
+                              }
+                            ]
+                          },
+                          {
+                            "parts": [
+                              {
+                                "link": "bWFjY2RjMjAxMi9kaGNwLmxvZy5neg=="
+                              },
+                              {
+                                "text": " (1MB) - "
+                              },
+                              {
+                                "link": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9kaGNwLmh0bWw="
+                              },
+                              {
+                                "text": " for "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot"
+                              },
+                              {
+                                "text": " and analysis on "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9kaGNwJTIwYW5hbHlzaXMuaXB5bmI="
+                              }
+                            ]
+                          },
+                          {
+                            "parts": [
+                              {
+                                "link": "bWFjY2RjMjAxMi9kbnMubG9nLmd6"
+                              },
+                              {
+                                "text": " (7MB) - "
+                              },
+                              {
+                                "link": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9kbnMuaHRtbA=="
+                              },
+                              {
+                                "text": " for "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot"
+                              },
+                              {
+                                "text": " and analysis on "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9kbnMlMjBhbmFseXNpcy5pcHluYg=="
+                              }
+                            ]
+                          },
+                          {
+                            "parts": [
+                              {
+                                "link": "bWFjY2RjMjAxMi9maWxlcy5sb2cuZ3o="
+                              },
+                              {
+                                "text": " (49MB) - "
+                              },
+                              {
+                                "link": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9maWxlcy5odG1s"
+                              },
+                              {
+                                "text": " for "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot"
+                              },
+                              {
+                                "text": " and analysis on jupyter notebook"
+                              }
+                            ]
+                          },
+                          {
+                            "parts": [
+                              {
+                                "link": "bWFjY2RjMjAxMi9mdHAubG9nLmd6"
+                              },
+                              {
+                                "text": " (1MB) - "
+                              },
+                              {
+                                "link": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9mdHAuaHRtbA=="
+                              },
+                              {
+                                "text": " for "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot"
+                              },
+                              {
+                                "text": " and analysis on "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9mdHAlMjBhbmFseXNpcy5pcHluYg=="
+                              }
+                            ]
+                          },
+                          {
+                            "parts": [
+                              {
+                                "link": "bWFjY2RjMjAxMi9odHRwLmxvZy5neg=="
+                              },
+                              {
+                                "text": " (54MB) - "
+                              },
+                              {
+                                "link": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9odHRwLmh0bWw="
+                              },
+                              {
+                                "text": " for "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot"
+                              },
+                              {
+                                "text": " and analysis on jupyter notebook"
+                              }
+                            ]
+                          },
+                          {
+                            "parts": [
+                              {
+                                "link": "bWFjY2RjMjAxMi9ub3RpY2UubG9nLmd6"
+                              },
+                              {
+                                "text": " (1MB) - "
+                              },
+                              {
+                                "link": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9ub3RpY2UuaHRtbA=="
+                              },
+                              {
+                                "text": " for "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot"
+                              },
+                              {
+                                "text": " and analysis on "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9ub3RpY2UlMjBhbmFseXNpcy5pcHluYg=="
+                              }
+                            ]
+                          },
+                          {
+                            "parts": [
+                              {
+                                "link": "bWFjY2RjMjAxMi9zaWduYXR1cmVzLmxvZy5neg=="
+                              },
+                              {
+                                "text": " (1MB) - "
+                              },
+                              {
+                                "link": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9zaWduYXR1cmVzLmh0bWw="
+                              },
+                              {
+                                "text": " for "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot"
+                              },
+                              {
+                                "text": " and analysis on "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9zaWduYXR1cmVzJTIwYW5hbHlzaXMuaXB5bmI="
+                              }
+                            ]
+                          },
+                          {
+                            "parts": [
+                              {
+                                "link": "bWFjY2RjMjAxMi9zbXRwLmxvZy5neg=="
+                              },
+                              {
+                                "text": " (1MB) - "
+                              },
+                              {
+                                "link": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9zbXRwLmh0bWw="
+                              },
+                              {
+                                "text": " for "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot"
+                              },
+                              {
+                                "text": " and analysis on "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9zbXRwJTIwYW5hbHlzaXMuaXB5bmI="
+                              }
+                            ]
+                          },
+                          {
+                            "parts": [
+                              {
+                                "link": "bWFjY2RjMjAxMi9zc2gubG9nLmd6"
+                              },
+                              {
+                                "text": " (1MB) - "
+                              },
+                              {
+                                "link": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9zc2guaHRtbA=="
+                              },
+                              {
+                                "text": " for "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot"
+                              },
+                              {
+                                "text": " and analysis on "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9zc2glMjBhbmFseXNpcy5pcHluYg=="
+                              }
+                            ]
+                          },
+                          {
+                            "parts": [
+                              {
+                                "link": "bWFjY2RjMjAxMi9zc2wubG9nLmd6"
+                              },
+                              {
+                                "text": " (2MB) - "
+                              },
+                              {
+                                "link": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9zc2wuaHRtbA=="
+                              },
+                              {
+                                "text": " for "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot"
+                              },
+                              {
+                                "text": " and analysis on "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9zc2wlMjBhbmFseXNpcy5pcHluYg=="
+                              }
+                            ]
+                          },
+                          {
+                            "parts": [
+                              {
+                                "link": "bWFjY2RjMjAxMi90dW5uZWwubG9nLmd6"
+                              },
+                              {
+                                "text": " (1MB) - "
+                              },
+                              {
+                                "link": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay90dW5uZWwuaHRtbA=="
+                              },
+                              {
+                                "text": " for "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot"
+                              },
+                              {
+                                "text": " and analysis on "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy90dW5uZWwlMjBhbmFseXNpcy5pcHluYg=="
+                              }
+                            ]
+                          },
+                          {
+                            "parts": [
+                              {
+                                "link": "bWFjY2RjMjAxMi93ZWlyZC5sb2cuZ3o="
+                              },
+                              {
+                                "text": " (2MB) - "
+                              },
+                              {
+                                "link": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay93ZWlyZC5odG1s"
+                              },
+                              {
+                                "text": " for "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot"
+                              },
+                              {
+                                "text": " and analysis on "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy93ZWlyZCUyMGFuYWx5c2lzLmlweW5i"
+                              }
+                            ]
+                          }
+                        ],
+                        "lh": "A nice dataset that has everything from scanning/recon through explotation as well as some c99 shell traffic. Roughly 22694356 total connections."
+                      },
+                      {
+                        "items": [
+                          {
+                            "parts": [
+                              {
+                                "link": "bWFjY2RjMjAxMi9tYWNjZGMyMDEyX2Zhc3RfYWxlcnQuN3o="
+                              },
+                              {
+                                "text": " Snort Fast Alert format logs (10MB)"
+                              }
+                            ]
+                          },
+                          {
+                            "parts": [
+                              {
+                                "link": "bWFjY2RjMjAxMi9tYWNjZGMyMDEyX2Z1bGxfYWxlcnQuN3o="
+                              },
+                              {
+                                "text": " Snort Full Alert format logs (24MB)"
+                              }
+                            ]
+                          }
+                        ],
+                        "lh": "Snort logs"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Bro logs generated from various Threatglass samples"
+                      }
+                    ],
+                    "lists": [
+                      {
+                        "items": [
+                          {
+                            "parts": [
+                              {
+                                "link": "dGcvYS56aXA="
+                              },
+                              {
+                                "text": " (64MB) - "
+                              },
+                              {
+                                "link": "RGF0YXNldHMgRGVzY3JpcHRpb24vSFRNTF9Ccm9fbG9nXzE="
+                              },
+                              {
+                                "text": " for "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMVZiRUZjWUVIYkpWaHBxQkdydUNHVkYxSlY4cmNFMDdR"
+                              },
+                              {
+                                "text": " and analysis on "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy90cmVlL21hc3Rlci9EYXRhX2FuYWx5c2lzL0JybyUyMExvZ3MlMjBmcm9tJTIwVGhyZWF0Z2xhc3MvUGFydCUyMDE="
+                              }
+                            ]
+                          },
+                          {
+                            "parts": [
+                              {
+                                "link": "dGcvYi56aXA="
+                              },
+                              {
+                                "text": " (41MB) - "
+                              },
+                              {
+                                "link": "RGF0YXNldHMgRGVzY3JpcHRpb24vSFRNTF9Ccm9fbG9nXzI="
+                              },
+                              {
+                                "text": " for "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMTZkLXQ2NHBEbWpPY1ZqNEhEQUdHV2hSc05tU0d0N0lV"
+                              },
+                              {
+                                "text": " and analysis on "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy90cmVlL21hc3Rlci9EYXRhX2FuYWx5c2lzL0JybyUyMExvZ3MlMjBmcm9tJTIwVGhyZWF0Z2xhc3MvUGFydCUyMDI="
+                              }
+                            ]
+                          },
+                          {
+                            "parts": [
+                              {
+                                "link": "dGcvYy56aXA="
+                              },
+                              {
+                                "text": " (61MB) - "
+                              },
+                              {
+                                "link": "RGF0YXNldHMgRGVzY3JpcHRpb24vSFRNTF9Ccm9fbG9nXzM="
+                              },
+                              {
+                                "text": " for "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXJYNThMeEJnbFlXNzJUVkxRV09LZHk5dm5Ea0R1RHFp"
+                              },
+                              {
+                                "text": " and analysis on "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL0JybyUyMExvZ3MlMjBmcm9tJTIwVGhyZWF0Z2xhc3MvUGFydCUyMDM="
+                              }
+                            ]
+                          }
+                        ],
+                        "lh": "Exploit kits and benign traffic, unlabled data. 6663 samples available."
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "text": "Snort logs generated from various Threatglass samples"
+                      }
+                    ],
+                    "lists": [
+                      {
+                        "items": [
+                          {
+                            "parts": [
+                              {
+                                "link": "dGcvdGdfc25vcnRfZmFzdC43eg=="
+                              },
+                              {
+                                "text": " Snort Fast Alert format logs (5MB)"
+                              }
+                            ]
+                          },
+                          {
+                            "parts": [
+                              {
+                                "link": "dGcvdGdfc25vcnRfZnVsbC43eg=="
+                              },
+                              {
+                                "text": " Snort Full Alert format logs (9MB)"
+                              }
+                            ]
+                          }
+                        ],
+                        "lh": "Exploit kits and benign traffic, unlabled data. 6663 samples available."
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "bWlzYy96ZXVzX2RnYV9kb21haW5zLnR4dC56aXA="
+                      },
+                      {
+                        "text": " 31000 DGA domains from Dec 2014"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "ZG9tYWluZGF0YS9kb21haW5tb3ZlbWVudC56aXA="
+                      },
+                      {
+                        "text": " Old domain transefer data from several registrars, JSON format. (8MB)"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "c2NhZGEvc2NhZGFfbG9ncy56aXA="
+                      },
+                      {
+                        "text": " ICS logs generated w/Bro from various PCAPs (1MB)"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "anchor": "malware",
+            "parts": [
+              {
+                "text": "Malware"
+              }
+            ],
+            "lists": [
+              {
+                "items": [
+                  {
+                    "parts": [
+                      {
+                        "link": "cGVfc3RhdGljL3pldXMuemlw"
+                      },
+                      {
+                        "text": " "
+                      },
+                      {
+                        "link": "aHR0cHM6Ly96ZXVzdHJhY2tlci5hYnVzZS5jaC9kb3dubG9hZHMvemV1c2JpbmFyaWVzLnppcA=="
+                      }
+                    ],
+                    "lists": [
+                      {
+                        "items": [
+                          {
+                            "parts": [
+                              {
+                                "link": "RGF0YXNldHMgRGVzY3JpcHRpb24vUEVfbWFsd2FyZS9aZXVzLmh0bWw="
+                              },
+                              {
+                                "text": " for "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXUtQUZlUzhEY3R6NXZQN09oZHE4Mm5wdUFOd1BPb1Jr"
+                              },
+                              {
+                                "text": " and analysis on "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL1BFJTIwbWFsd2FyZSUyMGFuYWx5c2lzL1pldXMlMjBBbmFseXNpcy5pcHluYg=="
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "cGVfc3RhdGljL2FwdDEuemlw"
+                      },
+                      {
+                        "text": " "
+                      },
+                      {
+                        "link": "aHR0cHM6Ly92aXJ1c3NoYXJlLmNvbS8="
+                      }
+                    ],
+                    "lists": [
+                      {
+                        "items": [
+                          {
+                            "parts": [
+                              {
+                                "link": "RGF0YXNldHMgRGVzY3JpcHRpb24vUEVfbWFsd2FyZS9WaXJ1c1NoYXJlLmh0bWw="
+                              },
+                              {
+                                "text": " for "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXUtQUZlUzhEY3R6NXZQN09oZHE4Mm5wdUFOd1BPb1Jr"
+                              },
+                              {
+                                "text": " and analysis on "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL1BFJTIwbWFsd2FyZSUyMGFuYWx5c2lzL1ZpcnVzU2hhcmUlMjBBbmFseXNpcy1jaGVja3BvaW50LmlweW5i"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "cGVfc3RhdGljL29wLWNsZWF2ZXIuemlw"
+                      }
+                    ],
+                    "lists": [
+                      {
+                        "items": [
+                          {
+                            "parts": [
+                              {
+                                "link": "RGF0YXNldHMgRGVzY3JpcHRpb24vUEVfbWFsd2FyZS9PUENsZWF2ZXIuaHRtbA=="
+                              },
+                              {
+                                "text": " for "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXUtQUZlUzhEY3R6NXZQN09oZHE4Mm5wdUFOd1BPb1Jr"
+                              },
+                              {
+                                "text": " and analysis on "
+                              },
+                              {
+                                "link": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL1BFJTIwbWFsd2FyZSUyMGFuYWx5c2lzL09QJTIwQ2xlYXZlciUyMEFuYWx5c2lzLmlweW5i"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "anchor": "system",
+            "parts": [
+              {
+                "text": "System"
+              }
+            ],
+            "lists": [
+              {
+                "items": [
+                  {
+                    "parts": [
+                      {
+                        "link": "c2VsZi5sb2dzLw=="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "c3F1aWQvYWNjZXNzLmxvZy5neg=="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "YXV0aC5sb2cvYXV0aC5sb2cuZ3o="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aG9uZXlwb3QvaG9uZXlwb3QuanNvbi56aXA="
+                      }
+                    ],
+                    "lists": [
+                      {
+                        "items": [
+                          {
+                            "parts": [
+                              {
+                                "link": "aHR0cDovL25idmlld2VyLmlweXRob24ub3JnL3VybC9zZWNyZXBvLmNvbS9ob25leXBvdC9CU2lkZXNERlclMjAtJTIwMjAxNC5pcHluYg=="
+                              },
+                              {
+                                "text": " of the honeypot data for BSidesDFW 2014 - "
+                              },
+                              {
+                                "link": "aG9uZXlwb3QvQlNpZGVzREZXIC0gMjAxNC5pcHluYg=="
+                              },
+                              {
+                                "text": "."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "anchor": "other",
+            "parts": [
+              {
+                "text": "Other"
+              }
+            ],
+            "lists": [
+              {
+                "items": [
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tL3Nvb3NoaWUvU2VjdXJpdHktRGF0YS1BbmFseXNpcw=="
+                      }
+                    ],
+                    "lists": [
+                      {
+                        "items": [
+                          {
+                            "parts": [
+                              {
+                                "link": "U2VjdXJpdHktRGF0YS1BbmFseXNpcy9MYWJfMS9jb25uLmxvZy56aXA="
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "3rd Party",
+        "categories": [
+          {
+            "anchor": "3p_ai",
+            "parts": [
+              {
+                "text": "AI"
+              }
+            ],
+            "lists": [
+              {
+                "items": [
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9odWdnaW5nZmFjZS5jby9kYXRhc2V0cy9lbW1hbnVlbGdqci9nZW5haS1pbmNpZGVudHM="
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "anchor": "3p_other",
+            "parts": [
+              {
+                "text": "Other"
+              }
+            ],
+            "lists": [
+              {
+                "items": [
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL2RpZ2l0YWxjb3Jwb3JhLm9yZy8="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tL3Z6LXJpc2svVkNEQg=="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "ZnRwOi8vZG93bmxvYWQuaXdsYWIuZm9pLnNlL2RhdGFzZXQv"
+                      },
+                      {
+                        "text": " PCAP and various log sources"
+                      }
+                    ],
+                    "license": [
+                      {
+                        "text": "Unknown"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL3d3dy5nd2Vybi5uZXQvQmxhY2stbWFya2V0JTIwYXJjaGl2ZXM="
+                      },
+                      {
+                        "text": " A scraped archive of Dark Net Markets"
+                      }
+                    ],
+                    "license": [
+                      {
+                        "text": "Unknown"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9wcmVkaWN0Lm9yZy8="
+                      },
+                      {
+                        "text": " Lots of data (restricted use)"
+                      }
+                    ],
+                    "license": [
+                      {
+                        "link": "aHR0cHM6Ly9wcmVkaWN0Lm9yZy9Qb3J0YWxzLzAvRG9jdW1lbnRzL0hlbHAvUFJFRElDVC1VRy1IVE1MNS9Db250ZW50L1J1bGVzJTIwb2YlMjBCZWhhdmlvci5odG0="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL2Nzci5sYW5sLmdvdi9kYXRhL2N5YmVyMS8="
+                      },
+                      {
+                        "text": " Auth, DNS, process, and flow data."
+                      }
+                    ],
+                    "license": [
+                      {
+                        "text": "Public Domain"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL2Nzci5sYW5sLmdvdi9kYXRhLw=="
+                      },
+                      {
+                        "text": " Multiple datasets from LANL."
+                      }
+                    ],
+                    "license": [
+                      {
+                        "text": "Public Domain"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL3d3dy5jY3NzZm9ydW0ub3JnL21hbHdhcmUtY2VydGlmaWNhdGVzLnBocA=="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL2JpZ2RhdGEuaXNlLmJndS5hYy5pbC9zaGVybG9jay9pbmRleC5odG1sIy8="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tL2Zvb3NwaWR5L3BheWxvYWRz"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL3d3dy5henNlY3VyZS1kYXRhLm9yZy9nZXQtZGF0YS5odG1s"
+                      }
+                    ],
+                    "license": [
+                      {
+                        "link": "aHR0cDovL3d3dy5henNlY3VyZS1kYXRhLm9yZy9nZXQtZGF0YS5odG1s"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tL2hnYXNjb24vc2VjdXJpdHktZGF0YXNldHMvYmxvYi9tYXN0ZXIvUkVBRE1FLm1k"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tL2h1bnRlcnMtZm9yZ2UvbW9yZG9y"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tL21pc3RlcmNoMGMvd2hhdF9pc190aGlzX2My"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tL2JvZGFjZWEvbWlzaW5mb2xpbmtz"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tLzB4c2hhL3N3ZWV0aWUtZGF0YQ=="
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "anchor": "3p_network",
+            "parts": [
+              {
+                "text": "Network"
+              }
+            ],
+            "lists": [
+              {
+                "items": [
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL2tkZC5pY3MudWNpLmVkdS9kYXRhYmFzZXMva2RkY3VwOTkva2RkY3VwOTkuaHRtbA=="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL3d3dy5uZXRyZXNlYy5jb20vP3BhZ2U9UGNhcEZpbGVz"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9zY2Fucy5pby8="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL3N5c25ldC51Y3NkLmVkdS9wcm9qZWN0cy91cmwv"
+                      },
+                      {
+                        "text": " "
+                      },
+                      {
+                        "link": "aHR0cDovL2FyY2hpdmUuaWNzLnVjaS5lZHUvbWwvZGF0YXNldHMvVVJMK1JlcHV0YXRpb24="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9oYWNrZXJ0YXJnZXQuY29tLzUwMGstaHR0cC1oZWFkZXJzLw=="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL3RocmVhdGdsYXNzLmNvbS8="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL3d3dy5wY2Fwci5uZXQv"
+                      }
+                    ],
+                    "license": [
+                      {
+                        "link": "aHR0cDovL3d3dy5wY2Fwci5uZXQvdG9z"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tL29wZW5kbnMvcHVibGljLWRvbWFpbi1saXN0cw=="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL3d3dy5sbC5taXQuZWR1L21pc3Npb24vY29tbXVuaWNhdGlvbnMvY3liZXIvQ1NUY29ycG9yYS9pZGV2YWwvZGF0YS8xOTk5ZGF0YS5odG1s"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL3d3dy5sbC5taXQuZWR1L21pc3Npb24vY29tbXVuaWNhdGlvbnMvY3liZXIvQ1NUY29ycG9yYS9pZGV2YWwvZGF0YS8xOTk4ZGF0YS5odG1s"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvZGF0YS8yMDE0LzEwL2xlZ2l0LWRnYV9kb21haW5zLmNzdi56aXA="
+                      },
+                      {
+                        "text": " "
+                      },
+                      {
+                        "link": "aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvcGFnZXMvZGRzLWRhdGFzZXQtY29sbGVjdGlvbi5odG1s"
+                      }
+                    ],
+                    "license": [
+                      {
+                        "text": "Unknown"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvZGF0YS8yMDE0LzAxL21hcngudGFyLmd6"
+                      },
+                      {
+                        "text": " "
+                      },
+                      {
+                        "link": "aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvcGFnZXMvZGRzLWRhdGFzZXQtY29sbGVjdGlvbi5odG1s"
+                      }
+                    ],
+                    "license": [
+                      {
+                        "text": "Unknown"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvZGF0YS8yMDE0LzAxL21hcngtZ2VvLnRhci5neg=="
+                      },
+                      {
+                        "text": " "
+                      },
+                      {
+                        "link": "aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvcGFnZXMvZGRzLWRhdGFzZXQtY29sbGVjdGlvbi5odG1s"
+                      }
+                    ],
+                    "license": [
+                      {
+                        "text": "Unknown"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL29zaW50LmJhbWJlbmVrY29uc3VsdGluZy5jb20vZmVlZHMvZGdhLWZlZWQudHh0"
+                      }
+                    ],
+                    "license": [
+                      {
+                        "link": "aHR0cDovL29zaW50LmJhbWJlbmVrY29uc3VsdGluZy5jb20vbGljZW5zZS50eHQ="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL21hbHdhcmV1cmxzLmpveGVhbmtvcmV0LmNvbS8="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tL3JhcGlkNy9zb25hci93aWtpL1VEUA=="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly93d3cucGFja2V0bWFpbC5uZXQvaXByZXAudHh0"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL2NvbW1vbmNyYXdsLm9yZy8="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL21hbHdhcmUtdHJhZmZpYy1hbmFseXNpcy5uZXQv"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL3d3dy5zaW1wbGV3ZWIub3JnL3dpa2kvVHJhY2Vz"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly90b29scy5uZXRzYS5jZXJ0Lm9yZy9zaWxrL3JlZmVyZW5jZWRhdGEuaHRtbA=="
+                      },
+                      {
+                        "text": " Anonymized enterprise packet header traces."
+                      }
+                    ],
+                    "license": [
+                      {
+                        "text": "Unknown"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9kZ2FyY2hpdmUuY2FhZC5ma2llLmZyYXVuaG9mZXIuZGUv"
+                      },
+                      {
+                        "text": " Multiple DGA data sets generated by the actual algorithm vs. captured network traffic."
+                      }
+                    ],
+                    "license": [
+                      {
+                        "text": "CC BY-NC-SA 3.0"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly93d3cudW5iLmNhL2NpYy9kYXRhc2V0cy9pbmRleC5odG1s"
+                      },
+                      {
+                        "text": " Data related to Botnets and Android Botnets."
+                      }
+                    ],
+                    "license": [
+                      {
+                        "text": "Unknown"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL3d3dy5pc2kuY3NpYy5lcy9kYXRhc2V0Lw=="
+                      },
+                      {
+                        "text": " Labeled (normal, anomalous) HTTP data in CSV format."
+                      }
+                    ],
+                    "license": [
+                      {
+                        "text": "Unknown"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL3ZhY29tbXVuaXR5Lm9yZy9WQVNUK0NoYWxsZW5nZSsyMDEyJTNBK1N1Ym1pc3Npb24rSW5zdHJ1Y3Rpb25zK2FuZCtEb3dubG9hZHM="
+                      },
+                      {
+                        "text": " IDS logs generated by IEEE"
+                      }
+                    ],
+                    "license": [
+                      {
+                        "text": "Unknown"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly93d3cudXZpYy5jYS9lbmdpbmVlcmluZy9lY2UvaXNvdC9kYXRhc2V0cy9pbmRleC5waHA="
+                      },
+                      {
+                        "text": " Malicious and benign traffic from LBNL and Ericsson (merged publically available data)"
+                      }
+                    ],
+                    "license": [
+                      {
+                        "text": "Unknown"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL3d3dy5jYWlkYS5vcmcvZGF0YS9wYXNzaXZlL3NpcHNjYW5fZGF0YXNldC54bWw="
+                      },
+                      {
+                        "text": " Public and restricted datasets of various malware and other network traffic."
+                      }
+                    ],
+                    "license": [
+                      {
+                        "text": "Available on dataset page"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly93d3cudW5zdy5hZGZhLmVkdS5hdS9hdXN0cmFsaWFuLWNlbnRyZS1mb3ItY3liZXItc2VjdXJpdHkvY3liZXJzZWN1cml0eS9BREZBLU5CMTUtRGF0YXNldHMv"
+                      },
+                      {
+                        "text": " This data set has nine families of attacks, namely, Fuzzers, Analysis, Backdoors, DoS, Exploits, Generic, Reconnaissance, Shellcode and Worms. (CSV data)"
+                      }
+                    ],
+                    "license": [
+                      {
+                        "text": "Unknown"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9tY2ZwLmZlbGsuY3Z1dC5jei9wdWJsaWNEYXRhc2V0cy8="
+                      },
+                      {
+                        "text": " PCAPs, Samples, etc..."
+                      }
+                    ],
+                    "license": [
+                      {
+                        "text": "Unknown"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tL2hzbGF0bWFuL2F3ZXNvbWUtaW5kdXN0cmlhbC1jb250cm9sLXN5c3RlbS1zZWN1cml0eQ=="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9zMy11cy13ZXN0LTEuYW1hem9uYXdzLmNvbS91bWJyZWxsYS1zdGF0aWMvaW5kZXguaHRtbA=="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL3MzLmFtYXpvbmF3cy5jb20vYWxleGEtc3RhdGljL3RvcC0xbS5jc3Yuemlw"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tL2ZhaXphbm4yNC9Vc2luZy1tYWNoaW5lLWxlYXJuaW5nLXRvLWRldGVjdC1tYWxpY2lvdXMtVVJMcw=="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9tYWplc3RpYy5jb20vcmVwb3J0cy9tYWplc3RpYy1taWxsaW9u"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9yZXNlYXJjaC5hYWx0by5maS9lbi9kYXRhc2V0cy9pb3QtZGV2aWNlcy1jYXB0dXJlcygyODVhOWIwNi1kZTMxLTRkOGItODhlOS01YmRiYTQ2Y2MxNjEpLmh0bWw="
+                      },
+                      {
+                        "text": " IoT Device PCAP by Aalto University Research"
+                      }
+                    ],
+                    "license": [
+                      {
+                        "text": "Listed on site"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL2JsdWVzbW90ZS5jb20v"
+                      }
+                    ],
+                    "license": [
+                      {
+                        "text": "Public Domain"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tL2phc2tsYWJzL2JsYWNraGF0MjAxNw=="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tL2p6YWRlaC9ha3RhaW9u"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tL2p6YWRlaC9ha3RhaW9uMg=="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tL3ZzLXV1bG0vMjAxNy1TVUVFLWRhdGEtc2V0"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL2FyY2hpdmUuaWNzLnVjaS5lZHUvbWwvZGF0YXNldHMvV2Vic2l0ZStQaGlzaGluZw=="
+                      },
+                      {
+                        "text": " A collection of Phishing Websites as well as legitimate ones."
+                      }
+                    ],
+                    "license": [
+                      {
+                        "text": "Listed on site"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9wbGcudXdhdGVybG9vLmNhL35ndmNvcm1hYy90cmVjY29ycHVzMDcv"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tL2ZhaXphbm4yNC9Gd2FmLU1hY2hpbmUtTGVhcm5pbmctZHJpdmVuLVdlYi1BcHBsaWNhdGlvbi1GaXJld2FsbA=="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly93d3cud2VzdHBvaW50LmVkdS9jcmMvU2l0ZVBhZ2VzL0RhdGFTZXRzLmFzcHg="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly93ZWIuY3MuaGFjZXR0ZXBlLmVkdS50ci9+c2VsbWFuL3BoaXNoLWlyaXMtZGF0YXNldC8="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9kZ2FyY2hpdmUuY2FhZC5ma2llLmZyYXVuaG9mZXIuZGUv"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9kYXRhLm5ldGxhYi4zNjAuY29tL2RnYS8="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9hay5xdWFudGNhc3QuY29tL3F1YW50Y2FzdC10b3Atc2l0ZXMuemlw"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly93d3cuZG9tY29wLmNvbS9maWxlcy90b3AvdG9wMTBtaWxsaW9uZG9tYWlucy5jc3Yuemlw"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tL21hcmF2ZW50by9ibGFja3dlYg=="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly96ZW5vZG8ub3JnL3JlY29yZC8zMjQxNDQ1Iy5ZVmVzbVpyTUtXWg=="
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "anchor": "3p_malware",
+            "parts": [
+              {
+                "text": "Malware"
+              }
+            ],
+            "lists": [
+              {
+                "items": [
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL21jZnAud2VlYmx5LmNvbS8="
+                      },
+                      {
+                        "text": " "
+                      },
+                      {
+                        "link": "aHR0cDovL21jZnAud2VlYmx5LmNvbS90aGUtY3R1LTEzLWRhdGFzZXQtYS1sYWJlbGVkLWRhdGFzZXQtd2l0aC1ib3RuZXQtbm9ybWFsLWFuZC1iYWNrZ3JvdW5kLXRyYWZmaWMuaHRtbA=="
+                      }
+                    ],
+                    "license": [
+                      {
+                        "text": "Unknown"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL3BhbmRhLmd0aXNjLmdhdGVjaC5lZHUvbWFscmVjLw=="
+                      },
+                      {
+                        "text": " "
+                      },
+                      {
+                        "link": "aHR0cDovL21veWl4LmJsb2dzcG90LmNvbS8yMDE0LzEyL3JlcHJvZHVjaWJsZS1tYWx3YXJlLWFuYWx5c2VzLWZvci1hbGwuaHRtbD9tPTE="
+                      }
+                    ],
+                    "license": [
+                      {
+                        "text": "Unknown"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL2xhcmVkby0xMy5taXQuZWR1L35icmVuZGFuL29wY2xlYXZlci8="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly93d3cua2FnZ2xlLmNvbS9jL21hbHdhcmUtY2xhc3NpZmljYXRpb24="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL3JlYnNuaXBwZXRzLmJsb2dzcG90LmNvbS8yMDE1LzA4L3BsdWd4LWNocm9uaWNsZXMuaHRtbA=="
+                      },
+                      {
+                        "text": " Various PlugX samples and links to information about PlugX"
+                      }
+                    ],
+                    "license": [
+                      {
+                        "text": "Unknown"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8wQl9JTjZSelA2OWIyVGtOcllWZE9NblE0TFZFL3ZpZXc="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly93d3cyLmNzLmFyaXpvbmEuZWR1L3Byb2plY3RzL2x5bngtcHJvamVjdC9TYW1wbGVzLw=="
+                      },
+                      {
+                        "text": " "
+                      },
+                      {
+                        "link": "aHR0cHM6Ly93d3cyLmNzLmFyaXpvbmEuZWR1L3Byb2plY3RzL2x5bngtcHJvamVjdC8="
+                      },
+                      {
+                        "text": ")"
+                      }
+                    ],
+                    "license": [
+                      {
+                        "text": "Unknown"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL3ZpcnVzc2lnbi5jb20vaW5kZXguaHRtbA=="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL3d3dy5vZmZlbnNpdmVjb21wdXRpbmcubmV0Lw=="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL21hbHdhcmVkYi5tYWxla2FsLmNvbS8="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly93d3cuc2VjLmNzLnR1LWJzLmRlL35kYW5hcnAvZHJlYmluLw=="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tL2VuZGdhbWVpbmMvZW1iZXI="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tL21hcmNvcmFtaWxsaS9NYWx3YXJlVHJhaW5pbmdTZXRz"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tL01hbHdhcmVTYW1wbGVzL01hbHdhcmUtRmVlZA=="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tL1ZpcnVzLVNhbXBsZXMvTWFsd2FyZS1TYW1wbGUtU291cmNlcw=="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly93aHlpc3lvdW5nLmdpdGh1Yi5pby9CT0RNQVMv"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "anchor": "3p_system",
+            "parts": [
+              {
+                "text": "System"
+              }
+            ],
+            "lists": [
+              {
+                "items": [
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvcGFnZXMvZGRzLWRhdGFzZXQtY29sbGVjdGlvbi5odG1s"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL2RhdGEud2ViYXJjaGl2ZS5vcmcudWsvb3BlbmRhdGEvdWt3YS5kcy4xL2NsYXNzaWZpY2F0aW9uLw=="
+                      }
+                    ],
+                    "license": [
+                      {
+                        "text": "Public Domain, info on site"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9kbXMuc3p0YWtpLmh1L2VuL2xldG9sdGVzL2VjbWxwa2RkLTIwMTAtZGlzY292ZXJ5LWNoYWxsZW5nZS1kYXRhLXNldA=="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL3d3dy5ycnNoYXJlLm9yZy8="
+                      },
+                      {
+                        "text": " "
+                      },
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tL21veWl4L3BhbmRh"
+                      }
+                    ],
+                    "license": [
+                      {
+                        "text": "Unknown"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tL2FuZHJldy1tb3JyaXMvdGhyZWF0X3Jlc2VhcmNoX3ByaXZhdGU="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tL2doMHN0ZDRuY2VyL3RocmVhdF9yZXNlYXJjaA=="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tL3NhbnRpYWdvLWJhc3NldHQvQWxpZW52YXVsdC1EZW1vX3NjcmlwdHM="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL2JvdC5uZ3guY2MvbG9ncy8lMjNuZ2lueC8="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL2xvZy1zaGFyaW5nLmRyZWFtaG9zdGVycy5jb20v"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly93d3cuY2VydC5vcmcvaW5zaWRlci10aHJlYXQvdG9vbHMvaW5kZXguY2Zt"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly93d3cudW5zdy5hZGZhLmVkdS5hdS9hdXN0cmFsaWFuLWNlbnRyZS1mb3ItY3liZXItc2VjdXJpdHkvY3liZXJzZWN1cml0eS9BREZBLUlEUy1EYXRhc2V0cy8="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tL2tvbnN0YW50aW5iZXJsaW4vbWFsd2FyZS13aW5kb3dzLWF1ZGl0LWxvZy1kZXRlY3Rpb24="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tL0pvbmF0aGFuUGhpbGxpcHMvVGhyZWF0X1Jlc2VhcmNo"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tL3Nib3Vzc2VhZGVuL0VWVFgtQVRUQUNLLVNBTVBMRVM="
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "anchor": "3p_file",
+            "parts": [
+              {
+                "text": "File"
+              }
+            ],
+            "lists": [
+              {
+                "items": [
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL2NvbnRhZ2lvZHVtcC5ibG9nc3BvdC5jb20v"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL3ZpcnVzc2hhcmUuY29tLw=="
+                      },
+                      {
+                        "text": " [Login Required] - Huge collection of downloadable/torrentable malware files for various architectures"
+                      }
+                    ],
+                    "license": [
+                      {
+                        "text": "Unknown"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL3Z4aGVhdmVuLm9yZy9mYXEucGhwI3dob2xl"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly90ZWNoaGVscGxpc3QuY29tL3NwYW0tbGlzdA=="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL3d3dy5tYWxzaGFyZS5jb20vaW5kZXgucGhw"
+                      }
+                    ],
+                    "license": [
+                      {
+                        "text": "TOS"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly91cmxoYXVzLWFwaS5hYnVzZS5jaC9kb3dubG9hZHMv"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9tYi1hcGkuYWJ1c2UuY2gvZG93bmxvYWRzLw=="
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "anchor": "3p_passwd",
+            "parts": [
+              {
+                "text": "Password"
+              }
+            ],
+            "lists": [
+              {
+                "items": [
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9maWdzaGFyZS5jb20vYXJ0aWNsZXMvWWFob29fUGFzc3dvcmRfRnJlcXVlbmN5X0NvcnB1cy8yMDU3OTM3"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "anchor": "3p_threat",
+            "parts": [
+              {
+                "text": "Threat Feeds"
+              }
+            ],
+            "lists": [
+              {
+                "items": [
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL3d3dy53ZWJpcm9uLmNvbS9hYnVzZV9mZWVkLw=="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL3Z4dmF1bHQubmV0L1ZpcmlMaXN0LnBocA=="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9vdHguYWxpZW52YXVsdC5jb20vYnJvd3Nl"
+                      }
+                    ],
+                    "license": [
+                      {
+                        "link": "aHR0cHM6Ly93d3cuYWxpZW52YXVsdC5jb20vdGVybXMvbWF5MjAxNA=="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL3RyYWNrZXIuaDN4LmV1L2ZhbWlsaWVz"
+                      }
+                    ],
+                    "license": [
+                      {
+                        "link": "aHR0cDovL3RyYWNrZXIuaDN4LmV1L2Fib3V0LzQwMA=="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly93d3cubWFsd2FyZWRvbWFpbmxpc3QuY29tL21kbC5waHA="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL3N1cHBvcnQuY2xlYW4tbXguZGUvY2xlYW4tbXgvcGhpc2hpbmcucGhw"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL3N1cHBvcnQuY2xlYW4tbXguY29tL2NsZWFuLW14L3ZpcnVzZXMucGhw"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly90ZWNoaGVscGxpc3QuY29tL21hbHRscXIv"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL2N5YmVyY3JpbWUtdHJhY2tlci5uZXQv"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cDovL2N5YmVyY3JpbWUtdHJhY2tlci5uZXQvemJveC5waHA="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly93d3cuYWJ1c2UuY2gv"
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tL3Bhbi11bml0NDIvaW9jcw=="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly90aHJlYXRmZWVkcy5pby8="
+                      }
+                    ]
+                  },
+                  {
+                    "parts": [
+                      {
+                        "link": "aHR0cHM6Ly9naXRodWIuY29tL2RyYi1yYS9DMkludGVsRmVlZHM="
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }
