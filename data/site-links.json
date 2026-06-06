@@ -1,27 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-06T14:20:15Z",
+  "generatedAt": "2026-06-06T14:37:48Z",
   "links": [
-    {
-      "id": "ZnRwOi8vZG93bmxvYWQuaXdsYWIuZm9pLnNlL2RhdGFzZXQv",
-      "sourceHref": "ftp://download.iwlab.foi.se/dataset/",
-      "href": "ftp://download.iwlab.foi.se/dataset/",
-      "text": "The Swedish Defence Research Agency Information Warfare Lab",
-      "description": "PCAP and various log sources",
-      "license": "Unknown",
-      "variants": [
-        {
-          "text": "The Swedish Defence Research Agency Information Warfare Lab",
-          "description": "PCAP and various log sources",
-          "license": "Unknown"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
     {
       "id": "aHR0cDovL2FyY2hpdmUuaWNzLnVjaS5lZHUvbWwvZGF0YXNldHMvVVJMK1JlcHV0YXRpb24=",
       "sourceHref": "http://archive.ics.uci.edu/ml/datasets/URL+Reputation",
@@ -37,10 +17,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "http://archive.ics.uci.edu/dataset/187/url+reputation",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL2FyY2hpdmUuaWNzLnVjaS5lZHUvbWwvZGF0YXNldHMvV2Vic2l0ZStQaGlzaGluZw==",
@@ -57,50 +37,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cDovL2JpZ2RhdGEuaXNlLmJndS5hYy5pbC9zaGVybG9jay9pbmRleC5odG1sIy8=",
-      "sourceHref": "http://bigdata.ise.bgu.ac.il/sherlock/index.html#/",
-      "href": "http://bigdata.ise.bgu.ac.il/sherlock/index.html#/",
-      "text": "SherLock Dataset",
-      "description": "Smartphone dataset with software and hardware sensor information surrounding mobile malware",
-      "license": "3 year full access, listed on site",
-      "variants": [
-        {
-          "text": "SherLock Dataset",
-          "description": "Smartphone dataset with software and hardware sensor information surrounding mobile malware",
-          "license": "3 year full access, listed on site"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cDovL2JvdC5uZ3guY2MvbG9ncy8lMjNuZ2lueC8=",
-      "sourceHref": "http://bot.ngx.cc/logs/%23nginx/",
-      "href": "http://bot.ngx.cc/logs/%23nginx/",
-      "text": "#nginx IRC channel logs",
-      "description": "Bot logs",
-      "license": "Unknown",
-      "variants": [
-        {
-          "text": "#nginx IRC channel logs",
-          "description": "Bot logs",
-          "license": "Unknown"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "http://archive.ics.uci.edu/dataset/379/website+phishing",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL2NvbW1vbmNyYXdsLm9yZy8=",
@@ -117,10 +57,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://commoncrawl.org/",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL2NvbnRhZ2lvZHVtcC5ibG9nc3BvdC5jb20v",
@@ -137,10 +77,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://contagiodump.blogspot.com/",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL2Nzci5sYW5sLmdvdi9kYXRhLw==",
@@ -157,10 +97,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://csr.lanl.gov/data/",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL2Nzci5sYW5sLmdvdi9kYXRhL2N5YmVyMS8=",
@@ -177,10 +117,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://csr.lanl.gov/data/cyber1/",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL2N5YmVyY3JpbWUtdHJhY2tlci5uZXQv",
@@ -197,10 +137,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "http://cybercrime-tracker.net/",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL2N5YmVyY3JpbWUtdHJhY2tlci5uZXQvemJveC5waHA=",
@@ -217,30 +157,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cDovL2RhdGEud2ViYXJjaGl2ZS5vcmcudWsvb3BlbmRhdGEvdWt3YS5kcy4xL2NsYXNzaWZpY2F0aW9uLw==",
-      "sourceHref": "http://data.webarchive.org.uk/opendata/ukwa.ds.1/classification/",
-      "href": "http://data.webarchive.org.uk/opendata/ukwa.ds.1/classification/",
-      "text": "Website Classification",
-      "description": "",
-      "license": "Public Domain, info on site",
-      "variants": [
-        {
-          "text": "Website Classification",
-          "description": "",
-          "license": "Public Domain, info on site"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "http://cybercrime-tracker.net/zbox.php",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvZGF0YS8yMDE0LzAxL21hcngtZ2VvLnRhci5neg==",
@@ -257,10 +177,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://datadrivensecurity.info/blog/data/2014/01/marx-geo.tar.gz",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvZGF0YS8yMDE0LzAxL21hcngudGFyLmd6",
@@ -277,10 +197,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://datadrivensecurity.info/blog/data/2014/01/marx.tar.gz",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvZGF0YS8yMDE0LzEwL2xlZ2l0LWRnYV9kb21haW5zLmNzdi56aXA=",
@@ -297,10 +217,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://datadrivensecurity.info/blog/data/2014/10/legit-dga_domains.csv.zip",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvcGFnZXMvZGRzLWRhdGFzZXQtY29sbGVjdGlvbi5odG1s",
@@ -332,10 +252,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://datadrivensecurity.info/blog/pages/dds-dataset-collection.html",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL2RpZ2l0YWxjb3Jwb3JhLm9yZy8=",
@@ -352,10 +272,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://digitalcorpora.org/",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL2tkZC5pY3MudWNpLmVkdS9kYXRhYmFzZXMva2RkY3VwOTkva2RkY3VwOTkuaHRtbA==",
@@ -372,30 +292,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cDovL2xhcmVkby0xMy5taXQuZWR1L35icmVuZGFuL29wY2xlYXZlci8=",
-      "sourceHref": "http://laredo-13.mit.edu/~brendan/opcleaver/",
-      "href": "http://laredo-13.mit.edu/~brendan/opcleaver/",
-      "text": "Op Cleaver PANDA Analysis",
-      "description": "rrlogs, PCAPs, movies and reports from Op Cleaver malware",
-      "license": "Unknown",
-      "variants": [
-        {
-          "text": "Op Cleaver PANDA Analysis",
-          "description": "rrlogs, PCAPs, movies and reports from Op Cleaver malware",
-          "license": "Unknown"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL2xvZy1zaGFyaW5nLmRyZWFtaG9zdGVycy5jb20v",
@@ -412,10 +312,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://log-sharing.dreamhosters.com/",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL21hbHdhcmUtdHJhZmZpYy1hbmFseXNpcy5uZXQv",
@@ -432,30 +332,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cDovL21hbHdhcmVkYi5tYWxla2FsLmNvbS8=",
-      "sourceHref": "http://malwaredb.malekal.com/",
-      "href": "http://malwaredb.malekal.com/",
-      "text": "Malware DB by Malekal",
-      "description": "A list of malicious files, complete with sample link and some AV results",
-      "license": "Unknown",
-      "variants": [
-        {
-          "text": "Malware DB by Malekal",
-          "description": "A list of malicious files, complete with sample link and some AV results",
-          "license": "Unknown"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.malware-traffic-analysis.net/",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL21hbHdhcmV1cmxzLmpveGVhbmtvcmV0LmNvbS8=",
@@ -472,10 +352,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "http://malwareurls.joxeankoret.com/",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL21jZnAud2VlYmx5LmNvbS8=",
@@ -492,10 +372,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://mcfp.weebly.com/",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL21jZnAud2VlYmx5LmNvbS90aGUtY3R1LTEzLWRhdGFzZXQtYS1sYWJlbGVkLWRhdGFzZXQtd2l0aC1ib3RuZXQtbm9ybWFsLWFuZC1iYWNrZ3JvdW5kLXRyYWZmaWMuaHRtbA==",
@@ -512,10 +392,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://mcfp.weebly.com/the-ctu-13-dataset-a-labeled-dataset-with-botnet-normal-and-background-traffic.html",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL21veWl4LmJsb2dzcG90LmNvbS8yMDE0LzEyL3JlcHJvZHVjaWJsZS1tYWx3YXJlLWFuYWx5c2VzLWZvci1hbGwuaHRtbD9tPTE=",
@@ -532,30 +412,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cDovL29zaW50LmJhbWJlbmVrY29uc3VsdGluZy5jb20vZmVlZHMvZGdhLWZlZWQudHh0",
-      "sourceHref": "http://osint.bambenekconsulting.com/feeds/dga-feed.txt",
-      "href": "http://osint.bambenekconsulting.com/feeds/dga-feed.txt",
-      "text": "DGA Domains",
-      "description": "- updated frequently",
-      "license": "License",
-      "variants": [
-        {
-          "text": "DGA Domains",
-          "description": "- updated frequently",
-          "license": "License"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://moyix.blogspot.com/2014/12/reproducible-malware-analyses-for-all.html?m=1",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL29zaW50LmJhbWJlbmVrY29uc3VsdGluZy5jb20vbGljZW5zZS50eHQ=",
@@ -572,10 +432,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://osint.bambenekconsulting.com/license.txt",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL3BhbmRhLmd0aXNjLmdhdGVjaC5lZHUvbWFscmVjLw==",
@@ -592,10 +452,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "http://panda.gtisc.gatech.edu/malrec/",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL3JlYnNuaXBwZXRzLmJsb2dzcG90LmNvbS8yMDE1LzA4L3BsdWd4LWNocm9uaWNsZXMuaHRtbA==",
@@ -612,10 +472,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "http://rebsnippets.blogspot.com/2015/08/plugx-chronicles.html",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL3MzLmFtYXpvbmF3cy5jb20vYWxleGEtc3RhdGljL3RvcC0xbS5jc3Yuemlw",
@@ -632,10 +492,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "http://s3.amazonaws.com/alexa-static/top-1m.csv.zip",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL3N1cHBvcnQuY2xlYW4tbXguY29tL2NsZWFuLW14L3ZpcnVzZXMucGhw",
@@ -652,10 +512,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 302,
+      "finalUrl": "http://support.clean-mx.com/clean-mx/viruses.php",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL3N1cHBvcnQuY2xlYW4tbXguZGUvY2xlYW4tbXgvcGhpc2hpbmcucGhw",
@@ -672,10 +532,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 302,
+      "finalUrl": "http://support.clean-mx.com/clean-mx/phishing.php",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL3N5c25ldC51Y3NkLmVkdS9wcm9qZWN0cy91cmwv",
@@ -692,70 +552,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cDovL3RocmVhdGdsYXNzLmNvbS8=",
-      "sourceHref": "http://threatglass.com/",
-      "href": "http://threatglass.com/",
-      "text": "Threatglass",
-      "description": "PCAPs that contain various exploit kits as well as some legit traffic mixed in.",
-      "license": "Unknown",
-      "variants": [
-        {
-          "text": "Threatglass",
-          "description": "PCAPs that contain various exploit kits as well as some legit traffic mixed in.",
-          "license": "Unknown"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cDovL3RyYWNrZXIuaDN4LmV1L2Fib3V0LzQwMA==",
-      "sourceHref": "http://tracker.h3x.eu/about/400",
-      "href": "http://tracker.h3x.eu/about/400",
-      "text": "About",
-      "description": "Tracker - Malware hashes and their associated campaigns",
-      "license": "About",
-      "variants": [
-        {
-          "text": "About",
-          "description": "Tracker - Malware hashes and their associated campaigns",
-          "license": "About"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cDovL3RyYWNrZXIuaDN4LmV1L2ZhbWlsaWVz",
-      "sourceHref": "http://tracker.h3x.eu/families",
-      "href": "http://tracker.h3x.eu/families",
-      "text": "Tracker",
-      "description": "- Malware hashes and their associated campaigns",
-      "license": "About",
-      "variants": [
-        {
-          "text": "Tracker",
-          "description": "- Malware hashes and their associated campaigns",
-          "license": "About"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.sysnet.ucsd.edu/projects/url/",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL3ZhY29tbXVuaXR5Lm9yZy9WQVNUK0NoYWxsZW5nZSsyMDEyJTNBK1N1Ym1pc3Npb24rSW5zdHJ1Y3Rpb25zK2FuZCtEb3dubG9hZHM=",
@@ -772,10 +572,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 301,
+      "finalUrl": "https://www.kamikazeabq.com/VAST+Challenge+2012%3A+Submission+Instructions+and+Downloads",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL3ZpcnVzc2hhcmUuY29tLw==",
@@ -792,10 +592,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://virusshare.com/",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL3ZpcnVzc2lnbi5jb20vaW5kZXguaHRtbA==",
@@ -812,30 +612,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cDovL3Z4aGVhdmVuLm9yZy9mYXEucGhwI3dob2xl",
-      "sourceHref": "http://vxheaven.org/faq.php#whole",
-      "href": "http://vxheaven.org/faq.php#whole",
-      "text": "Vx Heaven",
-      "description": "sorted by AV set of virus samples (available via BitTorrent)",
-      "license": "Unknown",
-      "variants": [
-        {
-          "text": "Vx Heaven",
-          "description": "sorted by AV set of virus samples (available via BitTorrent)",
-          "license": "Unknown"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.virussign.com/",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL3Z4dmF1bHQubmV0L1ZpcmlMaXN0LnBocA==",
@@ -852,30 +632,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cDovL3dpc25ldC5zZWVjcy5udXN0LmVkdS5way9wcm9qZWN0cy9FTlMvRGF0YVNldHMuaHRtbA==",
-      "sourceHref": "http://wisnet.seecs.nust.edu.pk/projects/ENS/DataSets.html",
-      "href": "http://wisnet.seecs.nust.edu.pk/projects/ENS/DataSets.html",
-      "text": "Open Source Enterprise Network Security Solution",
-      "description": "Network traffic and malicious endpoint data.",
-      "license": "Unknown",
-      "variants": [
-        {
-          "text": "Open Source Enterprise Network Security Solution",
-          "description": "Network traffic and malicious endpoint data.",
-          "license": "Unknown"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "http://vxvault.net/ViriList.php",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL3d3dy5henNlY3VyZS1kYXRhLm9yZy9nZXQtZGF0YS5odG1s",
@@ -897,10 +657,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "http://www.azsecure-data.org/get-data.html",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL3d3dy5jYWlkYS5vcmcvZGF0YS9wYXNzaXZlL3NpcHNjYW5fZGF0YXNldC54bWw=",
@@ -917,30 +677,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cDovL3d3dy5jY3NzZm9ydW0ub3JnL21hbHdhcmUtY2VydGlmaWNhdGVzLnBocA==",
-      "sourceHref": "http://www.ccssforum.org/malware-certificates.php",
-      "href": "http://www.ccssforum.org/malware-certificates.php",
-      "text": "CCSS - Digital Certs Used by Malare",
-      "description": "A listing of certificate serial numbers that have been used by malware",
-      "license": "Unknown",
-      "variants": [
-        {
-          "text": "CCSS - Digital Certs Used by Malare",
-          "description": "A listing of certificate serial numbers that have been used by malware",
-          "license": "Unknown"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.caida.org/catalog/datasets/sipscan_dataset/",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL3d3dy5nd2Vybi5uZXQvQmxhY2stbWFya2V0JTIwYXJjaGl2ZXM=",
@@ -957,70 +697,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cDovL3d3dy5pc2kuY3NpYy5lcy9kYXRhc2V0Lw==",
-      "sourceHref": "http://www.isi.csic.es/dataset/",
-      "href": "http://www.isi.csic.es/dataset/",
-      "text": "CSIC 2010 HTTP Dataset",
-      "description": "Labeled (normal, anomalous) HTTP data in CSV format.",
-      "license": "Unknown",
-      "variants": [
-        {
-          "text": "CSIC 2010 HTTP Dataset",
-          "description": "Labeled (normal, anomalous) HTTP data in CSV format.",
-          "license": "Unknown"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cDovL3d3dy5sbC5taXQuZWR1L21pc3Npb24vY29tbXVuaWNhdGlvbnMvY3liZXIvQ1NUY29ycG9yYS9pZGV2YWwvZGF0YS8xOTk4ZGF0YS5odG1s",
-      "sourceHref": "http://www.ll.mit.edu/mission/communications/cyber/CSTcorpora/ideval/data/1998data.html",
-      "href": "http://www.ll.mit.edu/mission/communications/cyber/CSTcorpora/ideval/data/1998data.html",
-      "text": "MIT 1998 DARPA Intrusion Detection Evaluation Data Set",
-      "description": "Network and file system data",
-      "license": "Unknown",
-      "variants": [
-        {
-          "text": "MIT 1998 DARPA Intrusion Detection Evaluation Data Set",
-          "description": "Network and file system data",
-          "license": "Unknown"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cDovL3d3dy5sbC5taXQuZWR1L21pc3Npb24vY29tbXVuaWNhdGlvbnMvY3liZXIvQ1NUY29ycG9yYS9pZGV2YWwvZGF0YS8xOTk5ZGF0YS5odG1s",
-      "sourceHref": "http://www.ll.mit.edu/mission/communications/cyber/CSTcorpora/ideval/data/1999data.html",
-      "href": "http://www.ll.mit.edu/mission/communications/cyber/CSTcorpora/ideval/data/1999data.html",
-      "text": "MIT 1999 DARPA Intrusion Detection Evaluation Data Set",
-      "description": "Labeled attack and nont attack data (PCAP and system logs)",
-      "license": "Unknown",
-      "variants": [
-        {
-          "text": "MIT 1999 DARPA Intrusion Detection Evaluation Data Set",
-          "description": "Labeled attack and nont attack data (PCAP and system logs)",
-          "license": "Unknown"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://gwern.net/dnm-archive",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL3d3dy5tYWxzaGFyZS5jb20vaW5kZXgucGhw",
@@ -1037,10 +717,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "http://www.malshare.com/index.php",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cDovL3d3dy5uZXRyZXNlYy5jb20vP3BhZ2U9UGNhcEZpbGVz",
@@ -1057,170 +737,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cDovL3d3dy5vZmZlbnNpdmVjb21wdXRpbmcubmV0Lw==",
-      "sourceHref": "http://www.offensivecomputing.net/",
-      "href": "http://www.offensivecomputing.net/",
-      "text": "Open Malware",
-      "description": "Searchable malware repo with free downloads of samples",
-      "license": "Unknown",
-      "variants": [
-        {
-          "text": "Open Malware",
-          "description": "Searchable malware repo with free downloads of samples",
-          "license": "Unknown"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cDovL3d3dy5wY2Fwci5uZXQv",
-      "sourceHref": "http://www.pcapr.net/",
-      "href": "http://www.pcapr.net/",
-      "text": "pcapr",
-      "description": "- Searchable repository of PCAPs, look for various phrases to pull out the Security related ones (eg. exploit, xss, etc...)",
-      "license": "TOS",
-      "variants": [
-        {
-          "text": "pcapr",
-          "description": "- Searchable repository of PCAPs, look for various phrases to pull out the Security related ones (eg. exploit, xss, etc...)",
-          "license": "TOS"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cDovL3d3dy5wY2Fwci5uZXQvdG9z",
-      "sourceHref": "http://www.pcapr.net/tos",
-      "href": "http://www.pcapr.net/tos",
-      "text": "TOS",
-      "description": "pcapr - Searchable repository of PCAPs, look for various phrases to pull out the Security related ones (eg. exploit, xss, etc...)",
-      "license": "TOS",
-      "variants": [
-        {
-          "text": "TOS",
-          "description": "pcapr - Searchable repository of PCAPs, look for various phrases to pull out the Security related ones (eg. exploit, xss, etc...)",
-          "license": "TOS"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cDovL3d3dy5ycnNoYXJlLm9yZy8=",
-      "sourceHref": "http://www.rrshare.org/",
-      "href": "http://www.rrshare.org/",
-      "text": "PANDA rrlogs",
-      "description": "- share and download rrlogs from the PANDA dynamic analysis platform",
-      "license": "Unknown",
-      "variants": [
-        {
-          "text": "PANDA rrlogs",
-          "description": "- share and download rrlogs from the PANDA dynamic analysis platform",
-          "license": "Unknown"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cDovL3d3dy5zaW1wbGV3ZWIub3JnL3dpa2kvVHJhY2Vz",
-      "sourceHref": "http://www.simpleweb.org/wiki/Traces",
-      "href": "http://www.simpleweb.org/wiki/Traces",
-      "text": "Simple Web Traces",
-      "description": "Cloud Storage, DDoS, DNSSEC, and may more types of PCAPs.",
-      "license": "Various",
-      "variants": [
-        {
-          "text": "Simple Web Traces",
-          "description": "Cloud Storage, DDoS, DNSSEC, and may more types of PCAPs.",
-          "license": "Various"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cDovL3d3dy53ZWJpcm9uLmNvbS9hYnVzZV9mZWVkLw==",
-      "sourceHref": "http://www.webiron.com/abuse_feed/",
-      "href": "http://www.webiron.com/abuse_feed/",
-      "text": "ISP Abuse Email Feed",
-      "description": "Feed showing IOCs from various Abuse reports (other feeds also on the site)",
-      "license": "Unknown",
-      "variants": [
-        {
-          "text": "ISP Abuse Email Feed",
-          "description": "Feed showing IOCs from various Abuse reports (other feeds also on the site)",
-          "license": "Unknown"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cHM6Ly9hay5xdWFudGNhc3QuY29tL3F1YW50Y2FzdC10b3Atc2l0ZXMuemlw",
-      "sourceHref": "https://ak.quantcast.com/quantcast-top-sites.zip",
-      "href": "https://ak.quantcast.com/quantcast-top-sites.zip",
-      "text": "Quantcast Top Sites",
-      "description": "Most popular sites on the Internet according to Quantcast.",
-      "license": "Unknown",
-      "variants": [
-        {
-          "text": "Quantcast Top Sites",
-          "description": "Most popular sites on the Internet according to Quantcast.",
-          "license": "Unknown"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cHM6Ly9kYXRhLm5ldGxhYi4zNjAuY29tL2RnYS8=",
-      "sourceHref": "https://data.netlab.360.com/dga/",
-      "href": "https://data.netlab.360.com/dga/",
-      "text": "Netlab360 DGA Domains",
-      "description": "Samples of DGA domains from various types of malware. License Info: Unknown]",
-      "license": null,
-      "variants": [
-        {
-          "text": "Netlab360 DGA Domains",
-          "description": "Samples of DGA domains from various types of malware. License Info: Unknown]",
-          "license": null
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.netresec.com/?page=PcapFiles",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9kZ2FyY2hpdmUuY2FhZC5ma2llLmZyYXVuaG9mZXIuZGUv",
@@ -1242,30 +762,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cHM6Ly9kbXMuc3p0YWtpLmh1L2VuL2xldG9sdGVzL2VjbWxwa2RkLTIwMTAtZGlzY292ZXJ5LWNoYWxsZW5nZS1kYXRhLXNldA==",
-      "sourceHref": "https://dms.sztaki.hu/en/letoltes/ecmlpkdd-2010-discovery-challenge-data-set",
-      "href": "https://dms.sztaki.hu/en/letoltes/ecmlpkdd-2010-discovery-challenge-data-set",
-      "text": "ECML/PKDD 2010 Discovery Challenge Data Set",
-      "description": "Web classification data",
-      "license": "Unknown",
-      "variants": [
-        {
-          "text": "ECML/PKDD 2010 Discovery Challenge Data Set",
-          "description": "Web classification data",
-          "license": "Unknown"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://dgarchive.caad.fkie.fraunhofer.de/",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMTZkLXQ2NHBEbWpPY1ZqNEhEQUdHV2hSc05tU0d0N0lV",
@@ -1282,10 +782,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://drive.google.com/drive/folders/16d-t64pDmjOcVj4HDAGGWhRsNmSGt7IU",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMVZiRUZjWUVIYkpWaHBxQkdydUNHVkYxSlY4cmNFMDdR",
@@ -1302,10 +802,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://drive.google.com/drive/folders/1VbEFcYEHbJVhpqBGruCGVF1JV8rcE07Q",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot",
@@ -1377,10 +877,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXJYNThMeEJnbFlXNzJUVkxRV09LZHk5dm5Ea0R1RHFp",
@@ -1397,10 +897,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://drive.google.com/drive/folders/1rX58LxBglYW72TVLQWOKdy9vnDkDuDqi",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXUtQUZlUzhEY3R6NXZQN09oZHE4Mm5wdUFOd1BPb1Jr",
@@ -1427,30 +927,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8wQl9JTjZSelA2OWIyVGtOcllWZE9NblE0TFZFL3ZpZXc=",
-      "sourceHref": "https://drive.google.com/file/d/0B_IN6RzP69b2TkNrYVdOMnQ4LVE/view",
-      "href": "https://drive.google.com/file/d/0B_IN6RzP69b2TkNrYVdOMnQ4LVE/view",
-      "text": "Labeled VirusShare data by @_delta_zero",
-      "description": "VirusShare data that has been consitently labeled (7zip download)",
-      "license": "Unknown",
-      "variants": [
-        {
-          "text": "Labeled VirusShare data by @_delta_zero",
-          "description": "VirusShare data that has been consitently labeled (7zip download)",
-          "license": "Unknown"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://drive.google.com/drive/folders/1u-AFeS8Dctz5vP7Ohdq82npuANwPOoRk",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9maWdzaGFyZS5jb20vYXJ0aWNsZXMvWWFob29fUGFzc3dvcmRfRnJlcXVlbmN5X0NvcnB1cy8yMDU3OTM3",
@@ -1467,30 +947,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cHM6Ly9naXRodWIuY29tLzB4c2hhL3N3ZWV0aWUtZGF0YQ==",
-      "sourceHref": "https://github.com/0xsha/sweetie-data",
-      "href": "https://github.com/0xsha/sweetie-data",
-      "text": "Sweetie data",
-      "description": "a collection of honeypot data (network and files).",
-      "license": "MIT",
-      "variants": [
-        {
-          "text": "Sweetie data",
-          "description": "a collection of honeypot data (network and files).",
-          "license": "MIT"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 202,
+      "finalUrl": "https://figshare.com/articles/Yahoo_Password_Frequency_Corpus/2057937",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL0pvbmF0aGFuUGhpbGxpcHMvVGhyZWF0X1Jlc2VhcmNo",
@@ -1507,10 +967,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/JonathanPhillips/Threat_Research",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL01hbHdhcmVTYW1wbGVzL01hbHdhcmUtRmVlZA==",
@@ -1527,30 +987,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cHM6Ly9naXRodWIuY29tL1ZpcnVzLVNhbXBsZXMvTWFsd2FyZS1TYW1wbGUtU291cmNlcw==",
-      "sourceHref": "https://github.com/Virus-Samples/Malware-Sample-Sources",
-      "href": "https://github.com/Virus-Samples/Malware-Sample-Sources",
-      "text": "Malware Sample Sources",
-      "description": "A Collection of Malware Sample Repositories",
-      "license": "Unknown",
-      "variants": [
-        {
-          "text": "Malware Sample Sources",
-          "description": "A Collection of Malware Sample Repositories",
-          "license": "Unknown"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/MalwareSamples/Malware-Feed",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2FuZHJldy1tb3JyaXMvdGhyZWF0X3Jlc2VhcmNoX3ByaXZhdGU=",
@@ -1567,10 +1007,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/andrew-morris/threat_research_private",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2JvZGFjZWEvbWlzaW5mb2xpbmtz",
@@ -1587,10 +1027,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/bodacea/misinfolinks",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL0JybyUyMExvZ3MlMjBmcm9tJTIwVGhyZWF0Z2xhc3MvUGFydCUyMDM=",
@@ -1607,10 +1047,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 301,
+      "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/tree/master/Data_analysis/Bro%20Logs%20from%20Threatglass/Part%203",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9kaGNwJTIwYW5hbHlzaXMuaXB5bmI=",
@@ -1627,10 +1067,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 301,
+      "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/blob/master/Data_analysis/Network%20analysis/dhcp%20analysis.ipynb",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9kbnMlMjBhbmFseXNpcy5pcHluYg==",
@@ -1647,10 +1087,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/blob/master/Data_analysis/Network%20analysis/dns%20analysis.ipynb",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9mdHAlMjBhbmFseXNpcy5pcHluYg==",
@@ -1667,10 +1107,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/blob/master/Data_analysis/Network%20analysis/ftp%20analysis.ipynb",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9ub3RpY2UlMjBhbmFseXNpcy5pcHluYg==",
@@ -1687,10 +1127,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/blob/master/Data_analysis/Network%20analysis/notice%20analysis.ipynb",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9zaWduYXR1cmVzJTIwYW5hbHlzaXMuaXB5bmI=",
@@ -1707,10 +1147,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 301,
+      "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/blob/master/Data_analysis/Network%20analysis/signatures%20analysis.ipynb",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9zbXRwJTIwYW5hbHlzaXMuaXB5bmI=",
@@ -1727,10 +1167,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/blob/master/Data_analysis/Network%20analysis/smtp%20analysis.ipynb",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9zc2glMjBhbmFseXNpcy5pcHluYg==",
@@ -1747,10 +1187,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/blob/master/Data_analysis/Network%20analysis/ssh%20analysis.ipynb",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9zc2wlMjBhbmFseXNpcy5pcHluYg==",
@@ -1767,10 +1207,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/blob/master/Data_analysis/Network%20analysis/ssl%20analysis.ipynb",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy90dW5uZWwlMjBhbmFseXNpcy5pcHluYg==",
@@ -1787,10 +1227,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/blob/master/Data_analysis/Network%20analysis/tunnel%20analysis.ipynb",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy93ZWlyZCUyMGFuYWx5c2lzLmlweW5i",
@@ -1807,10 +1247,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/blob/master/Data_analysis/Network%20analysis/weird%20analysis.ipynb",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL1BFJTIwbWFsd2FyZSUyMGFuYWx5c2lzL09QJTIwQ2xlYXZlciUyMEFuYWx5c2lzLmlweW5i",
@@ -1827,10 +1267,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/blob/master/Data_analysis/PE%20malware%20analysis/OP%20Cleaver%20Analysis.ipynb",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL1BFJTIwbWFsd2FyZSUyMGFuYWx5c2lzL1ZpcnVzU2hhcmUlMjBBbmFseXNpcy1jaGVja3BvaW50LmlweW5i",
@@ -1847,10 +1287,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/blob/master/Data_analysis/PE%20malware%20analysis/VirusShare%20Analysis-checkpoint.ipynb",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL1BFJTIwbWFsd2FyZSUyMGFuYWx5c2lzL1pldXMlMjBBbmFseXNpcy5pcHluYg==",
@@ -1867,10 +1307,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/blob/master/Data_analysis/PE%20malware%20analysis/Zeus%20Analysis.ipynb",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy90cmVlL21hc3Rlci9EYXRhX2FuYWx5c2lzL0JybyUyMExvZ3MlMjBmcm9tJTIwVGhyZWF0Z2xhc3MvUGFydCUyMDE=",
@@ -1887,10 +1327,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/tree/master/Data_analysis/Bro%20Logs%20from%20Threatglass/Part%201",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy90cmVlL21hc3Rlci9EYXRhX2FuYWx5c2lzL0JybyUyMExvZ3MlMjBmcm9tJTIwVGhyZWF0Z2xhc3MvUGFydCUyMDI=",
@@ -1907,10 +1347,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/tree/master/Data_analysis/Bro%20Logs%20from%20Threatglass/Part%202",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2RyYi1yYS9DMkludGVsRmVlZHM=",
@@ -1927,10 +1367,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/drb-ra/C2IntelFeeds",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2VuZGdhbWVpbmMvZW1iZXI=",
@@ -1947,10 +1387,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/elastic/ember",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2ZhaXphbm4yNC9Gd2FmLU1hY2hpbmUtTGVhcm5pbmctZHJpdmVuLVdlYi1BcHBsaWNhdGlvbi1GaXJld2FsbA==",
@@ -1967,10 +1407,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/faizann24/Fwaf-Machine-Learning-driven-Web-Application-Firewall",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2ZhaXphbm4yNC9Vc2luZy1tYWNoaW5lLWxlYXJuaW5nLXRvLWRldGVjdC1tYWxpY2lvdXMtVVJMcw==",
@@ -1987,10 +1427,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/faizann24/Using-machine-learning-to-detect-malicious-URLs",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2Zvb3NwaWR5L3BheWxvYWRz",
@@ -2007,30 +1447,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cHM6Ly9naXRodWIuY29tL2doMHN0ZDRuY2VyL3RocmVhdF9yZXNlYXJjaA==",
-      "sourceHref": "https://github.com/gh0std4ncer/threat_research",
-      "href": "https://github.com/gh0std4ncer/threat_research",
-      "text": "Threat Research",
-      "description": "Data collected from SSH honeypots (fork of the original Andrew Morris collection)",
-      "license": "Unknown",
-      "variants": [
-        {
-          "text": "Threat Research",
-          "description": "Data collected from SSH honeypots (fork of the original Andrew Morris collection)",
-          "license": "Unknown"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/foospidy/payloads",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2hnYXNjb24vc2VjdXJpdHktZGF0YXNldHMvYmxvYi9tYXN0ZXIvUkVBRE1FLm1k",
@@ -2047,10 +1467,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/hgascon/security-datasets/blob/master/README.md",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2hzbGF0bWFuL2F3ZXNvbWUtaW5kdXN0cmlhbC1jb250cm9sLXN5c3RlbS1zZWN1cml0eQ==",
@@ -2067,10 +1487,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/hslatman/awesome-industrial-control-system-security",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2h1bnRlcnMtZm9yZ2UvbW9yZG9y",
@@ -2087,10 +1507,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/OTRF/Security-Datasets",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2phc2tsYWJzL2JsYWNraGF0MjAxNw==",
@@ -2107,10 +1527,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/jasklabs/blackhat2017",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2p6YWRlaC9ha3RhaW9u",
@@ -2127,10 +1547,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/jzadeh/aktaion",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2p6YWRlaC9ha3RhaW9uMg==",
@@ -2147,10 +1567,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/jzadeh/aktaion2",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2tvbnN0YW50aW5iZXJsaW4vbWFsd2FyZS13aW5kb3dzLWF1ZGl0LWxvZy1kZXRlY3Rpb24=",
@@ -2167,10 +1587,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/konstantinberlin/malware-windows-audit-log-detection",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL21hcmF2ZW50by9ibGFja3dlYg==",
@@ -2187,10 +1607,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/maravento/blackweb",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL21hcmNvcmFtaWxsaS9NYWx3YXJlVHJhaW5pbmdTZXRz",
@@ -2207,10 +1627,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/marcoramilli/MalwareTrainingSets",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL21pc3RlcmNoMGMvd2hhdF9pc190aGlzX2My",
@@ -2227,10 +1647,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/misterch0c/what_is_this_c2",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL21veWl4L3BhbmRh",
@@ -2247,10 +1667,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/moyix/panda",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL29wZW5kbnMvcHVibGljLWRvbWFpbi1saXN0cw==",
@@ -2267,10 +1687,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/opendns/public-domain-lists",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL3Bhbi11bml0NDIvaW9jcw==",
@@ -2287,10 +1707,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/pan-unit42/iocs",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL3JhcGlkNy9zb25hci93aWtpL1VEUA==",
@@ -2307,10 +1727,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/rapid7/sonar/wiki/UDP",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL3NhbnRpYWdvLWJhc3NldHQvQWxpZW52YXVsdC1EZW1vX3NjcmlwdHM=",
@@ -2327,10 +1747,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/santiago-bassett/Alienvault-Demo_scripts",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL3Nib3Vzc2VhZGVuL0VWVFgtQVRUQUNLLVNBTVBMRVM=",
@@ -2347,10 +1767,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL3Nvb3NoaWUvU2VjdXJpdHktRGF0YS1BbmFseXNpcw==",
@@ -2367,10 +1787,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/sooshie/Security-Data-Analysis",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL3ZzLXV1bG0vMjAxNy1TVUVFLWRhdGEtc2V0",
@@ -2387,10 +1807,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/vs-uulm/2017-SUEE-data-set",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL3Z6LXJpc2svVkNEQg==",
@@ -2407,10 +1827,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://github.com/vz-risk/VCDB",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9oYWNrZXJ0YXJnZXQuY29tLzUwMGstaHR0cC1oZWFkZXJzLw==",
@@ -2427,10 +1847,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://hackertarget.com/500k-http-headers/",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9tYWplc3RpYy5jb20vcmVwb3J0cy9tYWplc3RpYy1taWxsaW9u",
@@ -2447,10 +1867,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://majestic.com/reports/majestic-million",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9tYi1hcGkuYWJ1c2UuY2gvZG93bmxvYWRzLw==",
@@ -2467,10 +1887,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://bazaar.abuse.ch/api/",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9tY2ZwLmZlbGsuY3Z1dC5jei9wdWJsaWNEYXRhc2V0cy8=",
@@ -2487,10 +1907,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://mcfp.felk.cvut.cz/publicDatasets/",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9vdHguYWxpZW52YXVsdC5jb20vYnJvd3Nl",
@@ -2507,70 +1927,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cHM6Ly9wbGcudXdhdGVybG9vLmNhL35ndmNvcm1hYy90cmVjY29ycHVzMDcv",
-      "sourceHref": "https://plg.uwaterloo.ca/~gvcormac/treccorpus07/",
-      "href": "https://plg.uwaterloo.ca/~gvcormac/treccorpus07/",
-      "text": "2007 TREC Public SPAM Corpus",
-      "description": "SPAM Corpus",
-      "license": "Listed on site",
-      "variants": [
-        {
-          "text": "2007 TREC Public SPAM Corpus",
-          "description": "SPAM Corpus",
-          "license": "Listed on site"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cHM6Ly9wcmVkaWN0Lm9yZy8=",
-      "sourceHref": "https://predict.org/",
-      "href": "https://predict.org/",
-      "text": "Protected Repository for the Defense of Infrastructure Against Cyber Threats",
-      "description": "Lots of data (restricted use)",
-      "license": "License",
-      "variants": [
-        {
-          "text": "Protected Repository for the Defense of Infrastructure Against Cyber Threats",
-          "description": "Lots of data (restricted use)",
-          "license": "License"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cHM6Ly9wcmVkaWN0Lm9yZy9Qb3J0YWxzLzAvRG9jdW1lbnRzL0hlbHAvUFJFRElDVC1VRy1IVE1MNS9Db250ZW50L1J1bGVzJTIwb2YlMjBCZWhhdmlvci5odG0=",
-      "sourceHref": "https://predict.org/Portals/0/Documents/Help/PREDICT-UG-HTML5/Content/Rules%20of%20Behavior.htm",
-      "href": "https://predict.org/Portals/0/Documents/Help/PREDICT-UG-HTML5/Content/Rules%20of%20Behavior.htm",
-      "text": "License",
-      "description": "Protected Repository for the Defense of Infrastructure Against Cyber Threats Lots of data (restricted use)",
-      "license": "License",
-      "variants": [
-        {
-          "text": "License",
-          "description": "Protected Repository for the Defense of Infrastructure Against Cyber Threats Lots of data (restricted use)",
-          "license": "License"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://otx.alienvault.com/browse",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9yZXNlYXJjaC5hYWx0by5maS9lbi9kYXRhc2V0cy9pb3QtZGV2aWNlcy1jYXB0dXJlcygyODVhOWIwNi1kZTMxLTRkOGItODhlOS01YmRiYTQ2Y2MxNjEpLmh0bWw=",
@@ -2587,10 +1947,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://research.aalto.fi/en/datasets/iot-devices-captures/",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9zMy11cy13ZXN0LTEuYW1hem9uYXdzLmNvbS91bWJyZWxsYS1zdGF0aWMvaW5kZXguaHRtbA==",
@@ -2607,10 +1967,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://s3-us-west-1.amazonaws.com/umbrella-static/index.html",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly9zY2Fucy5pby8=",
@@ -2627,370 +1987,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vSFRNTF9Ccm9fbG9nXzE=",
-      "sourceHref": "Datasets Description/HTML_Bro_log_1",
-      "href": "https://secrepo.com/Datasets Description/HTML_Bro_log_1",
-      "text": "Description",
-      "description": "Part 1 (64MB) - Description for Part 1 dataset and analysis on jupyter notebook",
-      "license": null,
-      "variants": [
-        {
-          "text": "Description",
-          "description": "Part 1 (64MB) - Description for Part 1 dataset and analysis on jupyter notebook",
-          "license": null
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vSFRNTF9Ccm9fbG9nXzI=",
-      "sourceHref": "Datasets Description/HTML_Bro_log_2",
-      "href": "https://secrepo.com/Datasets Description/HTML_Bro_log_2",
-      "text": "Description",
-      "description": "Part 2 (41MB) - Description for Part 2 dataset and analysis on jupyter notebook",
-      "license": null,
-      "variants": [
-        {
-          "text": "Description",
-          "description": "Part 2 (41MB) - Description for Part 2 dataset and analysis on jupyter notebook",
-          "license": null
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vSFRNTF9Ccm9fbG9nXzM=",
-      "sourceHref": "Datasets Description/HTML_Bro_log_3",
-      "href": "https://secrepo.com/Datasets Description/HTML_Bro_log_3",
-      "text": "Description",
-      "description": "Part 3 (61MB) - Description for Part 3 dataset and analysis on jupyter notebook",
-      "license": null,
-      "variants": [
-        {
-          "text": "Description",
-          "description": "Part 3 (61MB) - Description for Part 3 dataset and analysis on jupyter notebook",
-          "license": null
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9kaGNwLmh0bWw=",
-      "sourceHref": "Datasets Description/Network/dhcp.html",
-      "href": "https://secrepo.com/Datasets Description/Network/dhcp.html",
-      "text": "Description",
-      "description": "dhcp.log.gz (1MB) - Description for dhcp dataset and analysis on jupyter notebook",
-      "license": null,
-      "variants": [
-        {
-          "text": "Description",
-          "description": "dhcp.log.gz (1MB) - Description for dhcp dataset and analysis on jupyter notebook",
-          "license": null
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9kbnMuaHRtbA==",
-      "sourceHref": "Datasets Description/Network/dns.html",
-      "href": "https://secrepo.com/Datasets Description/Network/dns.html",
-      "text": "Description",
-      "description": "dns.log.gz (7MB) - Description for dhcp dataset and analysis on jupyter notebook",
-      "license": null,
-      "variants": [
-        {
-          "text": "Description",
-          "description": "dns.log.gz (7MB) - Description for dhcp dataset and analysis on jupyter notebook",
-          "license": null
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9maWxlcy5odG1s",
-      "sourceHref": "Datasets Description/Network/files.html",
-      "href": "https://secrepo.com/Datasets Description/Network/files.html",
-      "text": "Description",
-      "description": "files.log.gz (49MB) - Description for files dataset and analysis on jupyter notebook",
-      "license": null,
-      "variants": [
-        {
-          "text": "Description",
-          "description": "files.log.gz (49MB) - Description for files dataset and analysis on jupyter notebook",
-          "license": null
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9mdHAuaHRtbA==",
-      "sourceHref": "Datasets Description/Network/ftp.html",
-      "href": "https://secrepo.com/Datasets Description/Network/ftp.html",
-      "text": "Description",
-      "description": "ftp.log.gz (1MB) - Description for ftp dataset and analysis on jupyter notebook",
-      "license": null,
-      "variants": [
-        {
-          "text": "Description",
-          "description": "ftp.log.gz (1MB) - Description for ftp dataset and analysis on jupyter notebook",
-          "license": null
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9odHRwLmh0bWw=",
-      "sourceHref": "Datasets Description/Network/http.html",
-      "href": "https://secrepo.com/Datasets Description/Network/http.html",
-      "text": "Description",
-      "description": "http.log.gz (54MB) - Description for http dataset and analysis on jupyter notebook",
-      "license": null,
-      "variants": [
-        {
-          "text": "Description",
-          "description": "http.log.gz (54MB) - Description for http dataset and analysis on jupyter notebook",
-          "license": null
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9ub3RpY2UuaHRtbA==",
-      "sourceHref": "Datasets Description/Network/notice.html",
-      "href": "https://secrepo.com/Datasets Description/Network/notice.html",
-      "text": "Description",
-      "description": "notice.log.gz (1MB) - Description for notice dataset and analysis on jupyter notebook",
-      "license": null,
-      "variants": [
-        {
-          "text": "Description",
-          "description": "notice.log.gz (1MB) - Description for notice dataset and analysis on jupyter notebook",
-          "license": null
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9zaWduYXR1cmVzLmh0bWw=",
-      "sourceHref": "Datasets Description/Network/signatures.html",
-      "href": "https://secrepo.com/Datasets Description/Network/signatures.html",
-      "text": "Description",
-      "description": "signatures.log.gz (1MB) - Description for signatures dataset and analysis on jupyter notebook",
-      "license": null,
-      "variants": [
-        {
-          "text": "Description",
-          "description": "signatures.log.gz (1MB) - Description for signatures dataset and analysis on jupyter notebook",
-          "license": null
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9zbXRwLmh0bWw=",
-      "sourceHref": "Datasets Description/Network/smtp.html",
-      "href": "https://secrepo.com/Datasets Description/Network/smtp.html",
-      "text": "Description",
-      "description": "smtp.log.gz (1MB) - Description for smtp dataset and analysis on jupyter notebook",
-      "license": null,
-      "variants": [
-        {
-          "text": "Description",
-          "description": "smtp.log.gz (1MB) - Description for smtp dataset and analysis on jupyter notebook",
-          "license": null
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9zc2guaHRtbA==",
-      "sourceHref": "Datasets Description/Network/ssh.html",
-      "href": "https://secrepo.com/Datasets Description/Network/ssh.html",
-      "text": "Description",
-      "description": "ssh.log.gz (1MB) - Description for ssh dataset and analysis on jupyter notebook",
-      "license": null,
-      "variants": [
-        {
-          "text": "Description",
-          "description": "ssh.log.gz (1MB) - Description for ssh dataset and analysis on jupyter notebook",
-          "license": null
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9zc2wuaHRtbA==",
-      "sourceHref": "Datasets Description/Network/ssl.html",
-      "href": "https://secrepo.com/Datasets Description/Network/ssl.html",
-      "text": "Description",
-      "description": "ssl.log.gz (2MB) - Description for ssl dataset and analysis on jupyter notebook",
-      "license": null,
-      "variants": [
-        {
-          "text": "Description",
-          "description": "ssl.log.gz (2MB) - Description for ssl dataset and analysis on jupyter notebook",
-          "license": null
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay90dW5uZWwuaHRtbA==",
-      "sourceHref": "Datasets Description/Network/tunnel.html",
-      "href": "https://secrepo.com/Datasets Description/Network/tunnel.html",
-      "text": "Description",
-      "description": "tunnel.log.gz (1MB) - Description for tunnel dataset and analysis on jupyter notebook",
-      "license": null,
-      "variants": [
-        {
-          "text": "Description",
-          "description": "tunnel.log.gz (1MB) - Description for tunnel dataset and analysis on jupyter notebook",
-          "license": null
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay93ZWlyZC5odG1s",
-      "sourceHref": "Datasets Description/Network/weird.html",
-      "href": "https://secrepo.com/Datasets Description/Network/weird.html",
-      "text": "Description",
-      "description": "weird.log.gz (2MB) - Description for weird dataset and analysis on jupyter notebook",
-      "license": null,
-      "variants": [
-        {
-          "text": "Description",
-          "description": "weird.log.gz (2MB) - Description for weird dataset and analysis on jupyter notebook",
-          "license": null
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vUEVfbWFsd2FyZS9PUENsZWF2ZXIuaHRtbA==",
-      "sourceHref": "Datasets Description/PE_malware/OPCleaver.html",
-      "href": "https://secrepo.com/Datasets Description/PE_malware/OPCleaver.html",
-      "text": "Description",
-      "description": "for OPCleaver Dataset and analysis on jupyter notebook",
-      "license": null,
-      "variants": [
-        {
-          "text": "Description",
-          "description": "for OPCleaver Dataset and analysis on jupyter notebook",
-          "license": null
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vUEVfbWFsd2FyZS9WaXJ1c1NoYXJlLmh0bWw=",
-      "sourceHref": "Datasets Description/PE_malware/VirusShare.html",
-      "href": "https://secrepo.com/Datasets Description/PE_malware/VirusShare.html",
-      "text": "Description",
-      "description": "for VirusShare Dataset and analysis on jupyter notebook",
-      "license": null,
-      "variants": [
-        {
-          "text": "Description",
-          "description": "for VirusShare Dataset and analysis on jupyter notebook",
-          "license": null
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "RGF0YXNldHMgRGVzY3JpcHRpb24vUEVfbWFsd2FyZS9aZXVzLmh0bWw=",
-      "sourceHref": "Datasets Description/PE_malware/Zeus.html",
-      "href": "https://secrepo.com/Datasets Description/PE_malware/Zeus.html",
-      "text": "Description",
-      "description": "for Zeus Binaries dataset and analysis on jupyter notebook",
-      "license": null,
-      "variants": [
-        {
-          "text": "Description",
-          "description": "for Zeus Binaries dataset and analysis on jupyter notebook",
-          "license": null
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://scans.io/",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "U2VjdXJpdHktRGF0YS1BbmFseXNpcy9MYWJfMS9jb25uLmxvZy56aXA=",
@@ -3007,10 +2007,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/Security-Data-Analysis/Lab_1/conn.log.zip",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "YXV0aC5sb2cvYXV0aC5sb2cuZ3o=",
@@ -3027,10 +2027,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/auth.log/auth.log.gz",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "ZG9tYWluZGF0YS9kb21haW5tb3ZlbWVudC56aXA=",
@@ -3047,10 +2047,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/domaindata/domainmovement.zip",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aG9uZXlwb3QvaG9uZXlwb3QuanNvbi56aXA=",
@@ -3067,10 +2067,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/honeypot/honeypot.json.zip",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "bWFjY2RjMjAxMi9jb25uLmxvZy5neg==",
@@ -3087,10 +2087,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/maccdc2012/conn.log.gz",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "bWFjY2RjMjAxMi9kaGNwLmxvZy5neg==",
@@ -3107,10 +2107,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/maccdc2012/dhcp.log.gz",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "bWFjY2RjMjAxMi9kbnMubG9nLmd6",
@@ -3127,10 +2127,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/maccdc2012/dns.log.gz",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "bWFjY2RjMjAxMi9maWxlcy5sb2cuZ3o=",
@@ -3147,10 +2147,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/maccdc2012/files.log.gz",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "bWFjY2RjMjAxMi9mdHAubG9nLmd6",
@@ -3167,10 +2167,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/maccdc2012/ftp.log.gz",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "bWFjY2RjMjAxMi9odHRwLmxvZy5neg==",
@@ -3187,10 +2187,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/maccdc2012/http.log.gz",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "bWFjY2RjMjAxMi9tYWNjZGMyMDEyX2Zhc3RfYWxlcnQuN3o=",
@@ -3207,10 +2207,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/maccdc2012/maccdc2012_fast_alert.7z",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "bWFjY2RjMjAxMi9tYWNjZGMyMDEyX2Z1bGxfYWxlcnQuN3o=",
@@ -3227,10 +2227,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/maccdc2012/maccdc2012_full_alert.7z",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "bWFjY2RjMjAxMi9ub3RpY2UubG9nLmd6",
@@ -3247,10 +2247,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/maccdc2012/notice.log.gz",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "bWFjY2RjMjAxMi9zaWduYXR1cmVzLmxvZy5neg==",
@@ -3267,10 +2267,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/maccdc2012/signatures.log.gz",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "bWFjY2RjMjAxMi9zbXRwLmxvZy5neg==",
@@ -3287,10 +2287,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/maccdc2012/smtp.log.gz",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "bWFjY2RjMjAxMi9zc2gubG9nLmd6",
@@ -3307,10 +2307,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/maccdc2012/ssh.log.gz",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "bWFjY2RjMjAxMi9zc2wubG9nLmd6",
@@ -3327,10 +2327,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/maccdc2012/ssl.log.gz",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "bWFjY2RjMjAxMi90dW5uZWwubG9nLmd6",
@@ -3347,10 +2347,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/maccdc2012/tunnel.log.gz",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "bWFjY2RjMjAxMi93ZWlyZC5sb2cuZ3o=",
@@ -3367,10 +2367,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/maccdc2012/weird.log.gz",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "bWlzYy96ZXVzX2RnYV9kb21haW5zLnR4dC56aXA=",
@@ -3387,10 +2387,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/misc/zeus_dga_domains.txt.zip",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "cGVfc3RhdGljL2FwdDEuemlw",
@@ -3407,10 +2407,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/pe_static/apt1.zip",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "cGVfc3RhdGljL29wLWNsZWF2ZXIuemlw",
@@ -3427,10 +2427,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/pe_static/op-cleaver.zip",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "cGVfc3RhdGljL3pldXMuemlw",
@@ -3447,10 +2447,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/pe_static/zeus.zip",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "c2NhZGEvc2NhZGFfbG9ncy56aXA=",
@@ -3467,10 +2467,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/scada/scada_logs.zip",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "c2VsZi5sb2dzLw==",
@@ -3487,10 +2487,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/self.logs/",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "c3F1aWQvYWNjZXNzLmxvZy5neg==",
@@ -3507,10 +2507,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/squid/access.log.gz",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "dGcvYS56aXA=",
@@ -3527,10 +2527,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/tg/a.zip",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "dGcvYi56aXA=",
@@ -3547,10 +2547,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/tg/b.zip",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "dGcvYy56aXA=",
@@ -3567,10 +2567,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/tg/c.zip",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "dGcvdGdfc25vcnRfZmFzdC43eg==",
@@ -3587,10 +2587,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/tg/tg_snort_fast.7z",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "dGcvdGdfc25vcnRfZnVsbC43eg==",
@@ -3607,50 +2607,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cHM6Ly90ZWNoaGVscGxpc3QuY29tL21hbHRscXIv",
-      "sourceHref": "https://techhelplist.com/maltlqr/",
-      "href": "https://techhelplist.com/maltlqr/",
-      "text": "TechHelpList MalTLQR Upatre and Dyreza Tracker",
-      "description": "IPs and hashes for Upatre and Dyreza families",
-      "license": "Unknown",
-      "variants": [
-        {
-          "text": "TechHelpList MalTLQR Upatre and Dyreza Tracker",
-          "description": "IPs and hashes for Upatre and Dyreza families",
-          "license": "Unknown"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cHM6Ly90ZWNoaGVscGxpc3QuY29tL3NwYW0tbGlzdA==",
-      "sourceHref": "https://techhelplist.com/spam-list",
-      "href": "https://techhelplist.com/spam-list",
-      "text": "TechHelpList SPAM List",
-      "description": "Samples of SPAM messages and associated threat that was delivered in addition to other rich information",
-      "license": "Unknown",
-      "variants": [
-        {
-          "text": "TechHelpList SPAM List",
-          "description": "Samples of SPAM messages and associated threat that was delivered in addition to other rich information",
-          "license": "Unknown"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.secrepo.com/tg/tg_snort_full.7z",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly90aHJlYXRmZWVkcy5pby8=",
@@ -3667,10 +2627,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://threatfeeds.io/",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly90b29scy5uZXRzYS5jZXJ0Lm9yZy9zaWxrL3JlZmVyZW5jZWRhdGEuaHRtbA==",
@@ -3687,30 +2647,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cHM6Ly91cmxoYXVzLWFwaS5hYnVzZS5jaC9kb3dubG9hZHMv",
-      "sourceHref": "https://urlhaus-api.abuse.ch/downloads/",
-      "href": "https://urlhaus-api.abuse.ch/downloads/",
-      "text": "URLhaus",
-      "description": "Daily malware batches.",
-      "license": "CC-0",
-      "variants": [
-        {
-          "text": "URLhaus",
-          "description": "Daily malware batches.",
-          "license": "CC-0"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://tools.netsa.cert.org/silk/referencedata.html",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly92aXJ1c3NoYXJlLmNvbS8=",
@@ -3727,10 +2667,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://virusshare.com/",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly93ZWIuY3MuaGFjZXR0ZXBlLmVkdS50ci9+c2VsbWFuL3BoaXNoLWlyaXMtZGF0YXNldC8=",
@@ -3747,10 +2687,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://web.cs.hacettepe.edu.tr/~selman/phish-iris-dataset/",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly93aHlpc3lvdW5nLmdpdGh1Yi5pby9CT0RNQVMv",
@@ -3767,10 +2707,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://whyisyoung.github.io/BODMAS/",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly93d3cuYWJ1c2UuY2gv",
@@ -3787,30 +2727,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cuYWxpZW52YXVsdC5jb20vdGVybXMvbWF5MjAxNA==",
-      "sourceHref": "https://www.alienvault.com/terms/may2014",
-      "href": "https://www.alienvault.com/terms/may2014",
-      "text": "Legal Info",
-      "description": "AlienVault OTX - Build your own threat feed from community contributors, complete with API",
-      "license": "Legal Info",
-      "variants": [
-        {
-          "text": "Legal Info",
-          "description": "AlienVault OTX - Build your own threat feed from community contributors, complete with API",
-          "license": "Legal Info"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://abuse.ch/",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly93d3cuY2VydC5vcmcvaW5zaWRlci10aHJlYXQvdG9vbHMvaW5kZXguY2Zt",
@@ -3827,10 +2747,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.sei.cmu.edu/software-tools/",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly93d3cuZG9tY29wLmNvbS9maWxlcy90b3AvdG9wMTBtaWxsaW9uZG9tYWlucy5jc3Yuemlw",
@@ -3847,10 +2767,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.domcop.com/files/top/top10milliondomains.csv.zip",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly93d3cua2FnZ2xlLmNvbS9jL21hbHdhcmUtY2xhc3NpZmljYXRpb24=",
@@ -3867,70 +2787,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cubWFsd2FyZWRvbWFpbmxpc3QuY29tL21kbC5waHA=",
-      "sourceHref": "https://www.malwaredomainlist.com/mdl.php",
-      "href": "https://www.malwaredomainlist.com/mdl.php",
-      "text": "Malware Domain List",
-      "description": "Labeled malicious domains and IPs",
-      "license": "Unknown",
-      "variants": [
-        {
-          "text": "Malware Domain List",
-          "description": "Labeled malicious domains and IPs",
-          "license": "Unknown"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cucGFja2V0bWFpbC5uZXQvaXByZXAudHh0",
-      "sourceHref": "https://www.packetmail.net/iprep.txt",
-      "href": "https://www.packetmail.net/iprep.txt",
-      "text": "Continously updated IP block list",
-      "description": "Created by Packetmail (?)",
-      "license": "no for-sale or paywall use",
-      "variants": [
-        {
-          "text": "Continously updated IP block list",
-          "description": "Created by Packetmail (?)",
-          "license": "no for-sale or paywall use"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cuc2VjLmNzLnR1LWJzLmRlL35kYW5hcnAvZHJlYmluLw==",
-      "sourceHref": "https://www.sec.cs.tu-bs.de/~danarp/drebin/",
-      "href": "https://www.sec.cs.tu-bs.de/~danarp/drebin/",
-      "text": "Drebin Dataset",
-      "description": "Android malware, must submit proof of who you are for access.",
-      "license": "Listed on site",
-      "variants": [
-        {
-          "text": "Drebin Dataset",
-          "description": "Android malware, must submit proof of who you are for access.",
-          "license": "Listed on site"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.kaggle.com/c/malware-classification",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly93d3cudW5iLmNhL2NpYy9kYXRhc2V0cy9pbmRleC5odG1s",
@@ -3947,10 +2807,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.unb.ca/cic/datasets/index.html",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly93d3cudW5zdy5hZGZhLmVkdS5hdS9hdXN0cmFsaWFuLWNlbnRyZS1mb3ItY3liZXItc2VjdXJpdHkvY3liZXJzZWN1cml0eS9BREZBLUlEUy1EYXRhc2V0cy8=",
@@ -3972,10 +2832,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.unsw.edu.au/canberra",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly93d3cudW5zdy5hZGZhLmVkdS5hdS9hdXN0cmFsaWFuLWNlbnRyZS1mb3ItY3liZXItc2VjdXJpdHkvY3liZXJzZWN1cml0eS9BREZBLU5CMTUtRGF0YXNldHMv",
@@ -3992,50 +2852,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cudXZpYy5jYS9lbmdpbmVlcmluZy9lY2UvaXNvdC9kYXRhc2V0cy9pbmRleC5waHA=",
-      "sourceHref": "https://www.uvic.ca/engineering/ece/isot/datasets/index.php",
-      "href": "https://www.uvic.ca/engineering/ece/isot/datasets/index.php",
-      "text": "University of Victoria Botnet Dataset",
-      "description": "Malicious and benign traffic from LBNL and Ericsson (merged publically available data)",
-      "license": "Unknown",
-      "variants": [
-        {
-          "text": "University of Victoria Botnet Dataset",
-          "description": "Malicious and benign traffic from LBNL and Ericsson (merged publically available data)",
-          "license": "Unknown"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cud2VzdHBvaW50LmVkdS9jcmMvU2l0ZVBhZ2VzL0RhdGFTZXRzLmFzcHg=",
-      "sourceHref": "https://www.westpoint.edu/crc/SitePages/DataSets.aspx",
-      "href": "https://www.westpoint.edu/crc/SitePages/DataSets.aspx",
-      "text": "West Point NSA Data Sets",
-      "description": "Snort IDS, DNS Service, and Web Server logs.",
-      "license": "Unknown",
-      "variants": [
-        {
-          "text": "West Point NSA Data Sets",
-          "description": "Snort IDS, DNS Service, and Web Server logs.",
-          "license": "Unknown"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www.unsw.edu.au/canberra",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly93d3cyLmNzLmFyaXpvbmEuZWR1L3Byb2plY3RzL2x5bngtcHJvamVjdC8=",
@@ -4052,30 +2872,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cyLmNzLmFyaXpvbmEuZWR1L3Byb2plY3RzL2x5bngtcHJvamVjdC9TYW1wbGVzLw==",
-      "sourceHref": "https://www2.cs.arizona.edu/projects/lynx-project/Samples/",
-      "href": "https://www2.cs.arizona.edu/projects/lynx-project/Samples/",
-      "text": "lynx Project Samples",
-      "description": "- Benign samples that behave like malware (lynx Project)",
-      "license": "Unknown",
-      "variants": [
-        {
-          "text": "lynx Project Samples",
-          "description": "- Benign samples that behave like malware (lynx Project)",
-          "license": "Unknown"
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://www2.cs.arizona.edu/projects/lynx-project/",
+      "lastChecked": "2026-06-06T14:37:48Z"
     },
     {
       "id": "aHR0cHM6Ly96ZW5vZG8ub3JnL3JlY29yZC8zMjQxNDQ1Iy5ZVmVzbVpyTUtXWg==",
@@ -4092,30 +2892,10 @@
         }
       ],
       "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
-    },
-    {
-      "id": "aHR0cHM6Ly96ZXVzdHJhY2tlci5hYnVzZS5jaC9kb3dubG9hZHMvemV1c2JpbmFyaWVzLnppcA==",
-      "sourceHref": "https://zeustracker.abuse.ch/downloads/zeusbinaries.zip",
-      "href": "https://zeustracker.abuse.ch/downloads/zeusbinaries.zip",
-      "text": "ZeuS Tracker",
-      "description": "Static information about Zeus binaries - Static information (JSON) of about ~8k samples from ZeuS Tracker",
-      "license": null,
-      "variants": [
-        {
-          "text": "ZeuS Tracker",
-          "description": "Static information about Zeus binaries - Static information (JSON) of about ~8k samples from ZeuS Tracker",
-          "license": null
-        }
-      ],
-      "active": true,
-      "status": "unknown",
-      "httpStatus": null,
-      "finalUrl": null,
-      "lastChecked": null
+      "status": "ok",
+      "httpStatus": 200,
+      "finalUrl": "https://zenodo.org/records/3241445",
+      "lastChecked": "2026-06-06T14:37:48Z"
     }
   ]
 }
