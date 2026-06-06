@@ -107,6 +107,7 @@
                               if (!Array.isArray(parts)) return 0;
                               const cleaned = [];
                               let liveCount = 0;
+                              let stripLeadingCloseWrapper = false;
 
                               const trimTrailingConnector = function(text) {
                                  const stripped = text.replace(/\s+$/, "");
@@ -120,7 +121,12 @@
                               parts.forEach(function(p) {
                                  if (!p) return;
                                  if (typeof p.text === "string") {
-                                    cleaned.push({ type: "text", value: p.text });
+                                    let textValue = p.text;
+                                    if (stripLeadingCloseWrapper) {
+                                       textValue = textValue.replace(/^\s*[\)\]\}]+\s*/, "");
+                                       stripLeadingCloseWrapper = false;
+                                    }
+                                    cleaned.push({ type: "text", value: textValue });
                                  } else if (typeof p.link === "string") {
                                     const entry = manifestById.get(p.link);
                                     if (isActive(entry)) {
@@ -142,6 +148,16 @@
                                              break;
                                           }
                                        }
+
+                                       // If text wrapped this link (e.g. "(...dead-link...)"),
+                                       // strip a dangling opening wrapper before the dead link and
+                                       // mark the next text token to drop closing wrappers.
+                                       if (cleaned.length > 0 && cleaned[cleaned.length - 1].type === "text") {
+                                          const last = cleaned[cleaned.length - 1];
+                                          last.value = last.value.replace(/\s*[\(\[\{]\s*$/, "");
+                                          if (last.value === "") cleaned.pop();
+                                       }
+                                       stripLeadingCloseWrapper = true;
                                     }
                                  }
                               });
@@ -156,6 +172,22 @@
                                  const last = cleaned[cleaned.length - 1];
                                  last.value = last.value.replace(/\s+$/, "");
                                  if (last.value === "") cleaned.pop();
+                              }
+
+                              // Drop wrapper-only fragments left behind after inactive links.
+                              while (
+                                 cleaned.length > 0 &&
+                                 cleaned[0].type === "text" &&
+                                 /^\s*[\(\)\[\]\{\}]\s*$/.test(cleaned[0].value)
+                              ) {
+                                 cleaned.shift();
+                              }
+                              while (
+                                 cleaned.length > 0 &&
+                                 cleaned[cleaned.length - 1].type === "text" &&
+                                 /^\s*[\(\)\[\]\{\}]\s*$/.test(cleaned[cleaned.length - 1].value)
+                              ) {
+                                 cleaned.pop();
                               }
 
                               cleaned.forEach(function(c) {
@@ -202,8 +234,33 @@
                            // Render an item description from the primary link entry's `description`.
                            // Returns true if a description was emitted.
                            function appendDescription(item, parent) {
-                              const sourceLink = (item.parts || []).find(function(p) { return p && p.link; });
-                              const sourceEntry = sourceLink ? manifestById.get(sourceLink.link) : null;
+                              const partLinks = (item.parts || []).filter(function(p) {
+                                 return p && typeof p.link === "string";
+                              });
+
+                              let sourceEntry = null;
+                              partLinks.some(function(p) {
+                                 const entry = manifestById.get(p.link);
+                                 const desc = entry && typeof entry.description === "string" ? entry.description.trim() : "";
+                                 if (isActive(entry) && desc.length > 0) {
+                                    sourceEntry = entry;
+                                    return true;
+                                 }
+                                 return false;
+                              });
+
+                              if (!sourceEntry) {
+                                 const firstActive = partLinks.find(function(p) {
+                                    return isActive(manifestById.get(p.link));
+                                 });
+                                 if (firstActive) sourceEntry = manifestById.get(firstActive.link);
+                              }
+
+                              if (!sourceEntry) {
+                                 const firstAny = partLinks[0];
+                                 if (firstAny) sourceEntry = manifestById.get(firstAny.link);
+                              }
+
                               if (!sourceEntry) return false;
                               const description =
                                  typeof sourceEntry.description === "string" && sourceEntry.description.trim().length > 0
@@ -211,7 +268,7 @@
                                     : "";
                               if (!description) return false;
                               const hasInlineText = (item.parts || []).some(function(p) {
-                                 return p && typeof p.text === "string" && /\S/.test(p.text);
+                                 return p && typeof p.text === "string" && /[A-Za-z0-9]/.test(p.text);
                               });
                               if (hasInlineText) return false;
                               parent.appendChild(document.createTextNode(" - " + description));
