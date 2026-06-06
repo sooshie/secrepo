@@ -23,9 +23,9 @@ body {
   color: var(--text);
   font-family: Manrope, sans-serif;
   background:
-    radial-gradient(circle at 15% 15%, rgba(25, 195, 125, 0.18), transparent 36%),
-    radial-gradient(circle at 88% 28%, rgba(86, 123, 255, 0.22), transparent 40%),
-    var(--bg);
+    radial-gradient(circle at 15% 82%, rgba(25, 195, 125, 0.2), transparent 36%),
+    radial-gradient(circle at 88% 68%, rgba(86, 123, 255, 0.2), transparent 40%),
+    linear-gradient(180deg, #0b1017 0%, #113226 100%);
 }
 
 a {
