@@ -3401,14 +3401,14 @@
       "id": "aHR0cHM6Ly9wcmVkaWN0Lm9yZy8=",
       "sourceHref": "https://predict.org/",
       "href": "https://predict.org/",
-      "text": "Protected Repository for the Defense of Infrastructure Against Cyber Threats",
+      "text": "Protected Repository for the Defense of Infrastructure Against Cyber Threats. Lots of data (restricted use)",
       "description": "",
-      "license": "License",
+      "license": "Unknown",
       "variants": [
         {
-          "text": "Protected Repository for the Defense of Infrastructure Against Cyber Threats",
+          "text": "Protected Repository for the Defense of Infrastructure Against Cyber Threats. Lots of data (restricted use)",
           "description": "",
-          "license": "License"
+          "license": "Unknown"
         }
       ],
       "active": false,
@@ -5102,9 +5102,6 @@
                     "parts": [
                       {
                         "link": "aHR0cHM6Ly9wcmVkaWN0Lm9yZy8="
-                      },
-                      {
-                        "text": " Lots of data (restricted use)"
                       }
                     ]
                   },
