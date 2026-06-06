@@ -214,66 +214,47 @@
                               return liveCount;
                            }
 
-                           // Append " [License Info: <parts>]" if any license parts render to non-empty.
-                           // For compound rows (no inline description), do NOT fall back to the source link's
-                           // license — only emit a fallback license when the row is a simple single-link entry
-                           // (i.e. its description was also emitted from the manifest).
-                           function appendLicense(item, parent, descriptionEmitted) {
-                              const licenseParts = Array.isArray(item.license) ? item.license : null;
+                           function pickSourceEntry(item, options) {
+                              const opts = options || {};
+                              const requireDescription = Boolean(opts.requireDescription);
+                              const partLinks = (item.parts || []).filter(function(p) {
+                                 return p && typeof p.link === "string";
+                              });
 
-                              if (licenseParts && licenseParts.length > 0) {
-                                 const tmp = document.createElement("span");
-                                 const live = renderParts(licenseParts, tmp);
-                                 const text = (tmp.textContent || "").trim();
-                                 if (live > 0 || text.length > 0) {
-                                    parent.appendChild(document.createTextNode(" [License Info: "));
-                                    while (tmp.firstChild) parent.appendChild(tmp.firstChild);
-                                    parent.appendChild(document.createTextNode("]"));
+                              let selected = null;
+                              partLinks.some(function(p) {
+                                 const entry = manifestById.get(p.link);
+                                 if (!isActive(entry)) return false;
+                                 if (requireDescription) {
+                                    const desc = entry && typeof entry.description === "string" ? entry.description.trim() : "";
+                                    if (!desc) return false;
                                  }
-                                 return;
-                              }
+                                 selected = entry;
+                                 return true;
+                              });
 
+                              if (selected) return selected;
+
+                              const firstAny = partLinks[0];
+                              return firstAny ? manifestById.get(firstAny.link) : null;
+                           }
+
+                           // Append license using links[] metadata as the only content source.
+                           function appendLicense(item, parent, descriptionEmitted) {
                               if (!descriptionEmitted) return;
-                              const sourceLink = (item.parts || []).find(function(p) { return p && p.link; });
-                              const sourceEntry = sourceLink ? manifestById.get(sourceLink.link) : null;
-                              const fallbackLicense =
+                              const sourceEntry = pickSourceEntry(item, { requireDescription: true });
+                              const license =
                                  sourceEntry && typeof sourceEntry.license === "string" && sourceEntry.license.trim().length > 0
                                     ? sourceEntry.license.trim()
                                     : "";
-                              if (fallbackLicense) {
-                                 parent.appendChild(document.createTextNode(" [License Info: " + fallbackLicense + "]"));
-                              }
+                              if (!license) return;
+                              parent.appendChild(document.createTextNode(" [License Info: " + license + "]"));
                            }
 
                            // Render an item description from the primary link entry's `description`.
                            // Returns true if a description was emitted.
                            function appendDescription(item, parent) {
-                              const partLinks = (item.parts || []).filter(function(p) {
-                                 return p && typeof p.link === "string";
-                              });
-
-                              let sourceEntry = null;
-                              partLinks.some(function(p) {
-                                 const entry = manifestById.get(p.link);
-                                 const desc = entry && typeof entry.description === "string" ? entry.description.trim() : "";
-                                 if (isActive(entry) && desc.length > 0) {
-                                    sourceEntry = entry;
-                                    return true;
-                                 }
-                                 return false;
-                              });
-
-                              if (!sourceEntry) {
-                                 const firstActive = partLinks.find(function(p) {
-                                    return isActive(manifestById.get(p.link));
-                                 });
-                                 if (firstActive) sourceEntry = manifestById.get(firstActive.link);
-                              }
-
-                              if (!sourceEntry) {
-                                 const firstAny = partLinks[0];
-                                 if (firstAny) sourceEntry = manifestById.get(firstAny.link);
-                              }
+                              const sourceEntry = pickSourceEntry(item, { requireDescription: true });
 
                               if (!sourceEntry) return false;
                               const description =

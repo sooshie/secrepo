@@ -4351,9 +4351,6 @@
                             "parts": [
                               {
                                 "link": "bWFjY2RjMjAxMi9jb25uLmxvZy5neg=="
-                              },
-                              {
-                                "text": " (524MB)"
                               }
                             ]
                           },
@@ -4660,9 +4657,6 @@
                             "parts": [
                               {
                                 "link": "bWFjY2RjMjAxMi9tYWNjZGMyMDEyX2Zhc3RfYWxlcnQuN3o="
-                              },
-                              {
-                                "text": " Snort Fast Alert format logs (10MB)"
                               }
                             ]
                           },
@@ -4670,9 +4664,6 @@
                             "parts": [
                               {
                                 "link": "bWFjY2RjMjAxMi9tYWNjZGMyMDEyX2Z1bGxfYWxlcnQuN3o="
-                              },
-                              {
-                                "text": " Snort Full Alert format logs (24MB)"
                               }
                             ]
                           }
@@ -4783,9 +4774,6 @@
                             "parts": [
                               {
                                 "link": "dGcvdGdfc25vcnRfZmFzdC43eg=="
-                              },
-                              {
-                                "text": " Snort Fast Alert format logs (5MB)"
                               }
                             ]
                           },
@@ -4793,9 +4781,6 @@
                             "parts": [
                               {
                                 "link": "dGcvdGdfc25vcnRfZnVsbC43eg=="
-                              },
-                              {
-                                "text": " Snort Full Alert format logs (9MB)"
                               }
                             ]
                           }
@@ -4808,9 +4793,6 @@
                     "parts": [
                       {
                         "link": "bWlzYy96ZXVzX2RnYV9kb21haW5zLnR4dC56aXA="
-                      },
-                      {
-                        "text": " 31000 DGA domains from Dec 2014"
                       }
                     ]
                   },
@@ -4818,9 +4800,6 @@
                     "parts": [
                       {
                         "link": "ZG9tYWluZGF0YS9kb21haW5tb3ZlbWVudC56aXA="
-                      },
-                      {
-                        "text": " Old domain transefer data from several registrars, JSON format. (8MB)"
                       }
                     ]
                   },
@@ -4828,9 +4807,6 @@
                     "parts": [
                       {
                         "link": "c2NhZGEvc2NhZGFfbG9ncy56aXA="
-                      },
-                      {
-                        "text": " ICS logs generated w/Bro from various PCAPs (1MB)"
                       }
                     ]
                   }
@@ -5112,14 +5088,6 @@
                     "parts": [
                       {
                         "link": "ZnRwOi8vZG93bmxvYWQuaXdsYWIuZm9pLnNlL2RhdGFzZXQv"
-                      },
-                      {
-                        "text": " PCAP and various log sources"
-                      }
-                    ],
-                    "license": [
-                      {
-                        "text": "Unknown"
                       }
                     ]
                   },
@@ -5127,14 +5095,6 @@
                     "parts": [
                       {
                         "link": "aHR0cDovL3d3dy5nd2Vybi5uZXQvQmxhY2stbWFya2V0JTIwYXJjaGl2ZXM="
-                      },
-                      {
-                        "text": " A scraped archive of Dark Net Markets"
-                      }
-                    ],
-                    "license": [
-                      {
-                        "text": "Unknown"
                       }
                     ]
                   },
@@ -5146,25 +5106,12 @@
                       {
                         "text": " Lots of data (restricted use)"
                       }
-                    ],
-                    "license": [
-                      {
-                        "link": "aHR0cHM6Ly9wcmVkaWN0Lm9yZy9Qb3J0YWxzLzAvRG9jdW1lbnRzL0hlbHAvUFJFRElDVC1VRy1IVE1MNS9Db250ZW50L1J1bGVzJTIwb2YlMjBCZWhhdmlvci5odG0="
-                      }
                     ]
                   },
                   {
                     "parts": [
                       {
                         "link": "aHR0cDovL2Nzci5sYW5sLmdvdi9kYXRhL2N5YmVyMS8="
-                      },
-                      {
-                        "text": " Auth, DNS, process, and flow data."
-                      }
-                    ],
-                    "license": [
-                      {
-                        "text": "Public Domain"
                       }
                     ]
                   },
@@ -5172,14 +5119,6 @@
                     "parts": [
                       {
                         "link": "aHR0cDovL2Nzci5sYW5sLmdvdi9kYXRhLw=="
-                      },
-                      {
-                        "text": " Multiple datasets from LANL."
-                      }
-                    ],
-                    "license": [
-                      {
-                        "text": "Public Domain"
                       }
                     ]
                   },
@@ -5206,11 +5145,6 @@
                   },
                   {
                     "parts": [
-                      {
-                        "link": "aHR0cDovL3d3dy5henNlY3VyZS1kYXRhLm9yZy9nZXQtZGF0YS5odG1s"
-                      }
-                    ],
-                    "license": [
                       {
                         "link": "aHR0cDovL3d3dy5henNlY3VyZS1kYXRhLm9yZy9nZXQtZGF0YS5odG1s"
                       }
@@ -5318,11 +5252,6 @@
                       {
                         "link": "aHR0cDovL3d3dy5wY2Fwci5uZXQv"
                       }
-                    ],
-                    "license": [
-                      {
-                        "link": "aHR0cDovL3d3dy5wY2Fwci5uZXQvdG9z"
-                      }
                     ]
                   },
                   {
@@ -5357,11 +5286,6 @@
                       {
                         "link": "aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvcGFnZXMvZGRzLWRhdGFzZXQtY29sbGVjdGlvbi5odG1s"
                       }
-                    ],
-                    "license": [
-                      {
-                        "text": "Unknown"
-                      }
                     ]
                   },
                   {
@@ -5374,11 +5298,6 @@
                       },
                       {
                         "link": "aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvcGFnZXMvZGRzLWRhdGFzZXQtY29sbGVjdGlvbi5odG1s"
-                      }
-                    ],
-                    "license": [
-                      {
-                        "text": "Unknown"
                       }
                     ]
                   },
@@ -5393,22 +5312,12 @@
                       {
                         "link": "aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvcGFnZXMvZGRzLWRhdGFzZXQtY29sbGVjdGlvbi5odG1s"
                       }
-                    ],
-                    "license": [
-                      {
-                        "text": "Unknown"
-                      }
                     ]
                   },
                   {
                     "parts": [
                       {
                         "link": "aHR0cDovL29zaW50LmJhbWJlbmVrY29uc3VsdGluZy5jb20vZmVlZHMvZGdhLWZlZWQudHh0"
-                      }
-                    ],
-                    "license": [
-                      {
-                        "link": "aHR0cDovL29zaW50LmJhbWJlbmVrY29uc3VsdGluZy5jb20vbGljZW5zZS50eHQ="
                       }
                     ]
                   },
@@ -5458,14 +5367,6 @@
                     "parts": [
                       {
                         "link": "aHR0cHM6Ly90b29scy5uZXRzYS5jZXJ0Lm9yZy9zaWxrL3JlZmVyZW5jZWRhdGEuaHRtbA=="
-                      },
-                      {
-                        "text": " Anonymized enterprise packet header traces."
-                      }
-                    ],
-                    "license": [
-                      {
-                        "text": "Unknown"
                       }
                     ]
                   },
@@ -5473,14 +5374,6 @@
                     "parts": [
                       {
                         "link": "aHR0cHM6Ly9kZ2FyY2hpdmUuY2FhZC5ma2llLmZyYXVuaG9mZXIuZGUv"
-                      },
-                      {
-                        "text": " Multiple DGA data sets generated by the actual algorithm vs. captured network traffic."
-                      }
-                    ],
-                    "license": [
-                      {
-                        "text": "CC BY-NC-SA 3.0"
                       }
                     ]
                   },
@@ -5488,14 +5381,6 @@
                     "parts": [
                       {
                         "link": "aHR0cHM6Ly93d3cudW5iLmNhL2NpYy9kYXRhc2V0cy9pbmRleC5odG1s"
-                      },
-                      {
-                        "text": " Data related to Botnets and Android Botnets."
-                      }
-                    ],
-                    "license": [
-                      {
-                        "text": "Unknown"
                       }
                     ]
                   },
@@ -5503,14 +5388,6 @@
                     "parts": [
                       {
                         "link": "aHR0cDovL3d3dy5pc2kuY3NpYy5lcy9kYXRhc2V0Lw=="
-                      },
-                      {
-                        "text": " Labeled (normal, anomalous) HTTP data in CSV format."
-                      }
-                    ],
-                    "license": [
-                      {
-                        "text": "Unknown"
                       }
                     ]
                   },
@@ -5518,14 +5395,6 @@
                     "parts": [
                       {
                         "link": "aHR0cDovL3ZhY29tbXVuaXR5Lm9yZy9WQVNUK0NoYWxsZW5nZSsyMDEyJTNBK1N1Ym1pc3Npb24rSW5zdHJ1Y3Rpb25zK2FuZCtEb3dubG9hZHM="
-                      },
-                      {
-                        "text": " IDS logs generated by IEEE"
-                      }
-                    ],
-                    "license": [
-                      {
-                        "text": "Unknown"
                       }
                     ]
                   },
@@ -5533,14 +5402,6 @@
                     "parts": [
                       {
                         "link": "aHR0cHM6Ly93d3cudXZpYy5jYS9lbmdpbmVlcmluZy9lY2UvaXNvdC9kYXRhc2V0cy9pbmRleC5waHA="
-                      },
-                      {
-                        "text": " Malicious and benign traffic from LBNL and Ericsson (merged publically available data)"
-                      }
-                    ],
-                    "license": [
-                      {
-                        "text": "Unknown"
                       }
                     ]
                   },
@@ -5548,14 +5409,6 @@
                     "parts": [
                       {
                         "link": "aHR0cDovL3d3dy5jYWlkYS5vcmcvZGF0YS9wYXNzaXZlL3NpcHNjYW5fZGF0YXNldC54bWw="
-                      },
-                      {
-                        "text": " Public and restricted datasets of various malware and other network traffic."
-                      }
-                    ],
-                    "license": [
-                      {
-                        "text": "Available on dataset page"
                       }
                     ]
                   },
@@ -5563,14 +5416,6 @@
                     "parts": [
                       {
                         "link": "aHR0cHM6Ly93d3cudW5zdy5hZGZhLmVkdS5hdS9hdXN0cmFsaWFuLWNlbnRyZS1mb3ItY3liZXItc2VjdXJpdHkvY3liZXJzZWN1cml0eS9BREZBLU5CMTUtRGF0YXNldHMv"
-                      },
-                      {
-                        "text": " This data set has nine families of attacks, namely, Fuzzers, Analysis, Backdoors, DoS, Exploits, Generic, Reconnaissance, Shellcode and Worms. (CSV data)"
-                      }
-                    ],
-                    "license": [
-                      {
-                        "text": "Unknown"
                       }
                     ]
                   },
@@ -5578,14 +5423,6 @@
                     "parts": [
                       {
                         "link": "aHR0cHM6Ly9tY2ZwLmZlbGsuY3Z1dC5jei9wdWJsaWNEYXRhc2V0cy8="
-                      },
-                      {
-                        "text": " PCAPs, Samples, etc..."
-                      }
-                    ],
-                    "license": [
-                      {
-                        "text": "Unknown"
                       }
                     ]
                   },
@@ -5628,14 +5465,6 @@
                     "parts": [
                       {
                         "link": "aHR0cHM6Ly9yZXNlYXJjaC5hYWx0by5maS9lbi9kYXRhc2V0cy9pb3QtZGV2aWNlcy1jYXB0dXJlcygyODVhOWIwNi1kZTMxLTRkOGItODhlOS01YmRiYTQ2Y2MxNjEpLmh0bWw="
-                      },
-                      {
-                        "text": " IoT Device PCAP by Aalto University Research"
-                      }
-                    ],
-                    "license": [
-                      {
-                        "text": "Listed on site"
                       }
                     ]
                   },
@@ -5643,11 +5472,6 @@
                     "parts": [
                       {
                         "link": "aHR0cDovL2JsdWVzbW90ZS5jb20v"
-                      }
-                    ],
-                    "license": [
-                      {
-                        "text": "Public Domain"
                       }
                     ]
                   },
@@ -5683,14 +5507,6 @@
                     "parts": [
                       {
                         "link": "aHR0cDovL2FyY2hpdmUuaWNzLnVjaS5lZHUvbWwvZGF0YXNldHMvV2Vic2l0ZStQaGlzaGluZw=="
-                      },
-                      {
-                        "text": " A collection of Phishing Websites as well as legitimate ones."
-                      }
-                    ],
-                    "license": [
-                      {
-                        "text": "Listed on site"
                       }
                     ]
                   },
@@ -5789,11 +5605,6 @@
                       {
                         "link": "aHR0cDovL21jZnAud2VlYmx5LmNvbS90aGUtY3R1LTEzLWRhdGFzZXQtYS1sYWJlbGVkLWRhdGFzZXQtd2l0aC1ib3RuZXQtbm9ybWFsLWFuZC1iYWNrZ3JvdW5kLXRyYWZmaWMuaHRtbA=="
                       }
-                    ],
-                    "license": [
-                      {
-                        "text": "Unknown"
-                      }
                     ]
                   },
                   {
@@ -5806,11 +5617,6 @@
                       },
                       {
                         "link": "aHR0cDovL21veWl4LmJsb2dzcG90LmNvbS8yMDE0LzEyL3JlcHJvZHVjaWJsZS1tYWx3YXJlLWFuYWx5c2VzLWZvci1hbGwuaHRtbD9tPTE="
-                      }
-                    ],
-                    "license": [
-                      {
-                        "text": "Unknown"
                       }
                     ]
                   },
@@ -5832,14 +5638,6 @@
                     "parts": [
                       {
                         "link": "aHR0cDovL3JlYnNuaXBwZXRzLmJsb2dzcG90LmNvbS8yMDE1LzA4L3BsdWd4LWNocm9uaWNsZXMuaHRtbA=="
-                      },
-                      {
-                        "text": " Various PlugX samples and links to information about PlugX"
-                      }
-                    ],
-                    "license": [
-                      {
-                        "text": "Unknown"
                       }
                     ]
                   },
@@ -5863,11 +5661,6 @@
                       },
                       {
                         "text": ")"
-                      }
-                    ],
-                    "license": [
-                      {
-                        "text": "Unknown"
                       }
                     ]
                   },
@@ -5960,11 +5753,6 @@
                       {
                         "link": "aHR0cDovL2RhdGEud2ViYXJjaGl2ZS5vcmcudWsvb3BlbmRhdGEvdWt3YS5kcy4xL2NsYXNzaWZpY2F0aW9uLw=="
                       }
-                    ],
-                    "license": [
-                      {
-                        "text": "Public Domain, info on site"
-                      }
                     ]
                   },
                   {
@@ -5984,11 +5772,6 @@
                       },
                       {
                         "link": "aHR0cHM6Ly9naXRodWIuY29tL21veWl4L3BhbmRh"
-                      }
-                    ],
-                    "license": [
-                      {
-                        "text": "Unknown"
                       }
                     ]
                   },
@@ -6087,14 +5870,6 @@
                     "parts": [
                       {
                         "link": "aHR0cDovL3ZpcnVzc2hhcmUuY29tLw=="
-                      },
-                      {
-                        "text": " [Login Required] - Huge collection of downloadable/torrentable malware files for various architectures"
-                      }
-                    ],
-                    "license": [
-                      {
-                        "text": "Unknown"
                       }
                     ]
                   },
@@ -6116,11 +5891,6 @@
                     "parts": [
                       {
                         "link": "aHR0cDovL3d3dy5tYWxzaGFyZS5jb20vaW5kZXgucGhw"
-                      }
-                    ],
-                    "license": [
-                      {
-                        "text": "TOS"
                       }
                     ]
                   },
@@ -6192,22 +5962,12 @@
                       {
                         "link": "aHR0cHM6Ly9vdHguYWxpZW52YXVsdC5jb20vYnJvd3Nl"
                       }
-                    ],
-                    "license": [
-                      {
-                        "link": "aHR0cHM6Ly93d3cuYWxpZW52YXVsdC5jb20vdGVybXMvbWF5MjAxNA=="
-                      }
                     ]
                   },
                   {
                     "parts": [
                       {
                         "link": "aHR0cDovL3RyYWNrZXIuaDN4LmV1L2ZhbWlsaWVz"
-                      }
-                    ],
-                    "license": [
-                      {
-                        "link": "aHR0cDovL3RyYWNrZXIuaDN4LmV1L2Fib3V0LzQwMA=="
                       }
                     ]
                   },
