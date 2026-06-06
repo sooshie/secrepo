@@ -4,80 +4,61 @@
         <meta http-equiv="content-type" content="text/html; charset=UTF-8">
         <meta charset="utf-8">
         <title>SecRepo - Security Data Samples Repository</title>
-        <meta name="generator" content="Bootply" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <base target="_blank">
 
         <!--[if lt IE 9]>
           <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-        <link rel="shortcut icon" href="/bootstrap/img/favicon.ico">
-<!--
-        <link rel="apple-touch-icon" href="/bootstrap/img/apple-touch-icon.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="/bootstrap/img/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="/bootstrap/img/apple-touch-icon-114x114.png">
--->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
          <link rel="stylesheet" href="css/style.css">
     </head>
 
-    <!-- HTML code from Bootply.com editor -->
-
     <body>
-        <!-- Wrap all page content here -->
-        <div id="wrap">
+            <div class="site-grid">
+               <aside class="shell sidebar">
+                  <div class="brand">SECREPO / SIGNAL</div>
+                           <details class="nav-group" open>
+                              <summary>Primary</summary>
+                              <a class="navitem" href="#about">About</a>
+                              <a class="navitem" href="#data">Data</a>
+                              <a class="navitem" href="#contact">Contact</a>
+                              <a class="navitem" href="#misc">Misc</a>
+                           </details>
 
-          <!-- Fixed navbar -->
-          <div class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Security Repo</a>
-              </div>
-              <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                  <li class="active"><a href="#">Home</a></li>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#contact">Contact</a></li>
-                  <li class="dropdown">
-                    <a href="data#" class="dropdown-toggle" data-toggle="dropdown">Data<b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                      <li class="dropdown-header">Created</li>
-                      <li><a href="#network">Network</a></li>
-                      <li><a href="#system">System</a></li>
-                      <li><a href="#malware">Malware</a></li>
-                      <li><a href="#other">Other</a></li>
-                      <li><a href="#">File</a></li>
-                      <li class="divider"></li>
-                      <li class="dropdown-header">3rd Party</li>
-                      <li><a href="#3p_other">Other</a></li>
-                      <li><a href="#3p_network">Network</a></li>
-                      <li><a href="#3p_malware">Malware</a></li>
-                      <li><a href="#3p_system">System</a></li>
-                      <li><a href="#3p_file">File</a></li>
-                      <li><a href="#3p_passwd">Password</a></li>
-                      <li><a href="#3p_threat">Threat Feeds</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="#misc">Misc</a></li>
-                </ul>
-              </div><!--/.nav-collapse -->
-            </div>
-          </div>
+                           <details class="nav-group">
+                              <summary>Created Data</summary>
+                              <a class="navitem" href="#network">Network</a>
+                              <a class="navitem" href="#malware">Malware</a>
+                              <a class="navitem" href="#system">System</a>
+                              <a class="navitem" href="#other">Other</a>
+                           </details>
 
-          <!-- Begin page content -->
-          <div class="container">
-            <div class="page-header">
-              <h1>SecRepo.com - Samples of Security Related Data</h1>
-            </div>
+                           <details class="nav-group">
+                              <summary>3rd Party Data</summary>
+                              <a class="navitem" href="#3p_other">Other</a>
+                              <a class="navitem" href="#3p_network">Network</a>
+                              <a class="navitem" href="#3p_malware">Malware</a>
+                              <a class="navitem" href="#3p_system">System</a>
+                              <a class="navitem" href="#3p_file">File</a>
+                              <a class="navitem" href="#3p_passwd">Passwords</a>
+                              <a class="navitem" href="#3p_threat">Threat Feeds</a>
+                           </details>
+               </aside>
+
+               <main class="shell main-content">
+                  <div class="hero">
+                     <h1>SecRepo.com - Samples of Security Related Data</h1>
+                     <p class="sub">Community-curated resources for network, malware, system, and threat intelligence research.</p>
+                  </div>
+
+                  <div class="content-body">
             <a id="about"></a>
             <p class="lead">Finding samples of various types of Security related can be a giant pain. This is my attempt to keep a somewhat curated list of Security related data I've found, created, or was pointed to. If you perform any kind of analysis with any of this data please let me know and I'd be happy to link it from here or host it here. Hopefully by looking at others research and analysis it will inspire people to add-on, improve, and create new ideas.</p>
             <p>All data generated and hosted by Security Repo is done so under the following license (exceptions noted where applicable).</p>
-            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">Security Repo</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://secrepo.com" property="cc:attributionName" rel="cc:attributionURL">Mike Sconzo</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a></p>
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">Security Repo</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="#" data-link-id="aHR0cDovL3NlY3JlcG8uY29t" property="cc:attributionName" rel="cc:attributionURL">Mike Sconzo</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a></p>
             <p> <br/></p>
             <p>Q: How do you give without having to do anything?<br/>
                A: Simply visit this site.<br/>
@@ -89,63 +70,63 @@
             <ul>
                <li><a id="network"></a>Network
                   <ul>
-                     <li>MACCDC2012 - Generated with Bro from the <a href="http://www.netresec.com/?page=MACCDC">2012 dataset</a>
+                     <li>MACCDC2012 - Generated with Bro from the <a href="#" data-link-id="aHR0cDovL3d3dy5uZXRyZXNlYy5jb20vP3BhZ2U9TUFDQ0RD">2012 dataset</a>
                          <ul>
                             <lh>A nice dataset that has everything from scanning/recon through explotation as well as some c99 shell traffic. Roughly 22694356 total connections.</lh>
-                            <li><a href="maccdc2012/conn.log.gz" download>conn.log.gz</a> (524MB)</li>
-                            <li><a href="maccdc2012/dhcp.log.gz" download>dhcp.log.gz</a> (1MB) - <a href="Datasets Description/Network/dhcp.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">dhcp  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/dhcp%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/dns.log.gz" download>dns.log.gz</a> (7MB) - <a href="Datasets Description/Network/dns.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">dhcp  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/dns%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/files.log.gz" download>files.log.gz</a> (49MB) - <a href="Datasets Description/Network/files.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">files  dataset</a> and analysis on <a href="#">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/ftp.log.gz" download>ftp.log.gz</a> (1MB) - <a href="Datasets Description/Network/ftp.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">ftp  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/ftp%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/http.log.gz" download>http.log.gz</a> (54MB) - <a href="Datasets Description/Network/http.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">http  dataset</a> and analysis on <a href="#">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/notice.log.gz" download>notice.log.gz</a> (1MB) - <a href="Datasets Description/Network/notice.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">notice  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/notice%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/signatures.log.gz" download>signatures.log.gz</a> (1MB) - <a href="Datasets Description/Network/signatures.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">signatures  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/signatures%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/smtp.log.gz" download>smtp.log.gz</a> (1MB) - <a href="Datasets Description/Network/smtp.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">smtp  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/smtp%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/ssh.log.gz" download>ssh.log.gz</a> (1MB) - <a href="Datasets Description/Network/ssh.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">ssh  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/ssh%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/ssl.log.gz" download>ssl.log.gz</a> (2MB) - <a href="Datasets Description/Network/ssl.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">ssl  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/ssl%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/tunnel.log.gz" download>tunnel.log.gz</a> (1MB) - <a href="Datasets Description/Network/tunnel.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">tunnel  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/tunnel%20analysis.ipynb">jupyter notebook</a></li>
-                            <li><a href="maccdc2012/weird.log.gz" download>weird.log.gz</a> (2MB) - <a href="Datasets Description/Network/weird.html">Description</a> for <a href="https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-">weird  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/weird%20analysis.ipynb">jupyter notebook</a></li>
+                            <li><a href="#" data-link-id="bWFjY2RjMjAxMi9jb25uLmxvZy5neg==" download>conn.log.gz</a> (524MB)</li>
+                            <li><a href="#" data-link-id="bWFjY2RjMjAxMi9kaGNwLmxvZy5neg==" download>dhcp.log.gz</a> (1MB) - <a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9kaGNwLmh0bWw=">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot">dhcp  dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9kaGNwJTIwYW5hbHlzaXMuaXB5bmI=">jupyter notebook</a></li>
+                            <li><a href="#" data-link-id="bWFjY2RjMjAxMi9kbnMubG9nLmd6" download>dns.log.gz</a> (7MB) - <a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9kbnMuaHRtbA==">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot">dhcp  dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9kbnMlMjBhbmFseXNpcy5pcHluYg==">jupyter notebook</a></li>
+                            <li><a href="#" data-link-id="bWFjY2RjMjAxMi9maWxlcy5sb2cuZ3o=" download>files.log.gz</a> (49MB) - <a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9maWxlcy5odG1s">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot">files  dataset</a> and analysis on <a href="#">jupyter notebook</a></li>
+                            <li><a href="#" data-link-id="bWFjY2RjMjAxMi9mdHAubG9nLmd6" download>ftp.log.gz</a> (1MB) - <a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9mdHAuaHRtbA==">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot">ftp  dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9mdHAlMjBhbmFseXNpcy5pcHluYg==">jupyter notebook</a></li>
+                            <li><a href="#" data-link-id="bWFjY2RjMjAxMi9odHRwLmxvZy5neg==" download>http.log.gz</a> (54MB) - <a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9odHRwLmh0bWw=">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot">http  dataset</a> and analysis on <a href="#">jupyter notebook</a></li>
+                            <li><a href="#" data-link-id="bWFjY2RjMjAxMi9ub3RpY2UubG9nLmd6" download>notice.log.gz</a> (1MB) - <a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9ub3RpY2UuaHRtbA==">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot">notice  dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9ub3RpY2UlMjBhbmFseXNpcy5pcHluYg==">jupyter notebook</a></li>
+                            <li><a href="#" data-link-id="bWFjY2RjMjAxMi9zaWduYXR1cmVzLmxvZy5neg==" download>signatures.log.gz</a> (1MB) - <a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9zaWduYXR1cmVzLmh0bWw=">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot">signatures  dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9zaWduYXR1cmVzJTIwYW5hbHlzaXMuaXB5bmI=">jupyter notebook</a></li>
+                            <li><a href="#" data-link-id="bWFjY2RjMjAxMi9zbXRwLmxvZy5neg==" download>smtp.log.gz</a> (1MB) - <a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9zbXRwLmh0bWw=">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot">smtp  dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9zbXRwJTIwYW5hbHlzaXMuaXB5bmI=">jupyter notebook</a></li>
+                            <li><a href="#" data-link-id="bWFjY2RjMjAxMi9zc2gubG9nLmd6" download>ssh.log.gz</a> (1MB) - <a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9zc2guaHRtbA==">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot">ssh  dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9zc2glMjBhbmFseXNpcy5pcHluYg==">jupyter notebook</a></li>
+                            <li><a href="#" data-link-id="bWFjY2RjMjAxMi9zc2wubG9nLmd6" download>ssl.log.gz</a> (2MB) - <a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay9zc2wuaHRtbA==">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot">ssl  dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9zc2wlMjBhbmFseXNpcy5pcHluYg==">jupyter notebook</a></li>
+                            <li><a href="#" data-link-id="bWFjY2RjMjAxMi90dW5uZWwubG9nLmd6" download>tunnel.log.gz</a> (1MB) - <a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay90dW5uZWwuaHRtbA==">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot">tunnel  dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy90dW5uZWwlMjBhbmFseXNpcy5pcHluYg==">jupyter notebook</a></li>
+                            <li><a href="#" data-link-id="bWFjY2RjMjAxMi93ZWlyZC5sb2cuZ3o=" download>weird.log.gz</a> (2MB) - <a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vTmV0d29yay93ZWlyZC5odG1s">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot">weird  dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy93ZWlyZCUyMGFuYWx5c2lzLmlweW5i">jupyter notebook</a></li>
                          </ul>
                          <ul>
                             <lh>Snort logs</lh>
-                            <li><a href="maccdc2012/maccdc2012_fast_alert.7z" download>maccdc2012_fast_alert.7z</a> Snort Fast Alert format logs (10MB)</li>
-                            <li><a href="maccdc2012/maccdc2012_full_alert.7z" download>maccdc2012_full_alert.7z</a> Snort Full Alert format logs (24MB)</li>
+                            <li><a href="#" data-link-id="bWFjY2RjMjAxMi9tYWNjZGMyMDEyX2Zhc3RfYWxlcnQuN3o=" download>maccdc2012_fast_alert.7z</a> Snort Fast Alert format logs (10MB)</li>
+                            <li><a href="#" data-link-id="bWFjY2RjMjAxMi9tYWNjZGMyMDEyX2Z1bGxfYWxlcnQuN3o=" download>maccdc2012_full_alert.7z</a> Snort Full Alert format logs (24MB)</li>
                          </ul>
                      </li>
                      <li>Bro logs generated from various Threatglass samples
                          <ul>
                             <lh>Exploit kits and benign traffic, unlabled data. 6663 samples available.</lh>
-                            <li><a href="tg/a.zip" download>Part 1</a> (64MB) - <a href="Datasets Description/HTML_Bro_log_1">Description</a> for <a href="https://drive.google.com/drive/folders/1VbEFcYEHbJVhpqBGruCGVF1JV8rcE07Q">Part 1 dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/tree/master/Data_analysis/Bro%20Logs%20from%20Threatglass/Part%201">jupyter notebook</a></li>
-                            <li><a href="tg/b.zip" download>Part 2</a> (41MB) - <a href="Datasets Description/HTML_Bro_log_2">Description</a> for <a href="https://drive.google.com/drive/folders/16d-t64pDmjOcVj4HDAGGWhRsNmSGt7IU">Part 2 dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/tree/master/Data_analysis/Bro%20Logs%20from%20Threatglass/Part%202">jupyter notebook</a></li>
-                            <li><a href="tg/c.zip" download>Part 3</a> (61MB) - <a href="Datasets Description/HTML_Bro_log_3">Description</a> for <a href="https://drive.google.com/drive/folders/1rX58LxBglYW72TVLQWOKdy9vnDkDuDqi">Part 3  dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Bro%20Logs%20from%20Threatglass/Part%203">jupyter notebook</a></li>
+                            <li><a href="#" data-link-id="dGcvYS56aXA=" download>Part 1</a> (64MB) - <a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vSFRNTF9Ccm9fbG9nXzE=">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMVZiRUZjWUVIYkpWaHBxQkdydUNHVkYxSlY4cmNFMDdR">Part 1 dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy90cmVlL21hc3Rlci9EYXRhX2FuYWx5c2lzL0JybyUyMExvZ3MlMjBmcm9tJTIwVGhyZWF0Z2xhc3MvUGFydCUyMDE=">jupyter notebook</a></li>
+                            <li><a href="#" data-link-id="dGcvYi56aXA=" download>Part 2</a> (41MB) - <a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vSFRNTF9Ccm9fbG9nXzI=">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMTZkLXQ2NHBEbWpPY1ZqNEhEQUdHV2hSc05tU0d0N0lV">Part 2 dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy90cmVlL21hc3Rlci9EYXRhX2FuYWx5c2lzL0JybyUyMExvZ3MlMjBmcm9tJTIwVGhyZWF0Z2xhc3MvUGFydCUyMDI=">jupyter notebook</a></li>
+                            <li><a href="#" data-link-id="dGcvYy56aXA=" download>Part 3</a> (61MB) - <a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vSFRNTF9Ccm9fbG9nXzM=">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXJYNThMeEJnbFlXNzJUVkxRV09LZHk5dm5Ea0R1RHFp">Part 3  dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL0JybyUyMExvZ3MlMjBmcm9tJTIwVGhyZWF0Z2xhc3MvUGFydCUyMDM=">jupyter notebook</a></li>
                          </ul>
                      </li>
                      <li>Snort logs generated from various Threatglass samples
                          <ul>
                             <lh>Exploit kits and benign traffic, unlabled data. 6663 samples available.</lh>
-                            <li><a href="tg/tg_snort_fast.7z" download>tg_snort_fast.7z</a> Snort Fast Alert format logs (5MB)</li>
-                            <li><a href="tg/tg_snort_full.7z" download>tg_snort_full.7z</a> Snort Full Alert format logs (9MB)</li>
+                            <li><a href="#" data-link-id="dGcvdGdfc25vcnRfZmFzdC43eg==" download>tg_snort_fast.7z</a> Snort Fast Alert format logs (5MB)</li>
+                            <li><a href="#" data-link-id="dGcvdGdfc25vcnRfZnVsbC43eg==" download>tg_snort_full.7z</a> Snort Full Alert format logs (9MB)</li>
                          </ul>
                      </li>
-                     <li><a href="misc/zeus_dga_domains.txt.zip" download>Gameover Zeus DGA sample</a> 31000 DGA domains from Dec 2014</li>
-                     <li><a href="domaindata/domainmovement.zip" download>Domain Transfer Data</a> Old domain transefer data from several registrars, JSON format. (8MB)</li>
-                     <li><a href="scada/scada_logs.zip" download>Modbus and DNP3 logs</a> ICS logs generated w/Bro from various PCAPs (1MB)</li>
+                     <li><a href="#" data-link-id="bWlzYy96ZXVzX2RnYV9kb21haW5zLnR4dC56aXA=" download>Gameover Zeus DGA sample</a> 31000 DGA domains from Dec 2014</li>
+                     <li><a href="#" data-link-id="ZG9tYWluZGF0YS9kb21haW5tb3ZlbWVudC56aXA=" download>Domain Transfer Data</a> Old domain transefer data from several registrars, JSON format. (8MB)</li>
+                     <li><a href="#" data-link-id="c2NhZGEvc2NhZGFfbG9ncy56aXA=" download>Modbus and DNP3 logs</a> ICS logs generated w/Bro from various PCAPs (1MB)</li>
                      <!--<li><a href=""></a></li>-->
                   </ul>
                </li>
                <li><a id="malware"></a>Malware
                   <ul>
-                     <li><a href="pe_static/zeus.zip" download>Static information about Zeus binaries</a> - Static information (JSON) of about ~8k samples from <a href="https://zeustracker.abuse.ch/downloads/zeusbinaries.zip" download>ZeuS Tracker</a></li>
+                     <li><a href="#" data-link-id="cGVfc3RhdGljL3pldXMuemlw" download>Static information about Zeus binaries</a> - Static information (JSON) of about ~8k samples from <a href="#" data-link-id="aHR0cHM6Ly96ZXVzdHJhY2tlci5hYnVzZS5jaC9kb3dubG9hZHMvemV1c2JpbmFyaWVzLnppcA==" download>ZeuS Tracker</a></li>
                      <ul>
-                        <li><a href="Datasets Description/PE_malware/Zeus.html">Description</a> for <a href="https://drive.google.com/drive/folders/1u-AFeS8Dctz5vP7Ohdq82npuANwPOoRk">Zeus Binaries dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/PE%20malware%20analysis/Zeus%20Analysis.ipynb">jupyter notebook</a></li>
+                        <li><a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vUEVfbWFsd2FyZS9aZXVzLmh0bWw=">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXUtQUZlUzhEY3R6NXZQN09oZHE4Mm5wdUFOd1BPb1Jr">Zeus Binaries dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL1BFJTIwbWFsd2FyZSUyMGFuYWx5c2lzL1pldXMlMjBBbmFseXNpcy5pcHluYg==">jupyter notebook</a></li>
                      </ul>
-                     <li><a href="pe_static/apt1.zip" download>Static information about APT1 binaries</a> - Static information (JSON) of APT1 samples from  <a href="https://virusshare.com/" download>VirusShare</a></li>
+                     <li><a href="#" data-link-id="cGVfc3RhdGljL2FwdDEuemlw" download>Static information about APT1 binaries</a> - Static information (JSON) of APT1 samples from  <a href="#" data-link-id="aHR0cHM6Ly92aXJ1c3NoYXJlLmNvbS8=" download>VirusShare</a></li>
                      <ul>
-                        <li><a href="Datasets Description/PE_malware/VirusShare.html">Description</a> for <a href="https://drive.google.com/drive/folders/1u-AFeS8Dctz5vP7Ohdq82npuANwPOoRk">VirusShare Dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/PE%20malware%20analysis/VirusShare%20Analysis-checkpoint.ipynb">jupyter notebook</a></li>
+                        <li><a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vUEVfbWFsd2FyZS9WaXJ1c1NoYXJlLmh0bWw=">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXUtQUZlUzhEY3R6NXZQN09oZHE4Mm5wdUFOd1BPb1Jr">VirusShare Dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL1BFJTIwbWFsd2FyZSUyMGFuYWx5c2lzL1ZpcnVzU2hhcmUlMjBBbmFseXNpcy1jaGVja3BvaW50LmlweW5i">jupyter notebook</a></li>
                      </ul>
-                     <li><a href="pe_static/op-cleaver.zip" download>Static information about Op Cleaver binaries</a> - Static information of Op Cleaver related binaries.</li>
+                     <li><a href="#" data-link-id="cGVfc3RhdGljL29wLWNsZWF2ZXIuemlw" download>Static information about Op Cleaver binaries</a> - Static information of Op Cleaver related binaries.</li>
                      <ul>
-                        <li><a href="Datasets Description/PE_malware/OPCleaver.html">Description</a> for <a href="https://drive.google.com/drive/folders/1u-AFeS8Dctz5vP7Ohdq82npuANwPOoRk">OPCleaver Dataset</a> and analysis on <a href="https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/PE%20malware%20analysis/OP%20Cleaver%20Analysis.ipynb">jupyter notebook</a></li>
+                        <li><a href="#" data-link-id="RGF0YXNldHMgRGVzY3JpcHRpb24vUEVfbWFsd2FyZS9PUENsZWF2ZXIuaHRtbA==">Description</a> for <a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXUtQUZlUzhEY3R6NXZQN09oZHE4Mm5wdUFOd1BPb1Jr">OPCleaver Dataset</a> and analysis on <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL1BFJTIwbWFsd2FyZSUyMGFuYWx5c2lzL09QJTIwQ2xlYXZlciUyMEFuYWx5c2lzLmlweW5i">jupyter notebook</a></li>
                      </ul>
                      <!--<li><a href=""></a> [License Info: ]</li>-->
                   </ul>
@@ -153,21 +134,21 @@
                <li><a id="system"></a>System
                  <ul>
                    <!--<li><a href=""></a></li>-->
-                   <li><a href="self.logs/">Web Logs from Security Repo</a> - these logs are generated by you the community, and me updating this site.</li>
-                   <li><a href="squid/access.log.gz" download>Squid Access Log</a> - combined from several sources (24MB compressed, ~200MB uncompresed)</li>
-                   <li><a href="auth.log/auth.log.gz" download>auth.log</a> - approx 86k lines, and mostly failed SSH login attempts</li>
-                   <li><a href="honeypot/honeypot.json.zip" download>Honeypot data</a> - Data from various honeypots (Amun and Glastopf) used for various BSides presentations posted below. Approx 994k entries, JSON format.</li>
+                   <li><a href="#" data-link-id="c2VsZi5sb2dzLw==">Web Logs from Security Repo</a> - these logs are generated by you the community, and me updating this site.</li>
+                   <li><a href="#" data-link-id="c3F1aWQvYWNjZXNzLmxvZy5neg==" download>Squid Access Log</a> - combined from several sources (24MB compressed, ~200MB uncompresed)</li>
+                   <li><a href="#" data-link-id="YXV0aC5sb2cvYXV0aC5sb2cuZ3o=" download>auth.log</a> - approx 86k lines, and mostly failed SSH login attempts</li>
+                   <li><a href="#" data-link-id="aG9uZXlwb3QvaG9uZXlwb3QuanNvbi56aXA=" download>Honeypot data</a> - Data from various honeypots (Amun and Glastopf) used for various BSides presentations posted below. Approx 994k entries, JSON format.</li>
                    <ul>
-                     <li><a href="http://nbviewer.ipython.org/url/secrepo.com/honeypot/BSidesDFW%20-%202014.ipynb">Analysis</a> of the honeypot data for BSidesDFW 2014 - <a href="honeypot/BSidesDFW - 2014.ipynb">IPython Notebook</a>.
+                     <li><a href="#" data-link-id="aHR0cDovL25idmlld2VyLmlweXRob24ub3JnL3VybC9zZWNyZXBvLmNvbS9ob25leXBvdC9CU2lkZXNERlclMjAtJTIwMjAxNC5pcHluYg==">Analysis</a> of the honeypot data for BSidesDFW 2014 - <a href="#" data-link-id="aG9uZXlwb3QvQlNpZGVzREZXIC0gMjAxNC5pcHluYg==">IPython Notebook</a>.
                    </ul>
                  </ul>
                </li>
                <li><a id="other"></a>Other
                  <ul>
                    <!--<li><a href=""></a></li>-->
-                   <li><a href="https://github.com/sooshie/Security-Data-Analysis">Security Data Analysis Labs</a></li>
+                   <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL3Nvb3NoaWUvU2VjdXJpdHktRGF0YS1BbmFseXNpcw==">Security Data Analysis Labs</a></li>
                    <ul>
-                     <li><a href="Security-Data-Analysis/Lab_1/conn.log.zip" download>Connection Log</a> - (522MB compressed, 3GB uncompressed) ~22million flow events</li>
+                     <li><a href="#" data-link-id="U2VjdXJpdHktRGF0YS1BbmFseXNpcy9MYWJfMS9jb25uLmxvZy56aXA=" download>Connection Log</a> - (522MB compressed, 3GB uncompressed) ~22million flow events</li>
                      <!--<li><a href=""></a></li>-->
                    </ul>
                  </ul>
@@ -177,163 +158,163 @@
             <ul>
                <li><a id="3p_other"></a>Other
                   <ul>
-                     <li><a href="http://digitalcorpora.org/">Digital Corpora</a> - Disk images, network traffic, and malware, oh my! [License Info: This material is based upon work supported by the National Science Foundation under Grant No. 0919593]</li>
-                     <li><a href="https://github.com/vz-risk/VCDB">Verizon VERIS Database</a> - Raw VERIS (filtered) data. [License Info: Creative Commons Attribution-ShareAlike 4.0 International Public License]</li>
-                     <li><a href="ftp://download.iwlab.foi.se/dataset/">The Swedish Defence Research Agency Information Warfare Lab</a> PCAP and various log sources [License Info: Unknown]</li>
-                     <li><a href="http://www.gwern.net/Black-market%20archives">Black-Market Archives</a> A scraped archive of Dark Net Markets [License Info: Unknown]</li>
-                     <li><a href="https://predict.org/">Protected Repository for the Defense of Infrastructure Against Cyber Threats</a> Lots of data (restricted use) [License Info: <a href="https://predict.org/Portals/0/Documents/Help/PREDICT-UG-HTML5/Content/Rules%20of%20Behavior.htm">License</a>]</li>
-                     <li><a href="http://csr.lanl.gov/data/cyber1/">Comprehensive, Multi-Source Cyber-Security Events</a> Auth, DNS, process, and flow data. [License Info: Public Domain]</li>
-                     <li><a href="http://csr.lanl.gov/data/">Cyber Security Science</a> Multiple datasets from LANL. [License Info: Public Domain]</li>
-                     <li><a href="http://wisnet.seecs.nust.edu.pk/projects/ENS/DataSets.html">Open Source Enterprise Network Security Solution</a> Network traffic and malicious endpoint data. [License Info: Unknown]</li>
-                     <li><a href="https://www.unsw.adfa.edu.au/australian-centre-for-cyber-security/cybersecurity/ADFA-IDS-Datasets/">Australian Defence Force Academy Linux (ADFA-LD) and Windows (ADFA-WD) Datasets</a> HIDS data [License Info: Free for academic research only]</li>
-                     <li><a href="http://www.ccssforum.org/malware-certificates.php">CCSS - Digital Certs Used by Malare</a> - A listing of certificate serial numbers that have been used by malware [License Info: Unknown]</li>
-                     <li><a href="http://bigdata.ise.bgu.ac.il/sherlock/index.html#/">SherLock Dataset</a> - Smartphone dataset with software and hardware sensor information surrounding mobile malware [License Info: 3 year full access, listed on site]</li>
-                     <li><a href="https://github.com/foospidy/payloads">payloads</a> - A collection of web attack payloads. [License Info: Unknown]</li>
-                     <li><a href="http://www.azsecure-data.org/get-data.html">AZSecure Intelligence and Security Informatics Data Sets</a> - various data sets around mostly web data [License Info: <a href="http://www.azsecure-data.org/get-data.html">Citing</a>]</li>
-                     <li><a href="https://github.com/hgascon/security-datasets/blob/master/README.md">security-datasets</a> - A collection of resources for security data [License Info: Various]</li>
-                     <li><a href="https://github.com/hunters-forge/mordor">Mordor Gates</a> - Pre-recorded security events generate by simulated adversarial techniques.  [License Info: GPLv3]</li>
-                     <li><a href="https://github.com/misterch0c/what_is_this_c2">"What is this panel again?"</a> - Screenshots of various malware control panels. [License Info: Unknown]</li>
-                     <li><a href="https://github.com/bodacea/misinfolinks">Awesome Misinformation</a> - A curated list of awesome misinformation. [License Info: MIT]</li>
-                     <li><a href="https://github.com/0xsha/sweetie-data">Sweetie data</a> - a collection of honeypot data (network and files). [License Info: MIT]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL2RpZ2l0YWxjb3Jwb3JhLm9yZy8=">Digital Corpora</a> - Disk images, network traffic, and malware, oh my! [License Info: This material is based upon work supported by the National Science Foundation under Grant No. 0919593]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL3Z6LXJpc2svVkNEQg==">Verizon VERIS Database</a> - Raw VERIS (filtered) data. [License Info: Creative Commons Attribution-ShareAlike 4.0 International Public License]</li>
+                     <li><a href="#" data-link-id="ZnRwOi8vZG93bmxvYWQuaXdsYWIuZm9pLnNlL2RhdGFzZXQv">The Swedish Defence Research Agency Information Warfare Lab</a> PCAP and various log sources [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL3d3dy5nd2Vybi5uZXQvQmxhY2stbWFya2V0JTIwYXJjaGl2ZXM=">Black-Market Archives</a> A scraped archive of Dark Net Markets [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9wcmVkaWN0Lm9yZy8=">Protected Repository for the Defense of Infrastructure Against Cyber Threats</a> Lots of data (restricted use) [License Info: <a href="#" data-link-id="aHR0cHM6Ly9wcmVkaWN0Lm9yZy9Qb3J0YWxzLzAvRG9jdW1lbnRzL0hlbHAvUFJFRElDVC1VRy1IVE1MNS9Db250ZW50L1J1bGVzJTIwb2YlMjBCZWhhdmlvci5odG0=">License</a>]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL2Nzci5sYW5sLmdvdi9kYXRhL2N5YmVyMS8=">Comprehensive, Multi-Source Cyber-Security Events</a> Auth, DNS, process, and flow data. [License Info: Public Domain]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL2Nzci5sYW5sLmdvdi9kYXRhLw==">Cyber Security Science</a> Multiple datasets from LANL. [License Info: Public Domain]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL3dpc25ldC5zZWVjcy5udXN0LmVkdS5way9wcm9qZWN0cy9FTlMvRGF0YVNldHMuaHRtbA==">Open Source Enterprise Network Security Solution</a> Network traffic and malicious endpoint data. [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly93d3cudW5zdy5hZGZhLmVkdS5hdS9hdXN0cmFsaWFuLWNlbnRyZS1mb3ItY3liZXItc2VjdXJpdHkvY3liZXJzZWN1cml0eS9BREZBLUlEUy1EYXRhc2V0cy8=">Australian Defence Force Academy Linux (ADFA-LD) and Windows (ADFA-WD) Datasets</a> HIDS data [License Info: Free for academic research only]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL3d3dy5jY3NzZm9ydW0ub3JnL21hbHdhcmUtY2VydGlmaWNhdGVzLnBocA==">CCSS - Digital Certs Used by Malare</a> - A listing of certificate serial numbers that have been used by malware [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL2JpZ2RhdGEuaXNlLmJndS5hYy5pbC9zaGVybG9jay9pbmRleC5odG1sIy8=">SherLock Dataset</a> - Smartphone dataset with software and hardware sensor information surrounding mobile malware [License Info: 3 year full access, listed on site]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2Zvb3NwaWR5L3BheWxvYWRz">payloads</a> - A collection of web attack payloads. [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL3d3dy5henNlY3VyZS1kYXRhLm9yZy9nZXQtZGF0YS5odG1s">AZSecure Intelligence and Security Informatics Data Sets</a> - various data sets around mostly web data [License Info: <a href="#" data-link-id="aHR0cDovL3d3dy5henNlY3VyZS1kYXRhLm9yZy9nZXQtZGF0YS5odG1s">Citing</a>]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2hnYXNjb24vc2VjdXJpdHktZGF0YXNldHMvYmxvYi9tYXN0ZXIvUkVBRE1FLm1k">security-datasets</a> - A collection of resources for security data [License Info: Various]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2h1bnRlcnMtZm9yZ2UvbW9yZG9y">Mordor Gates</a> - Pre-recorded security events generate by simulated adversarial techniques.  [License Info: GPLv3]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL21pc3RlcmNoMGMvd2hhdF9pc190aGlzX2My">"What is this panel again?"</a> - Screenshots of various malware control panels. [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2JvZGFjZWEvbWlzaW5mb2xpbmtz">Awesome Misinformation</a> - A curated list of awesome misinformation. [License Info: MIT]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tLzB4c2hhL3N3ZWV0aWUtZGF0YQ==">Sweetie data</a> - a collection of honeypot data (network and files). [License Info: MIT]</li>
                      <!--<li><a href=""></a> [License Info: ]</li>-->
                   </ul>
                <li><a id="3p_network"></a>Network
                   <ul>
-                     <li><a href="http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html" target="_blank">KDD Cup 1999 Data</a> - Network connection data [License Info: Unknown]</li>
-                     <li><a href="http://www.netresec.com/?page=PcapFiles" target="_blank">NETRESEC - Publicly available PCAP files</a> - loads of great PCAP files [License Info: Unknown]</li>
-                     <li><a href="https://scans.io/" target="_blank">Internet-Wide Scan Data Repository</a> - Various types of scan data [License Info: Unknown]</li>
-                     <li><a href="http://sysnet.ucsd.edu/projects/url/" target="_blank">Detecting Malicious URLs</a> - <a href="http://archive.ics.uci.edu/ml/datasets/URL+Reputation" target="_blank">Mirror</a> - URLS/features/labels [License Info: Unknown]</li>
-                     <li><a href="https://hackertarget.com/500k-http-headers/" target="_blank">hackertarget 500K HTTP Headers</a> - HTTP Headers [License Info: Unknown]</li>
-                     <li><a href="http://threatglass.com/" target="_blank">Threatglass</a> - PCAPs that contain various exploit kits as well as some legit traffic mixed in. [License Info: Unknown]</li>
-                     <li><a href="http://www.pcapr.net/" target="_blank">pcapr</a> - Searchable repository of PCAPs, look for various phrases to pull out the Security related ones (eg. exploit, xss, etc...) [License Info: <a href="http://www.pcapr.net/tos">TOS</a>]</li>
-                     <li><a href="https://github.com/opendns/public-domain-lists" target="_blank">OpenDNS public domain lists</a> - various domain lists [License Info: Public Domain]</li>
-                     <li><a href="http://www.ll.mit.edu/mission/communications/cyber/CSTcorpora/ideval/data/1999data.html" target="_blank">MIT 1999 DARPA Intrusion Detection Evaluation Data Set</a> - Labeled attack and nont attack data (PCAP and system logs) [License Info: Unknown]</li>
-                     <li><a href="http://www.ll.mit.edu/mission/communications/cyber/CSTcorpora/ideval/data/1998data.html" target="_blank">MIT 1998 DARPA Intrusion Detection Evaluation Data Set</a> - Network and file system data [License Info: Unknown]</li>
-                     <li><a href="http://datadrivensecurity.info/blog/data/2014/10/legit-dga_domains.csv.zip" download>DDS legit and DGA labeled domains</a> - <a href="http://datadrivensecurity.info/blog/pages/dds-dataset-collection.html">DDS Blog</a> [License Info: Unknown]</li>
-                     <li><a href="http://datadrivensecurity.info/blog/data/2014/01/marx.tar.gz" download>Honeypot Data</a> - <a href="http://datadrivensecurity.info/blog/pages/dds-dataset-collection.html">DDS Blog</a> [License Info: Unknown]</li>
-                     <li><a href="http://datadrivensecurity.info/blog/data/2014/01/marx-geo.tar.gz" download>Honeypot Data with GeoIP info</a> - <a href="http://datadrivensecurity.info/blog/pages/dds-dataset-collection.html">DDS Blog</a> [License Info: Unknown]</li>
-                     <li><a href="http://osint.bambenekconsulting.com/feeds/dga-feed.txt">DGA Domains</a> - updated frequently [License Info: <a href="http://osint.bambenekconsulting.com/license.txt">License</a>]</li>
-                     <li><a href="http://malwareurls.joxeankoret.com/">Malware URLs</a> - updated daily list of domains and URLs associated with malware [License Info: Disclaimer posted in link]</li>
-                     <li><a href="https://github.com/rapid7/sonar/wiki/UDP">UDP Scan data</a> - provided by Rapid7 [License Info: Unknown]</li>
-                     <li><a href="https://www.packetmail.net/iprep.txt">Continously updated IP block list</a> - Created by Packetmail (?) [License Info: no for-sale or paywall use]</li>
-                     <li><a href="http://commoncrawl.org/">Common Crawl</a> - "open repository of web crawl data that can be accessed and analyzed by anyone" [License Info: Open]</li>
-                     <li><a href="http://malware-traffic-analysis.net/">Malware Traffic Analysis</a> - a site with labled exploit kits and phishing emails. [License Info: Unknown]</li>
-                     <li><a href="http://www.simpleweb.org/wiki/Traces">Simple Web Traces</a> - Cloud Storage, DDoS, DNSSEC, and may more types of PCAPs. [License Info: Various]</li>
-                     <li><a href="https://tools.netsa.cert.org/silk/referencedata.html">SiLK - LBNL-05</a> Anonymized enterprise packet header traces. [License Info: Unknown]</li>
-                     <li><a href="https://dgarchive.caad.fkie.fraunhofer.de/">DGA Archive</a> Multiple DGA data sets generated by the actual algorithm vs. captured network traffic. [License Info: CC BY-NC-SA 3.0]</li>
-                     <li><a href="https://www.unb.ca/cic/datasets/index.html">Information Security Centre of Excellence (ISCX)</a> Data related to Botnets and Android Botnets. [License Info: Unknown]</li>
-                     <li><a href="http://www.isi.csic.es/dataset/">CSIC 2010 HTTP Dataset</a> Labeled (normal, anomalous) HTTP data in CSV format. [License Info: Unknown]</li>
-                     <li><a href="http://vacommunity.org/VAST+Challenge+2012%3A+Submission+Instructions+and+Downloads">VAST Challenge 2012</a> IDS logs generated by IEEE [License Info: Unknown]</li>
-                     <li><a href="https://www.uvic.ca/engineering/ece/isot/datasets/index.php">University of Victoria Botnet Dataset</a> Malicious and benign traffic from LBNL and Ericsson (merged publically available data)[License Info: Unknown]</li>
-                     <li><a href="http://www.caida.org/data/passive/sipscan_dataset.xml">UCSD Network Telescope Dataset on the Sipscan</a> Public and restricted datasets of various malware and other network traffic. [License Info: Available on dataset page]</li>
-                     <li><a href="https://www.unsw.adfa.edu.au/australian-centre-for-cyber-security/cybersecurity/ADFA-NB15-Datasets/">UNSW-NB15</a> This data set has nine families of attacks, namely, Fuzzers, Analysis, Backdoors, DoS, Exploits, Generic, Reconnaissance, Shellcode and Worms. (CSV data) [License Info: Unknown]</li>
-                     <li><a href="https://mcfp.felk.cvut.cz/publicDatasets/">Stratosphere IPS Public Datasets</a> PCAPs, Samples, etc... [License Info: Unknown]</li>
-                     <li><a href="https://github.com/hslatman/awesome-industrial-control-system-security">Awesome Industrial Control System Security</a> - Has links to SCADA PCAPs and other SCADA related resources [License Info: Apache License 2.0 (site), Data: various]</li>
-                     <li><a href="https://s3-us-west-1.amazonaws.com/umbrella-static/index.html">Cisco Umbrella Popularity List</a> - Top 1 million most daily popular domains [License Info: Unknown]</li>
-                     <li><a href="http://s3.amazonaws.com/alexa-static/top-1m.csv.zip">Alexa Top 1 Million</a> - The static 1 million most popular sites by Alexa [License Info: Unknown]</li>
-                     <li><a href="https://github.com/faizann24/Using-machine-learning-to-detect-malicious-URLs">Using machine learning to detect malicious URLs</a> - Cade and labeled URL data. [License Info: Unknown]</li>
-                     <li><a href="https://majestic.com/reports/majestic-million">Majestic Million Domains</a> - Top million domains with the most referring subnets.  [License Info: Attribution 3.0 Unported (CC BY 3.0)]</li>
-                     <li><a href="https://research.aalto.fi/en/datasets/iot-devices-captures(285a9b06-de31-4d8b-88e9-5bdba46cc161).html">IoT device captures</a> IoT Device PCAP by Aalto University Research [License Info: Listed on site]</li>
-                     <li><a href="http://bluesmote.com/" target="_blank">Project Bluesmote</a> - Syrian Bluecoat Proxy Logs [License Info: Public Domain]
+                     <li><a href="#" data-link-id="aHR0cDovL2tkZC5pY3MudWNpLmVkdS9kYXRhYmFzZXMva2RkY3VwOTkva2RkY3VwOTkuaHRtbA==" target="_blank">KDD Cup 1999 Data</a> - Network connection data [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL3d3dy5uZXRyZXNlYy5jb20vP3BhZ2U9UGNhcEZpbGVz" target="_blank">NETRESEC - Publicly available PCAP files</a> - loads of great PCAP files [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9zY2Fucy5pby8=" target="_blank">Internet-Wide Scan Data Repository</a> - Various types of scan data [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL3N5c25ldC51Y3NkLmVkdS9wcm9qZWN0cy91cmwv" target="_blank">Detecting Malicious URLs</a> - <a href="#" data-link-id="aHR0cDovL2FyY2hpdmUuaWNzLnVjaS5lZHUvbWwvZGF0YXNldHMvVVJMK1JlcHV0YXRpb24=" target="_blank">Mirror</a> - URLS/features/labels [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9oYWNrZXJ0YXJnZXQuY29tLzUwMGstaHR0cC1oZWFkZXJzLw==" target="_blank">hackertarget 500K HTTP Headers</a> - HTTP Headers [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL3RocmVhdGdsYXNzLmNvbS8=" target="_blank">Threatglass</a> - PCAPs that contain various exploit kits as well as some legit traffic mixed in. [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL3d3dy5wY2Fwci5uZXQv" target="_blank">pcapr</a> - Searchable repository of PCAPs, look for various phrases to pull out the Security related ones (eg. exploit, xss, etc...) [License Info: <a href="#" data-link-id="aHR0cDovL3d3dy5wY2Fwci5uZXQvdG9z">TOS</a>]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL29wZW5kbnMvcHVibGljLWRvbWFpbi1saXN0cw==" target="_blank">OpenDNS public domain lists</a> - various domain lists [License Info: Public Domain]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL3d3dy5sbC5taXQuZWR1L21pc3Npb24vY29tbXVuaWNhdGlvbnMvY3liZXIvQ1NUY29ycG9yYS9pZGV2YWwvZGF0YS8xOTk5ZGF0YS5odG1s" target="_blank">MIT 1999 DARPA Intrusion Detection Evaluation Data Set</a> - Labeled attack and nont attack data (PCAP and system logs) [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL3d3dy5sbC5taXQuZWR1L21pc3Npb24vY29tbXVuaWNhdGlvbnMvY3liZXIvQ1NUY29ycG9yYS9pZGV2YWwvZGF0YS8xOTk4ZGF0YS5odG1s" target="_blank">MIT 1998 DARPA Intrusion Detection Evaluation Data Set</a> - Network and file system data [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvZGF0YS8yMDE0LzEwL2xlZ2l0LWRnYV9kb21haW5zLmNzdi56aXA=" download>DDS legit and DGA labeled domains</a> - <a href="#" data-link-id="aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvcGFnZXMvZGRzLWRhdGFzZXQtY29sbGVjdGlvbi5odG1s">DDS Blog</a> [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvZGF0YS8yMDE0LzAxL21hcngudGFyLmd6" download>Honeypot Data</a> - <a href="#" data-link-id="aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvcGFnZXMvZGRzLWRhdGFzZXQtY29sbGVjdGlvbi5odG1s">DDS Blog</a> [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvZGF0YS8yMDE0LzAxL21hcngtZ2VvLnRhci5neg==" download>Honeypot Data with GeoIP info</a> - <a href="#" data-link-id="aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvcGFnZXMvZGRzLWRhdGFzZXQtY29sbGVjdGlvbi5odG1s">DDS Blog</a> [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL29zaW50LmJhbWJlbmVrY29uc3VsdGluZy5jb20vZmVlZHMvZGdhLWZlZWQudHh0">DGA Domains</a> - updated frequently [License Info: <a href="#" data-link-id="aHR0cDovL29zaW50LmJhbWJlbmVrY29uc3VsdGluZy5jb20vbGljZW5zZS50eHQ=">License</a>]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL21hbHdhcmV1cmxzLmpveGVhbmtvcmV0LmNvbS8=">Malware URLs</a> - updated daily list of domains and URLs associated with malware [License Info: Disclaimer posted in link]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL3JhcGlkNy9zb25hci93aWtpL1VEUA==">UDP Scan data</a> - provided by Rapid7 [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly93d3cucGFja2V0bWFpbC5uZXQvaXByZXAudHh0">Continously updated IP block list</a> - Created by Packetmail (?) [License Info: no for-sale or paywall use]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL2NvbW1vbmNyYXdsLm9yZy8=">Common Crawl</a> - "open repository of web crawl data that can be accessed and analyzed by anyone" [License Info: Open]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL21hbHdhcmUtdHJhZmZpYy1hbmFseXNpcy5uZXQv">Malware Traffic Analysis</a> - a site with labled exploit kits and phishing emails. [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL3d3dy5zaW1wbGV3ZWIub3JnL3dpa2kvVHJhY2Vz">Simple Web Traces</a> - Cloud Storage, DDoS, DNSSEC, and may more types of PCAPs. [License Info: Various]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly90b29scy5uZXRzYS5jZXJ0Lm9yZy9zaWxrL3JlZmVyZW5jZWRhdGEuaHRtbA==">SiLK - LBNL-05</a> Anonymized enterprise packet header traces. [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9kZ2FyY2hpdmUuY2FhZC5ma2llLmZyYXVuaG9mZXIuZGUv">DGA Archive</a> Multiple DGA data sets generated by the actual algorithm vs. captured network traffic. [License Info: CC BY-NC-SA 3.0]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly93d3cudW5iLmNhL2NpYy9kYXRhc2V0cy9pbmRleC5odG1s">Information Security Centre of Excellence (ISCX)</a> Data related to Botnets and Android Botnets. [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL3d3dy5pc2kuY3NpYy5lcy9kYXRhc2V0Lw==">CSIC 2010 HTTP Dataset</a> Labeled (normal, anomalous) HTTP data in CSV format. [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL3ZhY29tbXVuaXR5Lm9yZy9WQVNUK0NoYWxsZW5nZSsyMDEyJTNBK1N1Ym1pc3Npb24rSW5zdHJ1Y3Rpb25zK2FuZCtEb3dubG9hZHM=">VAST Challenge 2012</a> IDS logs generated by IEEE [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly93d3cudXZpYy5jYS9lbmdpbmVlcmluZy9lY2UvaXNvdC9kYXRhc2V0cy9pbmRleC5waHA=">University of Victoria Botnet Dataset</a> Malicious and benign traffic from LBNL and Ericsson (merged publically available data)[License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL3d3dy5jYWlkYS5vcmcvZGF0YS9wYXNzaXZlL3NpcHNjYW5fZGF0YXNldC54bWw=">UCSD Network Telescope Dataset on the Sipscan</a> Public and restricted datasets of various malware and other network traffic. [License Info: Available on dataset page]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly93d3cudW5zdy5hZGZhLmVkdS5hdS9hdXN0cmFsaWFuLWNlbnRyZS1mb3ItY3liZXItc2VjdXJpdHkvY3liZXJzZWN1cml0eS9BREZBLU5CMTUtRGF0YXNldHMv">UNSW-NB15</a> This data set has nine families of attacks, namely, Fuzzers, Analysis, Backdoors, DoS, Exploits, Generic, Reconnaissance, Shellcode and Worms. (CSV data) [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9tY2ZwLmZlbGsuY3Z1dC5jei9wdWJsaWNEYXRhc2V0cy8=">Stratosphere IPS Public Datasets</a> PCAPs, Samples, etc... [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2hzbGF0bWFuL2F3ZXNvbWUtaW5kdXN0cmlhbC1jb250cm9sLXN5c3RlbS1zZWN1cml0eQ==">Awesome Industrial Control System Security</a> - Has links to SCADA PCAPs and other SCADA related resources [License Info: Apache License 2.0 (site), Data: various]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9zMy11cy13ZXN0LTEuYW1hem9uYXdzLmNvbS91bWJyZWxsYS1zdGF0aWMvaW5kZXguaHRtbA==">Cisco Umbrella Popularity List</a> - Top 1 million most daily popular domains [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL3MzLmFtYXpvbmF3cy5jb20vYWxleGEtc3RhdGljL3RvcC0xbS5jc3Yuemlw">Alexa Top 1 Million</a> - The static 1 million most popular sites by Alexa [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2ZhaXphbm4yNC9Vc2luZy1tYWNoaW5lLWxlYXJuaW5nLXRvLWRldGVjdC1tYWxpY2lvdXMtVVJMcw==">Using machine learning to detect malicious URLs</a> - Cade and labeled URL data. [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9tYWplc3RpYy5jb20vcmVwb3J0cy9tYWplc3RpYy1taWxsaW9u">Majestic Million Domains</a> - Top million domains with the most referring subnets.  [License Info: Attribution 3.0 Unported (CC BY 3.0)]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9yZXNlYXJjaC5hYWx0by5maS9lbi9kYXRhc2V0cy9pb3QtZGV2aWNlcy1jYXB0dXJlcygyODVhOWIwNi1kZTMxLTRkOGItODhlOS01YmRiYTQ2Y2MxNjEpLmh0bWw=">IoT device captures</a> IoT Device PCAP by Aalto University Research [License Info: Listed on site]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL2JsdWVzbW90ZS5jb20v" target="_blank">Project Bluesmote</a> - Syrian Bluecoat Proxy Logs [License Info: Public Domain]
                          <!--<ul>
                              <lh>Local Mirror</lh>
                              <li>todo</li>
                          </ul>-->
                      </li>
-                     <li><a href="https://github.com/jasklabs/blackhat2017">Data for a Black Hat 2017 Handout</a> - Various types of data (network, host, etc...) for different use cases (e.g. Remote Exploitation, Spear Phishing, Ransomware, WebShell) [License Info: Apache 2]</li>
-                     <li><a href="https://github.com/jzadeh/aktaion">Aktion Open Source Exploit Detection Tool</a> - Variety of different kinds of data centered around exploit detection [License Info: Apache 2]</li>
-                     <li><a href="https://github.com/jzadeh/aktaion2">Atkion V2 Open Source Exploit Detection Tool</a> - Variety of different kinds of data centered around exploit detection [License Info: Apache 2]</li>
-                     <li><a href="https://github.com/vs-uulm/2017-SUEE-data-set">2017-SUEE-data-set</a> - PCAP files that show various HTTP attack (slowloris, slowhttptest, slowloris-ng) [License Info: Unknown]</li>
-                     <li><a href="http://archive.ics.uci.edu/ml/datasets/Website+Phishing">UCI ML Repository - Website Phishing Data Set</a> A collection of Phishing Websites as well as legitimate ones. [License Info: Listed on site]</li>
-                     <li><a href="https://plg.uwaterloo.ca/~gvcormac/treccorpus07/">2007 TREC Public SPAM Corpus</a> - SPAM Corpus [License Info: Listed on site]</li>
-                     <li><a href="https://github.com/faizann24/Fwaf-Machine-Learning-driven-Web-Application-Firewall">ML Driven Web Application Firewall</a> - Machine learning driven web application firewall to detect malicious queries with high accuracy (URL data) [License Info: Unknown]</li>
-                     <li><a href="https://www.westpoint.edu/crc/SitePages/DataSets.aspx">West Point NSA Data Sets</a> - Snort IDS, DNS Service, and Web Server logs. [License Info: Unknown]</li>
-                     <li><a href="https://web.cs.hacettepe.edu.tr/~selman/phish-iris-dataset/">Phish-IRIS</a> - A small scale multi-class phishing web page screenshots archive [License Info: Listed on site]</li>
-                     <li><a href="https://dgarchive.caad.fkie.fraunhofer.de/">DGArchive</a> - Samples of DGA domains from various types of malware. [License Info: Contact for access/info]</li>
-                     <li><a href="https://data.netlab.360.com/dga/">Netlab360 DGA Domains</a> - Samples of DGA domains from various types of malware. License Info: Unknown]</li>
-                     <li><a href="https://ak.quantcast.com/quantcast-top-sites.zip">Quantcast Top Sites</a> - Most popular sites on the Internet according to Quantcast. [License Info: Unknown]</li>
-                     <li><a href="https://www.domcop.com/files/top/top10milliondomains.csv.zip">DomCop Top 1M</a> - Top One Million sites according to DomCop. [License Info: Unknown]</li>
-                     <li><a href="https://github.com/maravento/blackweb">Blackweb Domains</a> - A project that aims to categorize as many domains as possible, also provies a whitelist. [License Info: Unknown]</li>
-                     <li><a href="https://zenodo.org/record/3241445#.YVesmZrMKWZ">Charles University SIS Access Log Dataset</a> - The package contains an anonymized server log collected on a live installation of a student information system run by Charles University between May and November 2018 [License Info: Creative Commons Attribution 4.0 International]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2phc2tsYWJzL2JsYWNraGF0MjAxNw==">Data for a Black Hat 2017 Handout</a> - Various types of data (network, host, etc...) for different use cases (e.g. Remote Exploitation, Spear Phishing, Ransomware, WebShell) [License Info: Apache 2]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2p6YWRlaC9ha3RhaW9u">Aktion Open Source Exploit Detection Tool</a> - Variety of different kinds of data centered around exploit detection [License Info: Apache 2]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2p6YWRlaC9ha3RhaW9uMg==">Atkion V2 Open Source Exploit Detection Tool</a> - Variety of different kinds of data centered around exploit detection [License Info: Apache 2]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL3ZzLXV1bG0vMjAxNy1TVUVFLWRhdGEtc2V0">2017-SUEE-data-set</a> - PCAP files that show various HTTP attack (slowloris, slowhttptest, slowloris-ng) [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL2FyY2hpdmUuaWNzLnVjaS5lZHUvbWwvZGF0YXNldHMvV2Vic2l0ZStQaGlzaGluZw==">UCI ML Repository - Website Phishing Data Set</a> A collection of Phishing Websites as well as legitimate ones. [License Info: Listed on site]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9wbGcudXdhdGVybG9vLmNhL35ndmNvcm1hYy90cmVjY29ycHVzMDcv">2007 TREC Public SPAM Corpus</a> - SPAM Corpus [License Info: Listed on site]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2ZhaXphbm4yNC9Gd2FmLU1hY2hpbmUtTGVhcm5pbmctZHJpdmVuLVdlYi1BcHBsaWNhdGlvbi1GaXJld2FsbA==">ML Driven Web Application Firewall</a> - Machine learning driven web application firewall to detect malicious queries with high accuracy (URL data) [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly93d3cud2VzdHBvaW50LmVkdS9jcmMvU2l0ZVBhZ2VzL0RhdGFTZXRzLmFzcHg=">West Point NSA Data Sets</a> - Snort IDS, DNS Service, and Web Server logs. [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly93ZWIuY3MuaGFjZXR0ZXBlLmVkdS50ci9+c2VsbWFuL3BoaXNoLWlyaXMtZGF0YXNldC8=">Phish-IRIS</a> - A small scale multi-class phishing web page screenshots archive [License Info: Listed on site]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9kZ2FyY2hpdmUuY2FhZC5ma2llLmZyYXVuaG9mZXIuZGUv">DGArchive</a> - Samples of DGA domains from various types of malware. [License Info: Contact for access/info]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9kYXRhLm5ldGxhYi4zNjAuY29tL2RnYS8=">Netlab360 DGA Domains</a> - Samples of DGA domains from various types of malware. License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9hay5xdWFudGNhc3QuY29tL3F1YW50Y2FzdC10b3Atc2l0ZXMuemlw">Quantcast Top Sites</a> - Most popular sites on the Internet according to Quantcast. [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly93d3cuZG9tY29wLmNvbS9maWxlcy90b3AvdG9wMTBtaWxsaW9uZG9tYWlucy5jc3Yuemlw">DomCop Top 1M</a> - Top One Million sites according to DomCop. [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL21hcmF2ZW50by9ibGFja3dlYg==">Blackweb Domains</a> - A project that aims to categorize as many domains as possible, also provies a whitelist. [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly96ZW5vZG8ub3JnL3JlY29yZC8zMjQxNDQ1Iy5ZVmVzbVpyTUtXWg==">Charles University SIS Access Log Dataset</a> - The package contains an anonymized server log collected on a live installation of a student information system run by Charles University between May and November 2018 [License Info: Creative Commons Attribution 4.0 International]</li>
                      <!--<li><a href=""></a> [License Info: ]</li>-->
                   </ul>
                </li>
                <li><a id="3p_malware"></a>Malware
                   <ul>
-                     <li><a href="http://mcfp.weebly.com/">The Malware Capture Facility Project</a> - Published long-runs of malware including network information. Make sure to check out the <a href="http://mcfp.weebly.com/the-ctu-13-dataset-a-labeled-dataset-with-botnet-normal-and-background-traffic.html">Labeled CTU-13 Dataset</a> [License Info: Unknown]</li>
-                     <li><a href="http://panda.gtisc.gatech.edu/malrec/">PANDA Malware Analysis</a> - Execution traces and PCAPs from <a href="http://moyix.blogspot.com/2014/12/reproducible-malware-analyses-for-all.html?m=1">Moyix's PANDA setup</a> [License Info: Unknown]</li>
-                     <li><a href="http://laredo-13.mit.edu/~brendan/opcleaver/">Op Cleaver PANDA Analysis</a> - rrlogs, PCAPs, movies and reports from Op Cleaver malware [License Info: Unknown]</li>
-                     <li><a href="https://www.kaggle.com/c/malware-classification">kaggle Malware Classification</a> - Unlabled malware, but there are solutions to label it! [License Info: Unknown]</li>
-                     <li><a href="http://rebsnippets.blogspot.com/2015/08/plugx-chronicles.html">PlugX Chronicles</a> Various PlugX samples and links to information about PlugX [License Info: Unknown]</li>
-                     <li><a href="https://drive.google.com/file/d/0B_IN6RzP69b2TkNrYVdOMnQ4LVE/view">Labeled VirusShare data by @_delta_zero</a> - VirusShare data that has been consitently labeled (7zip download) [License Info: Unknown]</li>
-                     <li><a href="https://www2.cs.arizona.edu/projects/lynx-project/Samples/">lynx Project Samples</a> - Benign samples that behave like malware (<a href="https://www2.cs.arizona.edu/projects/lynx-project/">lynx Project</a>)  [License Info: Unknown]</li>
-                     <li><a href="http://virussign.com/index.html">VirusSign</a> - Free and Paid account access to several million malware samples [License Info: Unknown]</li>
-                     <li><a href="http://www.offensivecomputing.net/">Open Malware</a> - Searchable malware repo with free downloads of samples [License Info: Unknown]</li>
-                     <li><a href="http://malwaredb.malekal.com/">Malware DB by Malekal</a> - A list of malicious files, complete with sample link and some AV results [License Info: Unknown]</li>
-                     <li><a href="https://www.sec.cs.tu-bs.de/~danarp/drebin/">Drebin Dataset</a> - Android malware, must submit proof of who you are for access. [License Info: Listed on site]</li>
-                     <li><a href="https://github.com/endgameinc/ember">EMBER Dataset</a> - Features and labels from 1.1 million benign/malicious PE files with trained model. [License Info: AGPL-3.0]</li>
-                     <li><a href="https://github.com/marcoramilli/MalwareTrainingSets">MalwareTrainingSets</a> - JSON describing several intrusion sets/threat actors [License Info: Listed on GitHub]</li>
-                     <li><a href="https://github.com/MalwareSamples/Malware-Feed">Malware-Feed</a> - An ongoing and updated archive of files that we collect which are associated with specific public malicious threat reports.[License Info: MIT]</li>
-                     <li><a href="https://github.com/Virus-Samples/Malware-Sample-Sources">Malware Sample Sources</a> - A Collection of Malware Sample Repositories [License Info: Unknown]</li>
-                     <li><a href="https://whyisyoung.github.io/BODMAS/">Blue Hexagon Open Dataset for Malware AnalysiS</a> - A dataset containing timestamped malware samples and well-curated family information for research purposes. [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL21jZnAud2VlYmx5LmNvbS8=">The Malware Capture Facility Project</a> - Published long-runs of malware including network information. Make sure to check out the <a href="#" data-link-id="aHR0cDovL21jZnAud2VlYmx5LmNvbS90aGUtY3R1LTEzLWRhdGFzZXQtYS1sYWJlbGVkLWRhdGFzZXQtd2l0aC1ib3RuZXQtbm9ybWFsLWFuZC1iYWNrZ3JvdW5kLXRyYWZmaWMuaHRtbA==">Labeled CTU-13 Dataset</a> [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL3BhbmRhLmd0aXNjLmdhdGVjaC5lZHUvbWFscmVjLw==">PANDA Malware Analysis</a> - Execution traces and PCAPs from <a href="#" data-link-id="aHR0cDovL21veWl4LmJsb2dzcG90LmNvbS8yMDE0LzEyL3JlcHJvZHVjaWJsZS1tYWx3YXJlLWFuYWx5c2VzLWZvci1hbGwuaHRtbD9tPTE=">Moyix's PANDA setup</a> [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL2xhcmVkby0xMy5taXQuZWR1L35icmVuZGFuL29wY2xlYXZlci8=">Op Cleaver PANDA Analysis</a> - rrlogs, PCAPs, movies and reports from Op Cleaver malware [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly93d3cua2FnZ2xlLmNvbS9jL21hbHdhcmUtY2xhc3NpZmljYXRpb24=">kaggle Malware Classification</a> - Unlabled malware, but there are solutions to label it! [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL3JlYnNuaXBwZXRzLmJsb2dzcG90LmNvbS8yMDE1LzA4L3BsdWd4LWNocm9uaWNsZXMuaHRtbA==">PlugX Chronicles</a> Various PlugX samples and links to information about PlugX [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8wQl9JTjZSelA2OWIyVGtOcllWZE9NblE0TFZFL3ZpZXc=">Labeled VirusShare data by @_delta_zero</a> - VirusShare data that has been consitently labeled (7zip download) [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly93d3cyLmNzLmFyaXpvbmEuZWR1L3Byb2plY3RzL2x5bngtcHJvamVjdC9TYW1wbGVzLw==">lynx Project Samples</a> - Benign samples that behave like malware (<a href="#" data-link-id="aHR0cHM6Ly93d3cyLmNzLmFyaXpvbmEuZWR1L3Byb2plY3RzL2x5bngtcHJvamVjdC8=">lynx Project</a>)  [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL3ZpcnVzc2lnbi5jb20vaW5kZXguaHRtbA==">VirusSign</a> - Free and Paid account access to several million malware samples [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL3d3dy5vZmZlbnNpdmVjb21wdXRpbmcubmV0Lw==">Open Malware</a> - Searchable malware repo with free downloads of samples [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL21hbHdhcmVkYi5tYWxla2FsLmNvbS8=">Malware DB by Malekal</a> - A list of malicious files, complete with sample link and some AV results [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly93d3cuc2VjLmNzLnR1LWJzLmRlL35kYW5hcnAvZHJlYmluLw==">Drebin Dataset</a> - Android malware, must submit proof of who you are for access. [License Info: Listed on site]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2VuZGdhbWVpbmMvZW1iZXI=">EMBER Dataset</a> - Features and labels from 1.1 million benign/malicious PE files with trained model. [License Info: AGPL-3.0]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL21hcmNvcmFtaWxsaS9NYWx3YXJlVHJhaW5pbmdTZXRz">MalwareTrainingSets</a> - JSON describing several intrusion sets/threat actors [License Info: Listed on GitHub]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL01hbHdhcmVTYW1wbGVzL01hbHdhcmUtRmVlZA==">Malware-Feed</a> - An ongoing and updated archive of files that we collect which are associated with specific public malicious threat reports.[License Info: MIT]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL1ZpcnVzLVNhbXBsZXMvTWFsd2FyZS1TYW1wbGUtU291cmNlcw==">Malware Sample Sources</a> - A Collection of Malware Sample Repositories [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly93aHlpc3lvdW5nLmdpdGh1Yi5pby9CT0RNQVMv">Blue Hexagon Open Dataset for Malware AnalysiS</a> - A dataset containing timestamped malware samples and well-curated family information for research purposes. [License Info: Unknown]</li>
                      <!--<li><a href=""></a> [License Info: ]</li>-->
                   </ul>
                </li>
                <li><a id="3p_system"></a>System
                   <ul>
-                     <li><a href="http://datadrivensecurity.info/blog/pages/dds-dataset-collection.html" target="_blank">DDS Dataset Collection</a> - Honeypot related data [License Info: Unknown]</li>
-                     <li><a href="http://data.webarchive.org.uk/opendata/ukwa.ds.1/classification/">Website Classification</a> [License Info: Public Domain, info on site]</li>
-                     <li><a href="https://dms.sztaki.hu/en/letoltes/ecmlpkdd-2010-discovery-challenge-data-set">ECML/PKDD 2010 Discovery Challenge Data Set</a> - Web classification data [License Info: Unknown]</li>
-                     <li><a href="http://www.rrshare.org/">PANDA rrlogs</a> - share and download rrlogs from the <a href="https://github.com/moyix/panda">PANDA dynamic analysis platform</a> [License Info: Unknown]</li>
-                     <li><a href="https://github.com/andrew-morris/threat_research_private">Threat Research Private</a> - Encrypted data collected from SSH honeypots [License Info: Unknown]</li>
-                     <li><a href="https://github.com/gh0std4ncer/threat_research">Threat Research</a> - Data collected from SSH honeypots (fork of the original Andrew Morris collection)[License Info: Unknown]</li>
-                     <li><a href="https://github.com/santiago-bassett/Alienvault-Demo_scripts">Sample logs and scripts for Alienvault</a> - Various log types (SSH, Cisco, Sonicwall, etc..) [License Info: Unknown]</li>
-                     <li><a href="http://bot.ngx.cc/logs/%23nginx/">#nginx IRC channel logs</a> - Bot logs [License Info: Unknown]</li>
-                     <li><a href="http://log-sharing.dreamhosters.com/">Public Security Log Sharing Site</a> - misc. system logs, NIDS logs, and web proxy logs [License Info: Public, site source (details at top of page)]</li>
-                     <li><a href="https://www.cert.org/insider-threat/tools/index.cfm">CERT Insider Threat Tools</a> - "These datasets provide both synthetic background data and data from synthetic malicious actors" [License Info: Unknown]</li>
-                     <li><a href="https://www.unsw.adfa.edu.au/australian-centre-for-cyber-security/cybersecurity/ADFA-IDS-Datasets/">ADFA IDS Datasets</a> - The datasets cover both Linux and Windows; they are designed for evaluation by system call based HIDS. [License Info: Listed on site]</li>
-                     <li><a href="https://github.com/konstantinberlin/malware-windows-audit-log-detection">Workshop on AI and Security</a> - Anonomized Windows Audit Logs. [License Info: Apache 2.0]</li>
-                     <li><a href="https://github.com/JonathanPhillips/Threat_Research">Threat Research</a> - Honeypot data [License Info: Unknown]</li>
-                     <li><a href="https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES">EVTX Attack Samples</a> - Windows events samples associated to specific attack and post-exploitation techniques"></a> [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvcGFnZXMvZGRzLWRhdGFzZXQtY29sbGVjdGlvbi5odG1s" target="_blank">DDS Dataset Collection</a> - Honeypot related data [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL2RhdGEud2ViYXJjaGl2ZS5vcmcudWsvb3BlbmRhdGEvdWt3YS5kcy4xL2NsYXNzaWZpY2F0aW9uLw==">Website Classification</a> [License Info: Public Domain, info on site]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9kbXMuc3p0YWtpLmh1L2VuL2xldG9sdGVzL2VjbWxwa2RkLTIwMTAtZGlzY292ZXJ5LWNoYWxsZW5nZS1kYXRhLXNldA==">ECML/PKDD 2010 Discovery Challenge Data Set</a> - Web classification data [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL3d3dy5ycnNoYXJlLm9yZy8=">PANDA rrlogs</a> - share and download rrlogs from the <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL21veWl4L3BhbmRh">PANDA dynamic analysis platform</a> [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2FuZHJldy1tb3JyaXMvdGhyZWF0X3Jlc2VhcmNoX3ByaXZhdGU=">Threat Research Private</a> - Encrypted data collected from SSH honeypots [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2doMHN0ZDRuY2VyL3RocmVhdF9yZXNlYXJjaA==">Threat Research</a> - Data collected from SSH honeypots (fork of the original Andrew Morris collection)[License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL3NhbnRpYWdvLWJhc3NldHQvQWxpZW52YXVsdC1EZW1vX3NjcmlwdHM=">Sample logs and scripts for Alienvault</a> - Various log types (SSH, Cisco, Sonicwall, etc..) [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL2JvdC5uZ3guY2MvbG9ncy8lMjNuZ2lueC8=">#nginx IRC channel logs</a> - Bot logs [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL2xvZy1zaGFyaW5nLmRyZWFtaG9zdGVycy5jb20v">Public Security Log Sharing Site</a> - misc. system logs, NIDS logs, and web proxy logs [License Info: Public, site source (details at top of page)]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly93d3cuY2VydC5vcmcvaW5zaWRlci10aHJlYXQvdG9vbHMvaW5kZXguY2Zt">CERT Insider Threat Tools</a> - "These datasets provide both synthetic background data and data from synthetic malicious actors" [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly93d3cudW5zdy5hZGZhLmVkdS5hdS9hdXN0cmFsaWFuLWNlbnRyZS1mb3ItY3liZXItc2VjdXJpdHkvY3liZXJzZWN1cml0eS9BREZBLUlEUy1EYXRhc2V0cy8=">ADFA IDS Datasets</a> - The datasets cover both Linux and Windows; they are designed for evaluation by system call based HIDS. [License Info: Listed on site]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2tvbnN0YW50aW5iZXJsaW4vbWFsd2FyZS13aW5kb3dzLWF1ZGl0LWxvZy1kZXRlY3Rpb24=">Workshop on AI and Security</a> - Anonomized Windows Audit Logs. [License Info: Apache 2.0]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL0pvbmF0aGFuUGhpbGxpcHMvVGhyZWF0X1Jlc2VhcmNo">Threat Research</a> - Honeypot data [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL3Nib3Vzc2VhZGVuL0VWVFgtQVRUQUNLLVNBTVBMRVM=">EVTX Attack Samples</a> - Windows events samples associated to specific attack and post-exploitation techniques"></a> [License Info: Unknown]</li>
                      <!--<li><a href=""></a> [License Info: ]</li>-->
                   </ul>
                </li>
                <li><a id="3p_file"></a>File
                   <ul>
-                     <li><a href="http://contagiodump.blogspot.com/" target="_blank">contagio malware dump</a> - A resource for files/data regarding targeted attacks [License Info: Unknown]</li>
-                     <li><a href="http://virusshare.com/" target="_blank">VirusShare.com - Because Sharing is Caring</a> [Login Required] - Huge collection of downloadable/torrentable malware files for various architectures [License Info: Unknown]</li>
-                     <li><a href="http://vxheaven.org/faq.php#whole">Vx Heaven</a> - sorted by AV set of virus samples (available via BitTorrent) [License Info: Unknown]</li>
-                     <li><a href="https://techhelplist.com/spam-list">TechHelpList SPAM List</a> - Samples of SPAM messages and associated threat that was delivered in addition to other rich information [License Info: Unknown]</li>
-                     <li><a href="http://www.malshare.com/index.php">MalShare</a> - A community driven public malware repository.  [License Info: <a href = "http://www.malshare.com/tos.php">TOS</a>]</li>
-                     <li><a href="https://urlhaus-api.abuse.ch/downloads/">URLhaus</a> - Daily malware batches. [License Info: CC-0]</li>
-                     <li><a href="https://mb-api.abuse.ch/downloads/">MALWAREbazzar</a> - Daily malware batches. [License Info: CC-0]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL2NvbnRhZ2lvZHVtcC5ibG9nc3BvdC5jb20v" target="_blank">contagio malware dump</a> - A resource for files/data regarding targeted attacks [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL3ZpcnVzc2hhcmUuY29tLw==" target="_blank">VirusShare.com - Because Sharing is Caring</a> [Login Required] - Huge collection of downloadable/torrentable malware files for various architectures [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL3Z4aGVhdmVuLm9yZy9mYXEucGhwI3dob2xl">Vx Heaven</a> - sorted by AV set of virus samples (available via BitTorrent) [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly90ZWNoaGVscGxpc3QuY29tL3NwYW0tbGlzdA==">TechHelpList SPAM List</a> - Samples of SPAM messages and associated threat that was delivered in addition to other rich information [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL3d3dy5tYWxzaGFyZS5jb20vaW5kZXgucGhw">MalShare</a> - A community driven public malware repository.  [License Info: <a href = "http://www.malshare.com/tos.php">TOS</a>]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly91cmxoYXVzLWFwaS5hYnVzZS5jaC9kb3dubG9hZHMv">URLhaus</a> - Daily malware batches. [License Info: CC-0]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9tYi1hcGkuYWJ1c2UuY2gvZG93bmxvYWRzLw==">MALWAREbazzar</a> - Daily malware batches. [License Info: CC-0]</li>
                      <!--<li><a href=""></a> [License Info: ]</li>-->
                   </ul>
                </li>
                <li><a id="3p_passwd"></a>Password
                   <ul>
-                     <li><a href="https://figshare.com/articles/Yahoo_Password_Frequency_Corpus/2057937" target="_blank">Yahoo! Password Frequency Corpus</a> - This dataset includes sanitized password frequency lists collected from Yahoo in May 2011.  [License Info: CC-0]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9maWdzaGFyZS5jb20vYXJ0aWNsZXMvWWFob29fUGFzc3dvcmRfRnJlcXVlbmN5X0NvcnB1cy8yMDU3OTM3" target="_blank">Yahoo! Password Frequency Corpus</a> - This dataset includes sanitized password frequency lists collected from Yahoo in May 2011.  [License Info: CC-0]</li>
                      <!--<li><a href=""></a> [License Info: ]</li>-->
                   </ul>
                </li>
                <li><a id="3p_threat"></a>Threat Feeds
                   <ul>
-                     <li><a href="http://www.webiron.com/abuse_feed/">ISP Abuse Email Feed</a> - Feed showing IOCs from various Abuse reports (other feeds also on the site) [License Info: Unknown]</li>
-                     <!--<li><a href="http://cybertracker.malwarehunterteam.com/">Malware Hunter Team CyberTracker</a> - Feeds of files, C2 servers, phishing sites and emails [License Info: Unknown]</li>-->
-                     <li><a href="http://vxvault.net/ViriList.php">VXvault</a> - List of URLs and MD5s that are malicious [License Info: Unknown]</li>
-                     <li><a href="https://otx.alienvault.com/browse">AlienVault OTX</a> - Build your own threat feed from community contributors, complete with API [License Info: <a href="https://www.alienvault.com/terms/may2014">Legal Info</a>]</li>
-                     <li><a href="http://tracker.h3x.eu/families">Tracker</a> - Malware hashes and their associated campaigns [License Info: <a href="http://tracker.h3x.eu/about/400">About</a>]</li>
-                     <li><a href="https://www.malwaredomainlist.com/mdl.php">Malware Domain List</a> - Labeled malicious domains and IPs [License Info: Unknown]</li>
-                     <li><a href="http://support.clean-mx.de/clean-mx/phishing.php">Clean MX Phishing DB</a> - URLs and IPs associated with phishing emails, also targets are listed where determined [License Info: Unknown]</li>
-                     <li><a href="http://support.clean-mx.com/clean-mx/viruses.php">Clean MX Virus DB</a> - Labeled URLs and IPs associated with various types of malware [License Info: Unknown]</li>
-                     <!--<li><a href="https://threatcenter.crdf.fr/">CRDF Threat Center</a> - Labeled MD5s and reputation data [License Info: Open Usage]</li>-->
-                     <li><a href="https://techhelplist.com/maltlqr/">TechHelpList MalTLQR Upatre and Dyreza Tracker</a> - IPs and hashes for Upatre and Dyreza families [License Info: Unknown]</li>
-                     <li><a href="http://cybercrime-tracker.net/">CyberCrime Tracker</a> - Labled URLs and IPs for various malware families [License Info: Unknown]</li>
-                     <li><a href="http://cybercrime-tracker.net/zbox.php">CyberCrime ZbotScan</a> - List of hashes associated with various Zbot variants [License Info: Unknown]</li>
-                     <li><a href="https://www.abuse.ch/">abuse.ch trackers</a> - Trackers for ransomeware, ZeuS, SSL Blacklist, SpyEye, Palevo, and Feodo [License Info: Unknown]</li>
-                     <li><a href="https://github.com/pan-unit42/iocs">Unit 42 Indicators</a> - Indicators from the Unit 42 reports [License Info: Unknown]</li>
-                     <li><a href="https://threatfeeds.io/">Threat Feeds</a> - Threat feed aggregator [License Info: Various]</li>
-                     <li><a href="https://github.com/drb-ra/C2IntelFeeds">C2IntelFeeds</a> - Automatically created C2 feeds, currently VPNs and various C2. [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL3d3dy53ZWJpcm9uLmNvbS9hYnVzZV9mZWVkLw==">ISP Abuse Email Feed</a> - Feed showing IOCs from various Abuse reports (other feeds also on the site) [License Info: Unknown]</li>
+                     <!--<li><a href="#" data-link-id="aHR0cDovL2N5YmVydHJhY2tlci5tYWx3YXJlaHVudGVydGVhbS5jb20v">Malware Hunter Team CyberTracker</a> - Feeds of files, C2 servers, phishing sites and emails [License Info: Unknown]</li>-->
+                     <li><a href="#" data-link-id="aHR0cDovL3Z4dmF1bHQubmV0L1ZpcmlMaXN0LnBocA==">VXvault</a> - List of URLs and MD5s that are malicious [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9vdHguYWxpZW52YXVsdC5jb20vYnJvd3Nl">AlienVault OTX</a> - Build your own threat feed from community contributors, complete with API [License Info: <a href="#" data-link-id="aHR0cHM6Ly93d3cuYWxpZW52YXVsdC5jb20vdGVybXMvbWF5MjAxNA==">Legal Info</a>]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL3RyYWNrZXIuaDN4LmV1L2ZhbWlsaWVz">Tracker</a> - Malware hashes and their associated campaigns [License Info: <a href="#" data-link-id="aHR0cDovL3RyYWNrZXIuaDN4LmV1L2Fib3V0LzQwMA==">About</a>]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly93d3cubWFsd2FyZWRvbWFpbmxpc3QuY29tL21kbC5waHA=">Malware Domain List</a> - Labeled malicious domains and IPs [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL3N1cHBvcnQuY2xlYW4tbXguZGUvY2xlYW4tbXgvcGhpc2hpbmcucGhw">Clean MX Phishing DB</a> - URLs and IPs associated with phishing emails, also targets are listed where determined [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL3N1cHBvcnQuY2xlYW4tbXguY29tL2NsZWFuLW14L3ZpcnVzZXMucGhw">Clean MX Virus DB</a> - Labeled URLs and IPs associated with various types of malware [License Info: Unknown]</li>
+                     <!--<li><a href="#" data-link-id="aHR0cHM6Ly90aHJlYXRjZW50ZXIuY3JkZi5mci8=">CRDF Threat Center</a> - Labeled MD5s and reputation data [License Info: Open Usage]</li>-->
+                     <li><a href="#" data-link-id="aHR0cHM6Ly90ZWNoaGVscGxpc3QuY29tL21hbHRscXIv">TechHelpList MalTLQR Upatre and Dyreza Tracker</a> - IPs and hashes for Upatre and Dyreza families [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL2N5YmVyY3JpbWUtdHJhY2tlci5uZXQv">CyberCrime Tracker</a> - Labled URLs and IPs for various malware families [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cDovL2N5YmVyY3JpbWUtdHJhY2tlci5uZXQvemJveC5waHA=">CyberCrime ZbotScan</a> - List of hashes associated with various Zbot variants [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly93d3cuYWJ1c2UuY2gv">abuse.ch trackers</a> - Trackers for ransomeware, ZeuS, SSL Blacklist, SpyEye, Palevo, and Feodo [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL3Bhbi11bml0NDIvaW9jcw==">Unit 42 Indicators</a> - Indicators from the Unit 42 reports [License Info: Unknown]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly90aHJlYXRmZWVkcy5pby8=">Threat Feeds</a> - Threat feed aggregator [License Info: Various]</li>
+                     <li><a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL2RyYi1yYS9DMkludGVsRmVlZHM=">C2IntelFeeds</a> - Automatically created C2 feeds, currently VPNs and various C2. [License Info: Unknown]</li>
                      <!--<li><a href=""></a> [License Info: ]</li>-->
                   </ul>
                </li>
@@ -343,71 +324,135 @@
             <a id="contact"></a>
             <p class="lead">Contact</p>
             <p>If you dig the site, have data, need data, or whatever, find me on Twitter or GitHub.</p>
-            <p><a href="http://twitter.com/sooshie"><img src="twitter-icon.png" height="30" width="30"/></a> <a href="https://github.com/sooshie/secrepo"><img src="GitHub-Mark.png" height="30" width="30"/></a> </p>
+            <p><a href="#" data-link-id="aHR0cDovL3R3aXR0ZXIuY29tL3Nvb3NoaWU="><img src="twitter-icon.png" height="30" width="30"/></a> <a href="#" data-link-id="aHR0cHM6Ly9naXRodWIuY29tL3Nvb3NoaWUvc2VjcmVwbw=="><img src="GitHub-Mark.png" height="30" width="30"/></a> </p>
 
             <hr/>
             <a id="misc"></a>
             <p class="lead">Misc</p>
             <p>Various things that I needed to stick someplace.</p>
             <ul>
-               <li>BSidesDFW 2014 Presentation with <a href="https://twitter.com/theroxyd">Roxy</a> - <a href="honeypot/Honeypot - Howto.pdf">Honeypot Howto</a>
-               <li>BSidesAustin 2015 Presentation with <a href="https://twitter.com/theroxyd">Roxy</a> - <a href="honeypot/Honeypot - Howto - BSides Austin.pdf">Honeypot Howto</a>
+               <li>BSidesDFW 2014 Presentation with <a href="#" data-link-id="aHR0cHM6Ly90d2l0dGVyLmNvbS90aGVyb3h5ZA==">Roxy</a> - <a href="#" data-link-id="aG9uZXlwb3QvSG9uZXlwb3QgLSBIb3d0by5wZGY=">Honeypot Howto</a>
+               <li>BSidesAustin 2015 Presentation with <a href="#" data-link-id="aHR0cHM6Ly90d2l0dGVyLmNvbS90aGVyb3h5ZA==">Roxy</a> - <a href="#" data-link-id="aG9uZXlwb3QvSG9uZXlwb3QgLSBIb3d0byAtIEJTaWRlcyBBdXN0aW4ucGRm">Honeypot Howto</a>
             </ul>
-          </div>
-        </div>
+                  <footer class="site-footer">
+                     <p>Security Repo - Last updated: <time id="last-updated">##DATE##</time></p>
+                  </footer>
+               </div>
+               </main>
+                  </div>
+                  <script>
+                     (async function applyLinkManifest() {
+                        try {
+                           const response = await fetch("data/site-links.json", { cache: "no-store" });
+                           if (!response.ok) {
+                              return;
+                           }
 
-        <div id="footer">
-          <div class="container">
-            <p class="text-muted credit">Security Repo - Last updated: ##DATE##</p>
-          </div>
-        </div>
+                           const payload = await response.json();
+                           const links = Array.isArray(payload.links) ? payload.links : [];
+                           const manifestById = new Map();
 
-        <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-        <script type='text/javascript' src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+                           function normalizeValue(value) {
+                              if (typeof value !== "string") {
+                                 return "";
+                              }
+                              return value.trim().toLowerCase();
+                           }
 
-        <!-- JavaScript jQuery code from Bootply.com editor  -->
-        <script type='text/javascript'>
-        $(document).ready(function() {
-        });
+                           function resolveDisplayData(entry, originalLabel) {
+                              const fallback = {
+                                 text: entry.text,
+                                 description: entry.description,
+                                 license: entry.license
+                              };
 
-        </script>
+                              if (!Array.isArray(entry.variants) || entry.variants.length === 0) {
+                                 return fallback;
+                              }
 
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+                              const normalizedLabel = normalizeValue(originalLabel);
+                              if (!normalizedLabel) {
+                                 return fallback;
+                              }
 
-          ga('create', 'UA-54959943-1', 'auto');
-          ga('send', 'pageview');
+                              const variantMatch = entry.variants.find(function(variant) {
+                                 return normalizeValue(variant.text) === normalizedLabel;
+                              });
 
-        </script>
-        <!-- Quantcast Tag -->
-        <script type="text/javascript">
-        var _qevents = _qevents || [];
+                              if (!variantMatch) {
+                                 return fallback;
+                              }
 
-        (function() {
-        var elem = document.createElement('script');
-        elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
-        elem.async = true;
-        elem.type = "text/javascript";
-        var scpt = document.getElementsByTagName('script')[0];
-        scpt.parentNode.insertBefore(elem, scpt);
-        })();
+                              return {
+                                 text: variantMatch.text || fallback.text,
+                                 description:
+                                    typeof variantMatch.description === "string" && variantMatch.description.length > 0
+                                       ? variantMatch.description
+                                       : fallback.description,
+                                 license:
+                                    typeof variantMatch.license === "string" && variantMatch.license.length > 0
+                                       ? variantMatch.license
+                                       : fallback.license
+                              };
+                           }
 
-        _qevents.push({
-        qacct:"p-0cXb7ATGU9nz5"
-        });
-        </script>
-    </body>
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+                           links.forEach(function(entry) {
+                              if (entry && entry.id && entry.active === true) {
+                                 manifestById.set(entry.id, entry);
+                              }
+                           });
 
-    ga('create', 'UA-93353118-1', 'auto');
-    ga('send', 'pageview');
+                           document.querySelectorAll("a[href]").forEach(function(anchor) {
+                              const originalHref = anchor.getAttribute("href");
+                              const originalLabel = (anchor.textContent || "").trim();
+                              if (!originalHref) {
+                                 return;
+                              }
 
-    </script>
+                              const linkId = anchor.getAttribute("data-link-id") || window.btoa(originalHref);
+                              const mapped = manifestById.get(linkId);
+                              if (!mapped || !mapped.href) {
+                                 return;
+                              }
+
+                              const resolvedDisplay = resolveDisplayData(mapped, originalLabel);
+
+                              anchor.setAttribute("href", mapped.href);
+                              if (resolvedDisplay.text) {
+                                 anchor.textContent = resolvedDisplay.text;
+                              }
+
+                              const parentLi = anchor.parentElement;
+                              if (
+                                 parentLi &&
+                                 parentLi.tagName === "LI" &&
+                                 parentLi.querySelectorAll("a").length === 1 &&
+                                 typeof resolvedDisplay.description === "string" &&
+                                 resolvedDisplay.description.length > 0
+                              ) {
+                                 while (anchor.nextSibling) {
+                                    parentLi.removeChild(anchor.nextSibling);
+                                 }
+
+                                 const licenseSuffix =
+                                    typeof resolvedDisplay.license === "string" && resolvedDisplay.license.length > 0
+                                       ? " [License Info: " + resolvedDisplay.license + "]"
+                                       : "";
+
+                                 parentLi.appendChild(
+                                    document.createTextNode(" - " + resolvedDisplay.description + licenseSuffix)
+                                 );
+                              }
+
+                              if (mapped.status === "broken") {
+                                 anchor.classList.add("link-broken");
+                                 anchor.setAttribute("title", "This link is currently marked broken in the URL manifest.");
+                              }
+                           });
+                        } catch (error) {
+                           console.warn("Unable to apply site-links manifest", error);
+                        }
+                     })();
+                  </script>
+      </body>
 </html>

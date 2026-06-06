@@ -1,56 +1,193 @@
-/* CSS code from Bootply.com editor */
+:root {
+  --bg: #0d121a;
+  --bg-soft: #131d2b;
+  --text: #d9e2ef;
+  --muted: #8e9db4;
+  --line: #1f3046;
+  --accent: #19c37d;
+  --panel: rgba(19, 29, 43, 0.78);
+}
 
-/* Sticky footer styles
--------------------------------------------------- */
+* {
+  box-sizing: border-box;
+}
 
 html,
 body {
-  height: 100%;
-  /* The html and body elements cannot have any padding or margin. */
-}
-
-/* Wrapper for page content to push down footer */
-#wrap {
+  margin: 0;
+  padding: 0;
   min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  /* Negative indent footer by its height */
-  margin: 0 auto -60px;
-  /* Pad bottom by footer height */
-  padding: 0 0 60px;
 }
 
-/* Set the fixed height of the footer here */
-#footer {
-  height: 60px;
-  background-color: #f5f5f5;
+body {
+  color: var(--text);
+  font-family: Manrope, sans-serif;
+  background:
+    radial-gradient(circle at 15% 15%, rgba(25, 195, 125, 0.18), transparent 36%),
+    radial-gradient(circle at 88% 28%, rgba(86, 123, 255, 0.22), transparent 40%),
+    var(--bg);
 }
 
-/* Custom page CSS
--------------------------------------------------- */
-/* Not required for template or sticky footer method. */
-
-#wrap > .container {
-  padding: 60px 15px 0;
-}
-.container .credit {
-  margin: 20px 0;
+a {
+  color: #8fd7ff;
 }
 
-#footer > .container {
-  padding-left: 15px;
-  padding-right: 15px;
+a:hover {
+  color: #c1eaff;
 }
 
-code {
-  font-size: 80%;
+a.link-broken {
+  color: #ff9a9a;
+  text-decoration: underline wavy;
+}
+
+.site-grid {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 1.1rem;
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 1rem;
+}
+
+.shell {
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(3px);
+}
+
+.sidebar {
+  padding: 1rem;
+  position: sticky;
+  top: 0.8rem;
+  height: fit-content;
+}
+
+.brand {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.92rem;
+  color: var(--accent);
+  letter-spacing: 0.04em;
+  margin-bottom: 1rem;
+}
+
+.nav-group {
+  border: 1px solid var(--line);
+  border-radius: 0.75rem;
+  margin-bottom: 0.6rem;
+  background: rgba(255, 255, 255, 0.01);
+}
+
+.nav-group summary {
+  list-style: none;
+  cursor: pointer;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.82rem;
+  color: var(--muted);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 0.55rem 0.7rem;
+  border-bottom: 1px solid transparent;
+}
+
+.nav-group[open] summary {
+  border-bottom-color: var(--line);
+}
+
+.nav-group summary::-webkit-details-marker {
+  display: none;
+}
+
+.nav-group summary::after {
+  content: "+";
+  float: right;
+  color: var(--accent);
+}
+
+.nav-group[open] summary::after {
+  content: "-";
+}
+
+.navitem {
+  display: block;
+  text-decoration: none;
+  color: var(--text);
+  border: 1px solid transparent;
+  border-radius: 0.65rem;
+  padding: 0.52rem 0.7rem;
+  margin: 0.25rem 0.35rem;
+  font-size: 0.92rem;
+  background: rgba(255, 255, 255, 0.01);
+  transition: border-color 0.2s ease, transform 0.15s ease;
+}
+
+.navitem:hover {
+  border-color: var(--line);
+  transform: translateX(2px);
+}
+
+.main-content {
+  padding: 1rem;
+}
+
+.hero h1 {
+  margin: 0;
+  line-height: 1.05;
+  font-size: clamp(1.5rem, 3vw, 2.6rem);
+  max-width: 18ch;
+}
+
+.sub {
+  margin-top: 0.7rem;
+  margin-bottom: 1rem;
+  color: var(--muted);
+  max-width: 68ch;
+}
+
+.content-body {
+  border-top: 1px solid var(--line);
+  margin-top: 0.9rem;
+  padding-top: 1rem;
+}
+
+.lead {
+  color: #b9c7da;
+  font-size: 1.05rem;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+li {
+  margin-bottom: 0.35rem;
 }
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-bottom: 1px solid #eee;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  margin: 1em 0;
+  padding: 0;
+}
+
+.site-footer {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 940px) {
+  .site-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    position: static;
+  }
 }
