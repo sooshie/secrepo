@@ -5,8 +5,6 @@
         <meta charset="utf-8">
         <title>SecRepo - Security Data Samples Repository</title>
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <base target="_blank">
-
         <!--[if lt IE 9]>
           <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
@@ -91,6 +89,18 @@
                               return Boolean(entry) && entry.active === true && Boolean(entry.href);
                            }
 
+                           function applyLinkTarget(anchor) {
+                              if (!anchor) return;
+                              const rawHref = anchor.getAttribute("href") || "";
+                              if (rawHref.startsWith("#")) {
+                                 anchor.setAttribute("target", "_self");
+                                 anchor.removeAttribute("rel");
+                                 return;
+                              }
+                              anchor.setAttribute("target", "_blank");
+                              anchor.setAttribute("rel", "noopener noreferrer");
+                           }
+
                            function makeAnchor(entry, fallbackText) {
                               const a = document.createElement("a");
                               a.href = entry.href;
@@ -99,6 +109,7 @@
                                  a.classList.add("link-broken");
                                  a.title = "This link is currently marked broken in the URL manifest.";
                               }
+                              applyLinkTarget(a);
                               return a;
                            }
 
@@ -357,6 +368,7 @@
                                        // category label = first text part
                                        const labelPart = (cat.parts || []).find(function(p) { return p && typeof p.text === "string"; });
                                        navA.textContent = labelPart ? labelPart.text : cat.anchor;
+                                       applyLinkTarget(navA);
                                        navDetails.appendChild(navA);
                                     }
                                  });
@@ -394,6 +406,12 @@
                                  anchor.classList.add("link-broken");
                                  anchor.setAttribute("title", "This link is currently marked broken in the URL manifest.");
                               }
+                              applyLinkTarget(anchor);
+                           });
+
+                           // Enforce link targets for static links as well.
+                           document.querySelectorAll("a[href]").forEach(function(anchor) {
+                              applyLinkTarget(anchor);
                            });
                         } catch (error) {
                            console.warn("Unable to apply site-links manifest", error);
