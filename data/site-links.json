@@ -47,12 +47,12 @@
       "sourceHref": "http://commoncrawl.org/",
       "href": "http://commoncrawl.org/",
       "text": "Common Crawl",
-      "description": "\"open repository of web crawl data that can be accessed and analyzed by anyone\"",
+      "description": "open repository of web crawl data that can be accessed and analyzed by anyone",
       "license": "Open",
       "variants": [
         {
           "text": "Common Crawl",
-          "description": "\"open repository of web crawl data that can be accessed and analyzed by anyone\"",
+          "description": "open repository of web crawl data that can be accessed and analyzed by anyone",
           "license": "Open"
         }
       ],
@@ -1616,12 +1616,12 @@
       "id": "aHR0cHM6Ly9naXRodWIuY29tL21pc3RlcmNoMGMvd2hhdF9pc190aGlzX2My",
       "sourceHref": "https://github.com/misterch0c/what_is_this_c2",
       "href": "https://github.com/misterch0c/what_is_this_c2",
-      "text": "\"What is this panel again?\"",
+      "text": "What is this panel again?",
       "description": "Screenshots of various malware control panels.",
       "license": "Unknown",
       "variants": [
         {
-          "text": "\"What is this panel again?\"",
+          "text": "What is this panel again?",
           "description": "Screenshots of various malware control panels.",
           "license": "Unknown"
         }
@@ -1737,12 +1737,12 @@
       "sourceHref": "https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES",
       "href": "https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES",
       "text": "EVTX Attack Samples",
-      "description": "Windows events samples associated to specific attack and post-exploitation techniques\">",
+      "description": "Windows events samples associated to specific attack and post-exploitation techniques",
       "license": "Unknown",
       "variants": [
         {
           "text": "EVTX Attack Samples",
-          "description": "Windows events samples associated to specific attack and post-exploitation techniques\">",
+          "description": "Windows events samples associated to specific attack and post-exploitation techniques",
           "license": "Unknown"
         }
       ],
@@ -2737,12 +2737,12 @@
       "sourceHref": "https://www.cert.org/insider-threat/tools/index.cfm",
       "href": "https://www.cert.org/insider-threat/tools/index.cfm",
       "text": "CERT Insider Threat Tools",
-      "description": "\"These datasets provide both synthetic background data and data from synthetic malicious actors\"",
+      "description": "These datasets provide both synthetic background data and data from synthetic malicious actors",
       "license": "Unknown",
       "variants": [
         {
           "text": "CERT Insider Threat Tools",
-          "description": "\"These datasets provide both synthetic background data and data from synthetic malicious actors\"",
+          "description": "These datasets provide both synthetic background data and data from synthetic malicious actors",
           "license": "Unknown"
         }
       ],
