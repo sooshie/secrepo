@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-06T14:37:48Z",
+  "generatedAt": "2026-06-06T14:46:10Z",
   "links": [
     {
       "id": "aHR0cDovL2FyY2hpdmUuaWNzLnVjaS5lZHUvbWwvZGF0YXNldHMvVVJMK1JlcHV0YXRpb24=",
@@ -20,7 +20,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "http://archive.ics.uci.edu/dataset/187/url+reputation",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL2FyY2hpdmUuaWNzLnVjaS5lZHUvbWwvZGF0YXNldHMvV2Vic2l0ZStQaGlzaGluZw==",
@@ -40,7 +40,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "http://archive.ics.uci.edu/dataset/379/website+phishing",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL2NvbW1vbmNyYXdsLm9yZy8=",
@@ -60,7 +60,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://commoncrawl.org/",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL2NvbnRhZ2lvZHVtcC5ibG9nc3BvdC5jb20v",
@@ -80,7 +80,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://contagiodump.blogspot.com/",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL2Nzci5sYW5sLmdvdi9kYXRhLw==",
@@ -100,7 +100,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://csr.lanl.gov/data/",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL2Nzci5sYW5sLmdvdi9kYXRhL2N5YmVyMS8=",
@@ -120,7 +120,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://csr.lanl.gov/data/cyber1/",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL2N5YmVyY3JpbWUtdHJhY2tlci5uZXQv",
@@ -140,7 +140,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "http://cybercrime-tracker.net/",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL2N5YmVyY3JpbWUtdHJhY2tlci5uZXQvemJveC5waHA=",
@@ -160,7 +160,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "http://cybercrime-tracker.net/zbox.php",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvZGF0YS8yMDE0LzAxL21hcngtZ2VvLnRhci5neg==",
@@ -180,7 +180,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://datadrivensecurity.info/blog/data/2014/01/marx-geo.tar.gz",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvZGF0YS8yMDE0LzAxL21hcngudGFyLmd6",
@@ -200,7 +200,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://datadrivensecurity.info/blog/data/2014/01/marx.tar.gz",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvZGF0YS8yMDE0LzEwL2xlZ2l0LWRnYV9kb21haW5zLmNzdi56aXA=",
@@ -220,7 +220,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://datadrivensecurity.info/blog/data/2014/10/legit-dga_domains.csv.zip",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL2RhdGFkcml2ZW5zZWN1cml0eS5pbmZvL2Jsb2cvcGFnZXMvZGRzLWRhdGFzZXQtY29sbGVjdGlvbi5odG1s",
@@ -255,7 +255,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://datadrivensecurity.info/blog/pages/dds-dataset-collection.html",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL2RpZ2l0YWxjb3Jwb3JhLm9yZy8=",
@@ -275,7 +275,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://digitalcorpora.org/",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL2tkZC5pY3MudWNpLmVkdS9kYXRhYmFzZXMva2RkY3VwOTkva2RkY3VwOTkuaHRtbA==",
@@ -295,7 +295,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL2xvZy1zaGFyaW5nLmRyZWFtaG9zdGVycy5jb20v",
@@ -315,7 +315,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://log-sharing.dreamhosters.com/",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL21hbHdhcmUtdHJhZmZpYy1hbmFseXNpcy5uZXQv",
@@ -335,7 +335,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.malware-traffic-analysis.net/",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL21hbHdhcmV1cmxzLmpveGVhbmtvcmV0LmNvbS8=",
@@ -355,7 +355,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "http://malwareurls.joxeankoret.com/",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL21jZnAud2VlYmx5LmNvbS8=",
@@ -375,7 +375,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://mcfp.weebly.com/",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL21jZnAud2VlYmx5LmNvbS90aGUtY3R1LTEzLWRhdGFzZXQtYS1sYWJlbGVkLWRhdGFzZXQtd2l0aC1ib3RuZXQtbm9ybWFsLWFuZC1iYWNrZ3JvdW5kLXRyYWZmaWMuaHRtbA==",
@@ -395,7 +395,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://mcfp.weebly.com/the-ctu-13-dataset-a-labeled-dataset-with-botnet-normal-and-background-traffic.html",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL21veWl4LmJsb2dzcG90LmNvbS8yMDE0LzEyL3JlcHJvZHVjaWJsZS1tYWx3YXJlLWFuYWx5c2VzLWZvci1hbGwuaHRtbD9tPTE=",
@@ -415,7 +415,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://moyix.blogspot.com/2014/12/reproducible-malware-analyses-for-all.html?m=1",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL29zaW50LmJhbWJlbmVrY29uc3VsdGluZy5jb20vbGljZW5zZS50eHQ=",
@@ -435,7 +435,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://osint.bambenekconsulting.com/license.txt",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL3BhbmRhLmd0aXNjLmdhdGVjaC5lZHUvbWFscmVjLw==",
@@ -455,7 +455,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "http://panda.gtisc.gatech.edu/malrec/",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL3JlYnNuaXBwZXRzLmJsb2dzcG90LmNvbS8yMDE1LzA4L3BsdWd4LWNocm9uaWNsZXMuaHRtbA==",
@@ -475,7 +475,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "http://rebsnippets.blogspot.com/2015/08/plugx-chronicles.html",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL3MzLmFtYXpvbmF3cy5jb20vYWxleGEtc3RhdGljL3RvcC0xbS5jc3Yuemlw",
@@ -495,7 +495,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "http://s3.amazonaws.com/alexa-static/top-1m.csv.zip",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL3N1cHBvcnQuY2xlYW4tbXguY29tL2NsZWFuLW14L3ZpcnVzZXMucGhw",
@@ -515,7 +515,7 @@
       "status": "ok",
       "httpStatus": 302,
       "finalUrl": "http://support.clean-mx.com/clean-mx/viruses.php",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL3N1cHBvcnQuY2xlYW4tbXguZGUvY2xlYW4tbXgvcGhpc2hpbmcucGhw",
@@ -535,7 +535,7 @@
       "status": "ok",
       "httpStatus": 302,
       "finalUrl": "http://support.clean-mx.com/clean-mx/phishing.php",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL3N5c25ldC51Y3NkLmVkdS9wcm9qZWN0cy91cmwv",
@@ -555,7 +555,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.sysnet.ucsd.edu/projects/url/",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL3ZhY29tbXVuaXR5Lm9yZy9WQVNUK0NoYWxsZW5nZSsyMDEyJTNBK1N1Ym1pc3Npb24rSW5zdHJ1Y3Rpb25zK2FuZCtEb3dubG9hZHM=",
@@ -575,7 +575,7 @@
       "status": "ok",
       "httpStatus": 301,
       "finalUrl": "https://www.kamikazeabq.com/VAST+Challenge+2012%3A+Submission+Instructions+and+Downloads",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL3ZpcnVzc2hhcmUuY29tLw==",
@@ -595,7 +595,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://virusshare.com/",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL3ZpcnVzc2lnbi5jb20vaW5kZXguaHRtbA==",
@@ -615,7 +615,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.virussign.com/",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL3Z4dmF1bHQubmV0L1ZpcmlMaXN0LnBocA==",
@@ -635,7 +635,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "http://vxvault.net/ViriList.php",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL3d3dy5henNlY3VyZS1kYXRhLm9yZy9nZXQtZGF0YS5odG1s",
@@ -660,7 +660,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "http://www.azsecure-data.org/get-data.html",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL3d3dy5jYWlkYS5vcmcvZGF0YS9wYXNzaXZlL3NpcHNjYW5fZGF0YXNldC54bWw=",
@@ -680,7 +680,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.caida.org/catalog/datasets/sipscan_dataset/",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL3d3dy5nd2Vybi5uZXQvQmxhY2stbWFya2V0JTIwYXJjaGl2ZXM=",
@@ -700,7 +700,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://gwern.net/dnm-archive",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL3d3dy5tYWxzaGFyZS5jb20vaW5kZXgucGhw",
@@ -720,7 +720,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "http://www.malshare.com/index.php",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cDovL3d3dy5uZXRyZXNlYy5jb20vP3BhZ2U9UGNhcEZpbGVz",
@@ -740,7 +740,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.netresec.com/?page=PcapFiles",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9kZ2FyY2hpdmUuY2FhZC5ma2llLmZyYXVuaG9mZXIuZGUv",
@@ -765,7 +765,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://dgarchive.caad.fkie.fraunhofer.de/",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMTZkLXQ2NHBEbWpPY1ZqNEhEQUdHV2hSc05tU0d0N0lV",
@@ -785,7 +785,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://drive.google.com/drive/folders/16d-t64pDmjOcVj4HDAGGWhRsNmSGt7IU",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMVZiRUZjWUVIYkpWaHBxQkdydUNHVkYxSlY4cmNFMDdR",
@@ -805,7 +805,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://drive.google.com/drive/folders/1VbEFcYEHbJVhpqBGruCGVF1JV8rcE07Q",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXFCbUpoVnFQcHJELWVzR0tndG02VkxuX1lPcGphd0ot",
@@ -880,7 +880,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://drive.google.com/drive/folders/1qBmJhVqPprD-esGKgtm6VLn_YOpjawJ-",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXJYNThMeEJnbFlXNzJUVkxRV09LZHk5dm5Ea0R1RHFp",
@@ -900,7 +900,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://drive.google.com/drive/folders/1rX58LxBglYW72TVLQWOKdy9vnDkDuDqi",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2RyaXZlL2ZvbGRlcnMvMXUtQUZlUzhEY3R6NXZQN09oZHE4Mm5wdUFOd1BPb1Jr",
@@ -930,7 +930,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://drive.google.com/drive/folders/1u-AFeS8Dctz5vP7Ohdq82npuANwPOoRk",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9maWdzaGFyZS5jb20vYXJ0aWNsZXMvWWFob29fUGFzc3dvcmRfRnJlcXVlbmN5X0NvcnB1cy8yMDU3OTM3",
@@ -950,7 +950,7 @@
       "status": "ok",
       "httpStatus": 202,
       "finalUrl": "https://figshare.com/articles/Yahoo_Password_Frequency_Corpus/2057937",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL0pvbmF0aGFuUGhpbGxpcHMvVGhyZWF0X1Jlc2VhcmNo",
@@ -970,7 +970,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/JonathanPhillips/Threat_Research",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL01hbHdhcmVTYW1wbGVzL01hbHdhcmUtRmVlZA==",
@@ -990,7 +990,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/MalwareSamples/Malware-Feed",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2FuZHJldy1tb3JyaXMvdGhyZWF0X3Jlc2VhcmNoX3ByaXZhdGU=",
@@ -1010,7 +1010,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/andrew-morris/threat_research_private",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2JvZGFjZWEvbWlzaW5mb2xpbmtz",
@@ -1030,7 +1030,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/bodacea/misinfolinks",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL0JybyUyMExvZ3MlMjBmcm9tJTIwVGhyZWF0Z2xhc3MvUGFydCUyMDM=",
@@ -1048,9 +1048,9 @@
       ],
       "active": true,
       "status": "ok",
-      "httpStatus": 301,
+      "httpStatus": 200,
       "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/tree/master/Data_analysis/Bro%20Logs%20from%20Threatglass/Part%203",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9kaGNwJTIwYW5hbHlzaXMuaXB5bmI=",
@@ -1068,9 +1068,9 @@
       ],
       "active": true,
       "status": "ok",
-      "httpStatus": 301,
+      "httpStatus": 200,
       "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/blob/master/Data_analysis/Network%20analysis/dhcp%20analysis.ipynb",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9kbnMlMjBhbmFseXNpcy5pcHluYg==",
@@ -1090,7 +1090,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/blob/master/Data_analysis/Network%20analysis/dns%20analysis.ipynb",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9mdHAlMjBhbmFseXNpcy5pcHluYg==",
@@ -1110,7 +1110,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/blob/master/Data_analysis/Network%20analysis/ftp%20analysis.ipynb",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9ub3RpY2UlMjBhbmFseXNpcy5pcHluYg==",
@@ -1130,27 +1130,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/blob/master/Data_analysis/Network%20analysis/notice%20analysis.ipynb",
-      "lastChecked": "2026-06-06T14:37:48Z"
-    },
-    {
-      "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9zaWduYXR1cmVzJTIwYW5hbHlzaXMuaXB5bmI=",
-      "sourceHref": "https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/signatures%20analysis.ipynb",
-      "href": "https://github.com/cyberdefenders/MachineLearning/blob/master/Data_analysis/Network%20analysis/signatures%20analysis.ipynb",
-      "text": "jupyter notebook",
-      "description": "signatures.log.gz (1MB) - Description for signatures dataset and analysis on jupyter notebook",
-      "license": null,
-      "variants": [
-        {
-          "text": "jupyter notebook",
-          "description": "signatures.log.gz (1MB) - Description for signatures dataset and analysis on jupyter notebook",
-          "license": null
-        }
-      ],
-      "active": true,
-      "status": "ok",
-      "httpStatus": 301,
-      "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/blob/master/Data_analysis/Network%20analysis/signatures%20analysis.ipynb",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9zbXRwJTIwYW5hbHlzaXMuaXB5bmI=",
@@ -1170,7 +1150,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/blob/master/Data_analysis/Network%20analysis/smtp%20analysis.ipynb",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9zc2glMjBhbmFseXNpcy5pcHluYg==",
@@ -1190,7 +1170,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/blob/master/Data_analysis/Network%20analysis/ssh%20analysis.ipynb",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy9zc2wlMjBhbmFseXNpcy5pcHluYg==",
@@ -1210,7 +1190,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/blob/master/Data_analysis/Network%20analysis/ssl%20analysis.ipynb",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy90dW5uZWwlMjBhbmFseXNpcy5pcHluYg==",
@@ -1230,7 +1210,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/blob/master/Data_analysis/Network%20analysis/tunnel%20analysis.ipynb",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL05ldHdvcmslMjBhbmFseXNpcy93ZWlyZCUyMGFuYWx5c2lzLmlweW5i",
@@ -1250,7 +1230,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/blob/master/Data_analysis/Network%20analysis/weird%20analysis.ipynb",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL1BFJTIwbWFsd2FyZSUyMGFuYWx5c2lzL09QJTIwQ2xlYXZlciUyMEFuYWx5c2lzLmlweW5i",
@@ -1270,7 +1250,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/blob/master/Data_analysis/PE%20malware%20analysis/OP%20Cleaver%20Analysis.ipynb",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL1BFJTIwbWFsd2FyZSUyMGFuYWx5c2lzL1ZpcnVzU2hhcmUlMjBBbmFseXNpcy1jaGVja3BvaW50LmlweW5i",
@@ -1290,7 +1270,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/blob/master/Data_analysis/PE%20malware%20analysis/VirusShare%20Analysis-checkpoint.ipynb",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy9ibG9iL21hc3Rlci9EYXRhX2FuYWx5c2lzL1BFJTIwbWFsd2FyZSUyMGFuYWx5c2lzL1pldXMlMjBBbmFseXNpcy5pcHluYg==",
@@ -1310,7 +1290,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/blob/master/Data_analysis/PE%20malware%20analysis/Zeus%20Analysis.ipynb",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy90cmVlL21hc3Rlci9EYXRhX2FuYWx5c2lzL0JybyUyMExvZ3MlMjBmcm9tJTIwVGhyZWF0Z2xhc3MvUGFydCUyMDE=",
@@ -1330,7 +1310,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/tree/master/Data_analysis/Bro%20Logs%20from%20Threatglass/Part%201",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2N5YmVyZGVmZW5kZXJzL01hY2hpbmVMZWFybmluZy90cmVlL21hc3Rlci9EYXRhX2FuYWx5c2lzL0JybyUyMExvZ3MlMjBmcm9tJTIwVGhyZWF0Z2xhc3MvUGFydCUyMDI=",
@@ -1350,7 +1330,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/cyberdefendersprogram/MachineLearning/tree/master/Data_analysis/Bro%20Logs%20from%20Threatglass/Part%202",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2RyYi1yYS9DMkludGVsRmVlZHM=",
@@ -1370,7 +1350,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/drb-ra/C2IntelFeeds",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2VuZGdhbWVpbmMvZW1iZXI=",
@@ -1390,7 +1370,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/elastic/ember",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2ZhaXphbm4yNC9Gd2FmLU1hY2hpbmUtTGVhcm5pbmctZHJpdmVuLVdlYi1BcHBsaWNhdGlvbi1GaXJld2FsbA==",
@@ -1410,7 +1390,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/faizann24/Fwaf-Machine-Learning-driven-Web-Application-Firewall",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2ZhaXphbm4yNC9Vc2luZy1tYWNoaW5lLWxlYXJuaW5nLXRvLWRldGVjdC1tYWxpY2lvdXMtVVJMcw==",
@@ -1430,7 +1410,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/faizann24/Using-machine-learning-to-detect-malicious-URLs",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2Zvb3NwaWR5L3BheWxvYWRz",
@@ -1450,7 +1430,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/foospidy/payloads",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2hnYXNjb24vc2VjdXJpdHktZGF0YXNldHMvYmxvYi9tYXN0ZXIvUkVBRE1FLm1k",
@@ -1470,7 +1450,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/hgascon/security-datasets/blob/master/README.md",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2hzbGF0bWFuL2F3ZXNvbWUtaW5kdXN0cmlhbC1jb250cm9sLXN5c3RlbS1zZWN1cml0eQ==",
@@ -1490,7 +1470,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/hslatman/awesome-industrial-control-system-security",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2h1bnRlcnMtZm9yZ2UvbW9yZG9y",
@@ -1510,7 +1490,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/OTRF/Security-Datasets",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2phc2tsYWJzL2JsYWNraGF0MjAxNw==",
@@ -1530,7 +1510,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/jasklabs/blackhat2017",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2p6YWRlaC9ha3RhaW9u",
@@ -1550,7 +1530,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/jzadeh/aktaion",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2p6YWRlaC9ha3RhaW9uMg==",
@@ -1570,7 +1550,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/jzadeh/aktaion2",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2tvbnN0YW50aW5iZXJsaW4vbWFsd2FyZS13aW5kb3dzLWF1ZGl0LWxvZy1kZXRlY3Rpb24=",
@@ -1590,7 +1570,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/konstantinberlin/malware-windows-audit-log-detection",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL21hcmF2ZW50by9ibGFja3dlYg==",
@@ -1610,7 +1590,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/maravento/blackweb",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL21hcmNvcmFtaWxsaS9NYWx3YXJlVHJhaW5pbmdTZXRz",
@@ -1630,7 +1610,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/marcoramilli/MalwareTrainingSets",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL21pc3RlcmNoMGMvd2hhdF9pc190aGlzX2My",
@@ -1650,7 +1630,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/misterch0c/what_is_this_c2",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL21veWl4L3BhbmRh",
@@ -1670,7 +1650,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/moyix/panda",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL29wZW5kbnMvcHVibGljLWRvbWFpbi1saXN0cw==",
@@ -1690,7 +1670,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/opendns/public-domain-lists",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL3Bhbi11bml0NDIvaW9jcw==",
@@ -1710,7 +1690,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/pan-unit42/iocs",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL3JhcGlkNy9zb25hci93aWtpL1VEUA==",
@@ -1730,7 +1710,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/rapid7/sonar/wiki/UDP",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL3NhbnRpYWdvLWJhc3NldHQvQWxpZW52YXVsdC1EZW1vX3NjcmlwdHM=",
@@ -1750,7 +1730,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/santiago-bassett/Alienvault-Demo_scripts",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL3Nib3Vzc2VhZGVuL0VWVFgtQVRUQUNLLVNBTVBMRVM=",
@@ -1770,7 +1750,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/sbousseaden/EVTX-ATTACK-SAMPLES",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL3Nvb3NoaWUvU2VjdXJpdHktRGF0YS1BbmFseXNpcw==",
@@ -1790,7 +1770,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/sooshie/Security-Data-Analysis",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL3ZzLXV1bG0vMjAxNy1TVUVFLWRhdGEtc2V0",
@@ -1810,7 +1790,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/vs-uulm/2017-SUEE-data-set",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL3Z6LXJpc2svVkNEQg==",
@@ -1830,7 +1810,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://github.com/vz-risk/VCDB",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9oYWNrZXJ0YXJnZXQuY29tLzUwMGstaHR0cC1oZWFkZXJzLw==",
@@ -1850,7 +1830,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://hackertarget.com/500k-http-headers/",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9tYWplc3RpYy5jb20vcmVwb3J0cy9tYWplc3RpYy1taWxsaW9u",
@@ -1870,7 +1850,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://majestic.com/reports/majestic-million",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9tYi1hcGkuYWJ1c2UuY2gvZG93bmxvYWRzLw==",
@@ -1890,7 +1870,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://bazaar.abuse.ch/api/",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9tY2ZwLmZlbGsuY3Z1dC5jei9wdWJsaWNEYXRhc2V0cy8=",
@@ -1910,7 +1890,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://mcfp.felk.cvut.cz/publicDatasets/",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9vdHguYWxpZW52YXVsdC5jb20vYnJvd3Nl",
@@ -1930,7 +1910,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://otx.alienvault.com/browse",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9yZXNlYXJjaC5hYWx0by5maS9lbi9kYXRhc2V0cy9pb3QtZGV2aWNlcy1jYXB0dXJlcygyODVhOWIwNi1kZTMxLTRkOGItODhlOS01YmRiYTQ2Y2MxNjEpLmh0bWw=",
@@ -1950,7 +1930,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://research.aalto.fi/en/datasets/iot-devices-captures/",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9zMy11cy13ZXN0LTEuYW1hem9uYXdzLmNvbS91bWJyZWxsYS1zdGF0aWMvaW5kZXguaHRtbA==",
@@ -1970,7 +1950,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://s3-us-west-1.amazonaws.com/umbrella-static/index.html",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly9zY2Fucy5pby8=",
@@ -1990,7 +1970,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://scans.io/",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "U2VjdXJpdHktRGF0YS1BbmFseXNpcy9MYWJfMS9jb25uLmxvZy56aXA=",
@@ -2010,7 +1990,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/Security-Data-Analysis/Lab_1/conn.log.zip",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "YXV0aC5sb2cvYXV0aC5sb2cuZ3o=",
@@ -2030,7 +2010,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/auth.log/auth.log.gz",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "ZG9tYWluZGF0YS9kb21haW5tb3ZlbWVudC56aXA=",
@@ -2050,7 +2030,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/domaindata/domainmovement.zip",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aG9uZXlwb3QvaG9uZXlwb3QuanNvbi56aXA=",
@@ -2070,7 +2050,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/honeypot/honeypot.json.zip",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "bWFjY2RjMjAxMi9jb25uLmxvZy5neg==",
@@ -2090,7 +2070,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/maccdc2012/conn.log.gz",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "bWFjY2RjMjAxMi9kaGNwLmxvZy5neg==",
@@ -2110,7 +2090,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/maccdc2012/dhcp.log.gz",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "bWFjY2RjMjAxMi9kbnMubG9nLmd6",
@@ -2130,7 +2110,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/maccdc2012/dns.log.gz",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "bWFjY2RjMjAxMi9maWxlcy5sb2cuZ3o=",
@@ -2150,7 +2130,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/maccdc2012/files.log.gz",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "bWFjY2RjMjAxMi9mdHAubG9nLmd6",
@@ -2170,7 +2150,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/maccdc2012/ftp.log.gz",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "bWFjY2RjMjAxMi9odHRwLmxvZy5neg==",
@@ -2190,7 +2170,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/maccdc2012/http.log.gz",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "bWFjY2RjMjAxMi9tYWNjZGMyMDEyX2Zhc3RfYWxlcnQuN3o=",
@@ -2210,7 +2190,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/maccdc2012/maccdc2012_fast_alert.7z",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "bWFjY2RjMjAxMi9tYWNjZGMyMDEyX2Z1bGxfYWxlcnQuN3o=",
@@ -2230,7 +2210,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/maccdc2012/maccdc2012_full_alert.7z",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "bWFjY2RjMjAxMi9ub3RpY2UubG9nLmd6",
@@ -2250,7 +2230,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/maccdc2012/notice.log.gz",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "bWFjY2RjMjAxMi9zaWduYXR1cmVzLmxvZy5neg==",
@@ -2270,7 +2250,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/maccdc2012/signatures.log.gz",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "bWFjY2RjMjAxMi9zbXRwLmxvZy5neg==",
@@ -2290,7 +2270,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/maccdc2012/smtp.log.gz",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "bWFjY2RjMjAxMi9zc2gubG9nLmd6",
@@ -2310,7 +2290,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/maccdc2012/ssh.log.gz",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "bWFjY2RjMjAxMi9zc2wubG9nLmd6",
@@ -2330,7 +2310,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/maccdc2012/ssl.log.gz",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "bWFjY2RjMjAxMi90dW5uZWwubG9nLmd6",
@@ -2350,7 +2330,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/maccdc2012/tunnel.log.gz",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "bWFjY2RjMjAxMi93ZWlyZC5sb2cuZ3o=",
@@ -2370,7 +2350,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/maccdc2012/weird.log.gz",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "bWlzYy96ZXVzX2RnYV9kb21haW5zLnR4dC56aXA=",
@@ -2390,7 +2370,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/misc/zeus_dga_domains.txt.zip",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "cGVfc3RhdGljL2FwdDEuemlw",
@@ -2410,7 +2390,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/pe_static/apt1.zip",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "cGVfc3RhdGljL29wLWNsZWF2ZXIuemlw",
@@ -2430,7 +2410,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/pe_static/op-cleaver.zip",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "cGVfc3RhdGljL3pldXMuemlw",
@@ -2450,7 +2430,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/pe_static/zeus.zip",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "c2NhZGEvc2NhZGFfbG9ncy56aXA=",
@@ -2470,7 +2450,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/scada/scada_logs.zip",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "c2VsZi5sb2dzLw==",
@@ -2490,7 +2470,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/self.logs/",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "c3F1aWQvYWNjZXNzLmxvZy5neg==",
@@ -2510,7 +2490,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/squid/access.log.gz",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "dGcvYS56aXA=",
@@ -2530,7 +2510,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/tg/a.zip",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "dGcvYi56aXA=",
@@ -2550,7 +2530,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/tg/b.zip",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "dGcvYy56aXA=",
@@ -2570,7 +2550,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/tg/c.zip",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "dGcvdGdfc25vcnRfZmFzdC43eg==",
@@ -2590,7 +2570,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/tg/tg_snort_fast.7z",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "dGcvdGdfc25vcnRfZnVsbC43eg==",
@@ -2610,7 +2590,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.secrepo.com/tg/tg_snort_full.7z",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly90aHJlYXRmZWVkcy5pby8=",
@@ -2630,7 +2610,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://threatfeeds.io/",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly90b29scy5uZXRzYS5jZXJ0Lm9yZy9zaWxrL3JlZmVyZW5jZWRhdGEuaHRtbA==",
@@ -2650,7 +2630,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://tools.netsa.cert.org/silk/referencedata.html",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly92aXJ1c3NoYXJlLmNvbS8=",
@@ -2670,7 +2650,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://virusshare.com/",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly93ZWIuY3MuaGFjZXR0ZXBlLmVkdS50ci9+c2VsbWFuL3BoaXNoLWlyaXMtZGF0YXNldC8=",
@@ -2690,7 +2670,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://web.cs.hacettepe.edu.tr/~selman/phish-iris-dataset/",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly93aHlpc3lvdW5nLmdpdGh1Yi5pby9CT0RNQVMv",
@@ -2710,7 +2690,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://whyisyoung.github.io/BODMAS/",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly93d3cuYWJ1c2UuY2gv",
@@ -2730,7 +2710,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://abuse.ch/",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly93d3cuY2VydC5vcmcvaW5zaWRlci10aHJlYXQvdG9vbHMvaW5kZXguY2Zt",
@@ -2750,7 +2730,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.sei.cmu.edu/software-tools/",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly93d3cuZG9tY29wLmNvbS9maWxlcy90b3AvdG9wMTBtaWxsaW9uZG9tYWlucy5jc3Yuemlw",
@@ -2770,7 +2750,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.domcop.com/files/top/top10milliondomains.csv.zip",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly93d3cua2FnZ2xlLmNvbS9jL21hbHdhcmUtY2xhc3NpZmljYXRpb24=",
@@ -2790,7 +2770,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.kaggle.com/c/malware-classification",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly93d3cudW5iLmNhL2NpYy9kYXRhc2V0cy9pbmRleC5odG1s",
@@ -2810,7 +2790,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.unb.ca/cic/datasets/index.html",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly93d3cudW5zdy5hZGZhLmVkdS5hdS9hdXN0cmFsaWFuLWNlbnRyZS1mb3ItY3liZXItc2VjdXJpdHkvY3liZXJzZWN1cml0eS9BREZBLUlEUy1EYXRhc2V0cy8=",
@@ -2835,7 +2815,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.unsw.edu.au/canberra",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly93d3cudW5zdy5hZGZhLmVkdS5hdS9hdXN0cmFsaWFuLWNlbnRyZS1mb3ItY3liZXItc2VjdXJpdHkvY3liZXJzZWN1cml0eS9BREZBLU5CMTUtRGF0YXNldHMv",
@@ -2855,7 +2835,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www.unsw.edu.au/canberra",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly93d3cyLmNzLmFyaXpvbmEuZWR1L3Byb2plY3RzL2x5bngtcHJvamVjdC8=",
@@ -2875,7 +2855,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://www2.cs.arizona.edu/projects/lynx-project/",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     },
     {
       "id": "aHR0cHM6Ly96ZW5vZG8ub3JnL3JlY29yZC8zMjQxNDQ1Iy5ZVmVzbVpyTUtXWg==",
@@ -2895,7 +2875,7 @@
       "status": "ok",
       "httpStatus": 200,
       "finalUrl": "https://zenodo.org/records/3241445",
-      "lastChecked": "2026-06-06T14:37:48Z"
+      "lastChecked": "2026-06-06T14:46:10Z"
     }
   ]
 }
