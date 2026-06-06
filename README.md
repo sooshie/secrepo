@@ -1,6 +1,53 @@
 # secrepo
 Sweet, sweet, secrepo.com html.
 
+## Manifest JSON Structure
+
+The site content is driven by `data/site-links.json`.
+
+### Top-level fields
+
+* `schemaVersion`: Manifest format version.
+* `generatedAt`: Timestamp for the manifest generation.
+* `links`: Canonical link catalog (source of link content/metadata).
+* `data`: Page structure tree for rendering order and grouping.
+
+### `links[]` (canonical metadata)
+
+Each link object includes:
+
+* `id`: Stable key used by the `data` tree (`parts[].link`) and inline anchors (`data-link-id`).
+* `sourceHref`: Original link source from historical content.
+* `href`: Current URL used for rendering.
+* `text`: Display text for the link.
+* `description`: Description shown after the link when applicable.
+* `license`: License text (rendered as `License Info`).
+* `variants`: Historical/alternate text+description+license variants.
+* `active`: Whether the link should render.
+* `status`, `httpStatus`, `finalUrl`, `lastChecked`: Link health metadata.
+
+### `data` (structure-only layout)
+
+The `data` object defines the page layout and order:
+
+* `anchor`: Root section anchor (`#data`).
+* `title`: Section title shown in the page.
+* `groups[]`: High-level buckets (for example `Created`, `3rd Party`).
+* `categories[]`: Subsections with their own anchors (for example `network`, `malware`).
+* `lists[]` and `items[]`: Nested list hierarchy.
+* `parts[]`: Token list for each row.
+
+`parts[]` tokens:
+
+* `{ "link": "<id>" }` resolves to an entry in `links[]`.
+* `{ "text": "..." }` is structural glue text (for separators/phrasing in compound rows).
+
+### Rendering model
+
+* `links[]` is the source of truth for content (`text`, `description`, `license`, link health).
+* `data` controls where and in what order items appear.
+* Inactive links are omitted at render time.
+
 ## Change Log
 * June 9, 2015 - Tossed it into GitHub - @sooshie
 * July 20, 2015 - Added Snort logs for MACCDC2012 and Threatglas - @sooshie
